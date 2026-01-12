@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 
 type GlassStackProps = {
   images: string[]
@@ -8,12 +8,9 @@ type GlassStackProps = {
 
 export default function GlassStack({ images, className, alt }: GlassStackProps) {
   const sceneRef = useRef<HTMLDivElement | null>(null)
-  const [active, setActive] = useState(0)
 
-  const panes = useMemo(() => {
-    const srcs = images.filter(Boolean).slice(0, 3)
-    while (srcs.length < 3) srcs.push('')
-    return srcs
+  const imageSrc = useMemo(() => {
+    return images.find(Boolean) ?? ''
   }, [images])
 
   useEffect(() => {
@@ -66,32 +63,10 @@ export default function GlassStack({ images, className, alt }: GlassStackProps) 
   }, [])
 
   return (
-    <div
-      className={['glassStack', className].filter(Boolean).join(' ')}
-      ref={sceneRef}
-      style={{ ['--gs-active' as never]: active } as CSSProperties}
-    >
-      {panes.map((src, idx) => {
-        const paneClass = ['glassPane', `glassPane--${idx}`, idx === active ? 'isActive' : '']
-          .filter(Boolean)
-          .join(' ')
-
-        return (
-          <button
-            key={idx}
-            type="button"
-            className={paneClass}
-            onClick={() => setActive(idx)}
-            aria-label={`Focus layer ${idx + 1}`}
-          >
-            {src ? (
-              <img src={src} alt={alt ?? ''} draggable={false} />
-            ) : (
-              <div className="glassFallback" />
-            )}
-          </button>
-        )
-      })}
+    <div className={['glassStack', className].filter(Boolean).join(' ')} ref={sceneRef}>
+      <button type="button" className="glassPane glassPane--single" aria-label={alt ?? ''}>
+        {imageSrc ? <img src={imageSrc} alt={alt ?? ''} draggable={false} /> : <div className="glassFallback" />}
+      </button>
     </div>
   )
 }

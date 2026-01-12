@@ -24,7 +24,7 @@ export const siteConfig = {
   name: 'Bùi Bảo Long',
   title: 'Software Developer',
   tagline: 'Abstract + flat — turning complex problems into simple, bold interfaces.',
-  cvUrl: 'https://your-cv-link.example',
+  cvUrl: 'https://drive.google.com/file/d/1gVA1YO7OPGv_YXiHRUevKQT9J2TyUg1-/view?usp=sharing',
   techStack: [
     { name: 'Java', hint: 'Backend integration' },
     { name: 'Dart', hint: 'UI composition' },
@@ -47,6 +47,7 @@ export const siteConfig = {
         'Vixie is a Live Wallpaper application that integrates an AI character, serving as an emotional companion assistant and supporting positive behaviors for users.',
       tags: ['Flutter', 'Dart', 'AI'],
       images: [projMobile3, projMobile2, projMobile1],
+      link: 'https://github.com/GDevNeON/Vixie',
     },
     {
       id: 'booking-web',
@@ -56,36 +57,43 @@ export const siteConfig = {
         'A website used for booking car trips with real-time availability and pricing.',
       tags: ['Java', 'Spring', 'React', 'TypeScript'],
       images: [projWeb3, projWeb2, projWeb1],
+      link: 'https://github.com/bhbghghbgb/bookvexe-be-j2e',
     },
     {
       id: 'indie-game',
       title: 'A 2D Normal Shooting Game',
       kind: 'game',
       description:
-        'Game interface kit with responsive HUD layouts and in-game menus.',
+        'First full game project created with Python and Pygame. A complete 2D shooting game with multiple levels, enemies, and power-ups. Intuitive controls and engaging gameplay. Feature-rich with polished visuals and sound design.',
       tags: ['Python', '2D', 'Pixel Art'],
       images: [projGame3, projGame2, projGame1],
+      link: 'https://github.com/GDevNeON/2D_Normal_Shooting_Game',
     },
   ] as Project[],
   about: {
     headline: 'More than code',
     body:
-      "I build interfaces that feel playful, modern, and readable. I like geometry, motion, and strong color systems.",
+      "I build interfaces that feel playful, modern, and readable.\nI like geometry, motion, and strong color systems.\nAnime Game enthusiast and Sporty person who loves cycling and playing football.\nAlways looking for new challenges and opportunities to grow.",
     highlights: [
       { label: 'Years of experience', value: '3+' },
       { label: 'Projects involving', value: '20+' },
       { label: 'Focus', value: 'UI/UX + FE' },
       { label: 'Open to', value: 'Collaboration' },
     ],
-    images: [] as string[],
+    images: ['/src/assets/personal_photo.jpg', '/src/assets/personal_photo.jpg', '/src/assets/personal_photo.jpg'] as string[],
   },
   contact: {
     title: 'Say hello to me~',
     toEmail: 'you@example.com',
   },
+  social: {
+    facebook: 'https://www.facebook.com/long.bui.793956/',
+    github: 'https://github.com/GDevNeON',
+    linkedin: 'https://linkedin.com/in/your-profile',
+  },
   ui: {
     home: {
-      heroAccent: 'Coder + Vibes.',
+      heroAccent: 'Developer + Vibes.',
       viewProjects: 'View Projects',
       aboutMe: 'About Me',
       currently: 'CURRENTLY',
@@ -98,6 +106,7 @@ export const siteConfig = {
       viewProject: 'View project',
       focus: 'Focus',
       focusDescription: 'Abstract UI, motion, and clean engineering.',
+      viewCv: 'View CV',
     },
     contact: {
       subtitle: 'Drop a message. The border highlight follows your focus.',
@@ -122,8 +131,6 @@ export const siteConfig = {
       work: 'Work',
       about: 'About',
       contact: 'Contact',
-      brandName: 'NEON',
-      brandDot: '.DEV',
     },
     footer: {
       title: 'Let\'s create something unique.',

@@ -413,3 +413,20 @@
   border-radius: calc(var(--cb-radius) - 2px);
   background: rgba(255, 255, 255, 0.66);
 }
+
+@media (max-width: 768px) {
+  .bgBlobs {
+    filter: blur(24px);
+    opacity: 0.6;
+  }
+
+  .bandLayer,
+  .bgBorderPanel,
+  .edgeFrame {
+    display: none;
+  }
+
+  .blob {
+    animation-duration: 9s;
+  }
+}

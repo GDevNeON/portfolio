@@ -1,7 +1,8 @@
 /* Navbar Styles */
 .appRoot {
   position: relative;
-  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
 }
 
 .appMain {
@@ -16,17 +17,16 @@
   left: 0;
   right: 0;
   z-index: 40;
-  padding: 16px 24px;
+  height: 80px;
+  padding: 24px;
   transition: all 0.3s ease;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .dark .navBar {
   background: rgba(7, 9, 13, 0.9);
-  border: 1px solid rgba(148, 163, 184, 0.35);
 }
 
 .navInner {
@@ -35,6 +35,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
 .brand {
@@ -43,10 +44,32 @@
   letter-spacing: -0.02em;
   color: var(--c-ink);
   transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.brandIcon {
+  height: 60px;
+  width: auto;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  filter: brightness(0) saturate(100%);
+}
+
+.brandIcon:hover {
+  transform: scale(1.1);
+  filter: brightness(0) saturate(100%) drop-shadow(0 0 8px var(--c-accent));
 }
 
 .dark .brand {
   color: var(--c-primary);
+}
+
+.dark .brandIcon {
+  filter: brightness(0) invert(1);
+}
+
+.dark .brandIcon:hover {
+  filter: brightness(0) invert(1) drop-shadow(0 0 8px var(--c-primary));
 }
 
 .navLinks {

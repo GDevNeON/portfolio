@@ -17,6 +17,9 @@ export default function Contact() {
   const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID as string | undefined
   const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string | undefined
   const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string | undefined
+  const RATE_LIMIT_KEY = 'contact_email_rate_limit'
+  const RATE_LIMIT_MAX = 3
+  const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000 // 10 phút
 
   async function handleSend() {
     if (!email || !message) {
@@ -35,20 +38,47 @@ export default function Contact() {
       return
     }
 
+    // --- RATE LIMIT CHECK ---
+    const now = Date.now()
+    let data: { count: number; windowStart: number } | null = null
+
+    try {
+      const raw = localStorage.getItem(RATE_LIMIT_KEY)
+      if (raw) {
+        data = JSON.parse(raw)
+      }
+    } catch {
+      data = null
+    }
+
+    if (!data || now - data.windowStart > RATE_LIMIT_WINDOW_MS) {
+      data = { count: 0, windowStart: now }
+    }
+
+    if (data.count >= RATE_LIMIT_MAX) {
+      setSnackbar({
+        message: 'Bạn đã gửi quá 3 tin nhắn, vui lòng thử lại sau 10 phút.',
+        type: 'error',
+      })
+      return
+    }
+
     setIsSubmitting(true)
 
     try {
       await emailjs.send(
         serviceId,
         templateId,
-        {
-          email,
-          message,
-        },
-        {
-          publicKey,
-        },
+        { email, message },
+        { publicKey },
       )
+
+      // Tăng count sau khi gửi thành công
+      const updated = {
+        count: data.count + 1,
+        windowStart: data.windowStart,
+      }
+      localStorage.setItem(RATE_LIMIT_KEY, JSON.stringify(updated))
 
       setSnackbar({ message: siteConfig.ui.contact.validation.sendSuccess, type: 'success' })
       setMessage('')

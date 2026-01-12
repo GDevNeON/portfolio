@@ -60,7 +60,7 @@
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 46px;
+  gap: 80px;
   margin-top: 18px;
 }
 
@@ -173,8 +173,24 @@
 .projectLink {
   display: inline-flex;
   margin-top: 14px;
+  padding: 10px 16px;
   font-weight: 900;
+  font-size: 13px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   color: var(--c-accent);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dark .projectLink {
+  background: rgba(20, 22, 28, 0.8);
+  border-color: rgba(148, 163, 184, 0.3);
+  color: var(--c-accent);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.4);
 }
 
 /* Device support indicator (gradient frame) */
@@ -241,6 +257,7 @@
 .supportFrame--game {
   width: 86px;
   height: 140px;
+  z-index: 20;
 }
 
 .appRoot[data-active-section='projects'] .supportFrame {
@@ -398,5 +415,16 @@
 
   .glassStackV {
     width: min(320px, 100%);
+  }
+
+  .projectShowcase {
+    position: relative;
+  }
+
+  .supportFrame--game {
+    position: static;
+    transform: scale(0.9);
+    margin-right: 12px;
+    margin-bottom: 10px;
   }
 }

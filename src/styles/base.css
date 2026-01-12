@@ -5,12 +5,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100dvh;
   color: var(--c-ink);
   background: radial-gradient(1200px 800px at 85% 15%, rgba(201, 238, 255, 0.55), transparent 55%),
     radial-gradient(900px 700px at 12% 70%, rgba(239, 205, 105, 0.5), transparent 55%),
@@ -38,4 +39,10 @@ a {
 
 button {
   font: inherit;
+}
+
+@media (max-width: 768px) {
+  body {
+    background: var(--c-paper);
+  }
 }

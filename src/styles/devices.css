@@ -47,6 +47,8 @@
   height: 100%;
   perspective: 1200px;
   transform-style: preserve-3d;
+  --gs-rx: 0deg;
+  --gs-ry: 0deg;
 }
 
 .glassPane {
@@ -61,6 +63,12 @@
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.glassPane--single {
+  position: relative;
+  transform-origin: 50% 60%;
+  transform: rotateX(var(--gs-rx)) rotateY(var(--gs-ry));
 }
 
 .glassPane img {

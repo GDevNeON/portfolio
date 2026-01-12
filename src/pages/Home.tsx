@@ -95,7 +95,7 @@ export default function Home() {
         <div className="projects">
           {siteConfig.projects.map((p, idx) => {
             const reverse = idx % 2 === 1
-            const glassFirst = p.id === 'fin-mobile' || p.id === 'indie-game'
+            const glassFirst = p.id === 'fin-mobile'
 
             return (
               <article
@@ -148,7 +148,11 @@ export default function Home() {
                     <a className="projectLink" href={p.link} target="_blank" rel="noreferrer">
                       {siteConfig.ui.home.viewProject}
                     </a>
-                  ) : null}
+                  ) : (
+                    <button type="button" className="projectLink">
+                      {siteConfig.ui.home.viewProject}
+                    </button>
+                  )}
                 </div>
               </article>
             )
