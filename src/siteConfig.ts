@@ -24,7 +24,7 @@ export const siteConfig = {
   name: 'Bùi Bảo Long',
   title: 'Software Developer',
   tagline: 'Abstract + flat — turning complex problems into simple, bold interfaces.',
-  cvUrl: 'https://drive.google.com/file/d/1gVA1YO7OPGv_YXiHRUevKQT9J2TyUg1-/view?usp=sharing',
+  cvUrl: 'https://drive.google.com/drive/folders/14LeU9PZ1vPgTWB9-QgKFkoYqAz0SUkZE?usp=sharing',
   techStack: [
     { name: 'Java', hint: 'Backend integration' },
     { name: 'Dart', hint: 'UI composition' },
@@ -36,7 +36,7 @@ export const siteConfig = {
     { name: 'SQL', hint: 'Data querying' },
     { name: 'Testing', hint: 'Quality first' },
     { name: 'Docker', hint: 'Containerization' },
-    { name: 'CI/CD', hint: 'Automation'}
+    { name: 'CI/CD', hint: 'Automation' }
   ],
   projects: [
     {
@@ -73,7 +73,7 @@ export const siteConfig = {
   about: {
     headline: 'More than code',
     body:
-      "I build interfaces that feel playful, modern, and readable.\nI like geometry, motion, and strong color systems.\nAnime Game enthusiast and Sporty person who loves cycling and playing football.\nAlways looking for new challenges and opportunities to grow.",
+      "I build interfaces that feel playful, modern, and readable.\nI like geometry, motion, and strong color systems.\nAnime Game enthusiast and Sporty person who loves cycling and playing badminton.\nAlways looking for new challenges and opportunities to grow.",
     highlights: [
       { label: 'Years of experience', value: '3+' },
       { label: 'Projects involving', value: '20+' },
@@ -93,7 +93,7 @@ export const siteConfig = {
   },
   ui: {
     home: {
-      heroAccent: 'Developer + Vibes.',
+      heroAccent: 'Prompt Engineering.',
       viewProjects: 'View Projects',
       aboutMe: 'About Me',
       currently: 'CURRENTLY',

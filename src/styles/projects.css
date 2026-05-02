@@ -415,6 +415,7 @@
 
   .glassStackV {
     width: min(320px, 100%);
+    margin-left: 10px;
   }
 
   .projectShowcase {
