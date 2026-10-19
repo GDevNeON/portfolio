@@ -37,7 +37,7 @@ Chặng 4 phải xác minh tài khoản/template, giới hạn PDF và phương 
 
 - taste-skill tương ứng bản cài design-taste-frontend tại C:/Users/neong/.agents/skills/design-taste-frontend/SKILL.md.
 - Skill này có mặc định “No glass”; brief trực tiếp yêu cầu Glass/Liquid Glass có ưu tiên cao hơn. Dùng ngoại lệ có lý do, không xóa kính hoặc che kết quả inspector.
-- Impeccable chưa được tìm thấy ở các skill root Codex/Agents/Claude/Antigravity/OpenCode đã kiểm tra. Ghi phụ thuộc trước lượt critique được yêu cầu, không tự cài.
+- Impeccable được tìm thấy ở lượt kiểm lại cuối tại C:/Users/neong/.agents/skills/impeccable/SKILL.md; đã đọc phiên bản 4.6.0. Chưa chạy context hoặc critique trong init.
 - Các skill GSAP React/performance đã được đọc để đối chiếu phương án; chưa có code motion hoặc benchmark được chạy.
 
 ## Confidence / next decisions

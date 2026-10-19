@@ -18,7 +18,7 @@ Nghiên cứu không làm thay đổi 58 yêu cầu hoặc thứ tự 7 chặng 
 - **Features:** Dự án thật, mạch đọc, liên hệ, locale/theme và khả năng dùng đầy đủ là đầu ra; glass, typography và nhạc đều phải phục vụ những đầu ra đó.
 - **External dependency:** Không suy ra PDF miễn phí từ việc dùng EmailJS. Xác minh tài khoản/template hoặc chốt giải pháp trước chặng 4. [EmailJS pricing](https://www.emailjs.com/pricing/)
 - **Architecture:** Shell giữ preferences/audio; trang giữ nội dung; motion scope theo vòng đời; transport tách phản hồi UI; metadata phải được xem ở đích thực.
-- **Tooling:** Taste-skill có sẵn; Impeccable chưa thấy trong các root đã kiểm tra. Ghi yêu cầu critique là phụ thuộc, không gọi đã hoàn thành.
+- **Tooling:** Taste-skill có sẵn; Impeccable 4.6.0 đã được tìm thấy và đọc ở lượt kiểm lại cuối. Chưa chạy critique hoặc nhận UI đã được kiểm chứng.
 - **User control:** J01 tự gọi từng chặng; J05 nghiên cứu khi có quyết định cụ thể; J07 đối chiếu tổng thể ở cuối; J19 trao đổi tham khảo trước dựng mẫu.
 
 ## Implications for Roadmap
@@ -43,7 +43,7 @@ Shell → nội dung → route dự án → liên hệ → motion → audio → 
 - Chặng 4: cần quyết định capability/budget trước chọn transport.
 - Chặng 5: chỉ kiểm phiên bản GSAP, split text/font hoặc tính năng scroll khi có nhu cầu cụ thể.
 - Chặng 6: khảo sát codec/session/ducking khi thực hiện, không đoán từ tên tệp.
-- Impeccable: tìm đường dẫn đúng trước lượt critique bắt buộc. Không chặn hoàn tất hồ sơ init vì chưa tới UI.
+- Impeccable: dùng SKILL.md 4.6.0 tại đường dẫn đã ghi trong công việc UI được yêu cầu; không tự chạy phase hoặc critique từ init.
 
 ## Confidence Assessment
 

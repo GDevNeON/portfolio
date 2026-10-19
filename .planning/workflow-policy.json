@@ -13,8 +13,9 @@
   "ui_quality": {
     "taste_skill": "design-taste-frontend",
     "critique_skill": "impeccable",
-    "impeccable_status": "unresolved_local_path",
-    "brand_precedence": "cinematic_glass_user_brief_over_skill_defaults"
+    "impeccable_status": "available-4.6.0-read-at-final-recheck",
+    "brand_precedence": "cinematic_glass_user_brief_over_skill_defaults",
+    "impeccable_path": "C:/Users/neong/.agents/skills/impeccable/SKILL.md"
   },
   "source": ".planning/discovery/answers-2026-10-19-final.json",
   "questions": [

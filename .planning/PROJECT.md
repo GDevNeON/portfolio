@@ -13,7 +13,7 @@ Người xem nhớ dấu ấn Bùi Bảo Long và tin khả năng xây sản ph�
 - **Customer**: Khách hàng cần người xây ứng dụng và người muốn cùng làm sản phẩm; người tuyển dụng có đường đọc nhanh tới dự án và vai trò.
 - **Revenue model**: Portfolio hỗ trợ cơ hội hợp tác và làm độc lập theo dự án; điều kiện hợp tác trao đổi riêng, không có thanh toán trên website.
 - **Success metric**: Người xem đi sâu vào dự án và tiếp cận liên hệ; chủ portfolio tự tin chia sẻ công khai. Chưa chốt dịch vụ đo lường bên ngoài hay ngưỡng số lượng.
-- **Strategy notes**: Quyết định nghiệp vụ nằm trong `.planning/discovery/answers-2026-10-19.json` và `answers-2026-10-19-followup.json`; bộ thứ hai bổ sung và làm rõ bộ thứ nhất.
+- **Strategy notes**: Chuỗi câu trả lời được lưu nguyên byte tại `.planning/discovery/answers-2026-10-19.json`, `answers-2026-10-19-followup.json` và `answers-2026-10-19-final.json`; bộ cuối có đủ 200 câu và là nguồn mới nhất. Nguồn gốc quyết định nằm trong `workflow-decisions.json`.
 
 ## Requirements
 
@@ -96,7 +96,42 @@ Các năng lực dưới đây được suy ra từ mã nguồn hiện tại, kh
 - **Budget**: Ưu tiên tư liệu sẵn có hoặc miễn phí; chưa có phê duyệt mua dịch vụ hoặc tài nguyên.
 - **Content**: Dữ kiện cá nhân, mốc, vai trò và kết quả phải có căn cứ; nháp chờ duyệt phải tách khỏi dữ kiện đã chốt.
 - **Compatibility**: Nội dung và hành động chính phải hoạt động khi giảm motion, thiếu hiệu ứng, máy yếu, mạng chậm, dùng bàn phím hoặc phóng chữ.
-- **Release**: I20 duyệt lập hồ sơ, không phải duyệt thiết kế cuối, lộ trình chưa viết hoặc tự công khai website. Những phần còn chờ phải được ghi rõ trong hồ sơ và cổng nghiệm thu.
+- **Release**: I20 duyệt lập hồ sơ; J17/J18 duyệt 58 yêu cầu và 7 chặng đã được trình. Đây không phải duyệt thiết kế cuối hoặc tự công khai website. Những phần còn chờ phải được ghi rõ trong hồ sơ và cổng nghiệm thu.
+
+## Workflow Decisions — approved J answers
+
+- J01: chủ portfolio tự gọi từng chặng; không tự bắt đầu phase 1 hoặc chuyển chặng vì hồ sơ đã xong.
+- J02/J13: 7 chặng vừa, mỗi chặng tạo một luồng người xem dùng được từ đầu tới cuối.
+- J03: hồ sơ đã chốt được lưu cùng lịch sử dự án.
+- J04: đã nghiên cứu project bằng nguồn chính thức, đủ STACK/FEATURES/ARCHITECTURE/PITFALLS/SUMMARY; giữ nguyên phạm vi/lộ trình, bổ sung phụ thuộc thực tế.
+- J05: chỉ nghiên cứu tiếp khi có quyết định cụ thể; không bắt buộc một lượt nghiên cứu riêng trước mọi chặng.
+- J06/J08: đối chiếu cách làm trước triển khai và kiểm thay đổi dữ kiện để tránh dùng nguồn cũ.
+- J07: đối chiếu tổng thể ở chặng cuối; không chạy lượt verifier tổng quát riêng sau mỗi chặng. Focused checks phù hợp với phần được giao và visual critique cần thiết vẫn phải thực hiện.
+- J09–J12: bản bàn giao không cần mục User Stories & Acceptance Criteria riêng; giữ Risks & Dependencies, Success Metrics & Release Criteria, Stakeholder Review & Approval.
+- J19: trao đổi thêm về tham khảo trước khi dựng bản xem thử; chưa chọn art direction hoặc tự tạo mockup trong init.
+- J20: không bổ sung giới hạn nghiệp vụ khác.
+
+### Selected copy
+
+- Hero VI (J14): **Từ ý tưởng đến trải nghiệm ứng dụng rõ ràng và có dấu ấn.**
+- Vixie headline VI (J15): **Vixie — Từ ý tưởng hình nền động đến trải nghiệm đồng hành.** Đây là mô tả sản phẩm, không phải bằng chứng vai trò cá nhân.
+- Signature VI (J16): **Bùi Bảo Long — Còn nhiều điều để xây.**
+- Bản EN cần biên tập đúng nghĩa trong công việc nội dung; không coi bản dịch nháp là lời đã duyệt riêng.
+
+### UI skill preference captured from closing notes
+
+Ghi chú trả lại cùng questionnaire yêu cầu taste-skill để tạo hướng thiết kế, Impeccable để verify/critique. Ghi nhận như sở thích quy trình UI/UX trong phạm vi portfolio; không dùng ghi chú để thay lệnh trực tiếp không subagent, tự chạy chặng hoặc cài công cụ.
+
+- Taste được xác định tại `C:/Users/neong/.agents/skills/design-taste-frontend/SKILL.md`. Mặc định cấm kính của skill xung đột brief trực tiếp; giữ Glass/Liquid Glass và ghi ngoại lệ có căn cứ trong lượt UI được giao. Không sửa skill toàn cục hoặc che kết quả inspector.
+- Ở lượt kiểm đầu chưa thấy Impeccable; kiểm lại theo hook mới xuất hiện đã tìm thấy và đọc `C:/Users/neong/.agents/skills/impeccable/SKILL.md`, phiên bản 4.6.0. Khi làm UI được giao, dùng context và playbook critique/audit của skill; chưa chạy context hoặc critique trong init. Giới hạn kiểm trực quan theo skill: một lượt desktop/mobile cùng batch, tối đa một lượt xác nhận sau sửa.
+- Chưa thực hiện thiết kế hoặc critique UI trong khởi tạo này.
+
+### Research-derived readiness gates
+
+- Phase 3: `MetaTags.tsx` hiện cập nhật head bằng useEffect và có URL mẫu. Chốt đầu ra route/locale phù hợp cho chia sẻ và kiểm HTML/đích preview thực; chưa cần đổi framework trong init.
+- Phase 4: EmailJS Free không có attachment theo bảng giá đã kiểm tra. Xác minh gói/template/giới hạn hoặc chốt phương án phù hợp ngân sách trước triển khai PDF. Yêu cầu PDF vẫn giữ; không tự mua hoặc chỉ thay bằng liên kết.
+- Phase 5: cleanup motion theo vòng đời route/locale, fallback giảm motion; hiệu năng blur cần đo khi có UI.
+- Phase 6: kiểm định dạng/phát nhạc thật; giữ intent nghe tách khỏi ducking. Không suy ra phát được từ tên file.
 
 ## Key Decisions
 
@@ -113,11 +148,13 @@ Các năng lực dưới đây được suy ra từ mã nguồn hiện tại, kh
 | Nhạc bật chủ động, nhớ trong phiên, lặp toàn site, hạ khi minh họa có tiếng | E19, I06–I08 | Chốt; tìm thấy tệp nguồn, chưa tích hợp |
 | Chưa có clip: ảnh có sẵn cho bản xem thử | I18 | Chốt cho bản xem thử; tiêu chí công khai phải ghi rõ |
 | Giữ đầy đủ mục tiêu, thêm thời gian khi phát sinh | I03, H05 | Chốt |
-| Bắt đầu hồ sơ/lộ trình, giữ mục chưa có là chờ | I20 | Đã duyệt tạo PROJECT; config/phạm vi nguyên tử/lộ trình cần xem bản đề xuất |
+| Bắt đầu hồ sơ/lộ trình, giữ mục chưa có là chờ | I20, J17/J18 | Đã duyệt PROJECT, 58 yêu cầu và 7 chặng; chưa triển khai |
+| Tự gọi từng chặng, kiểm cách làm trước, tổng kiểm ở cuối | J01/J06/J07 | Chốt; cấu hình và workflow-policy ghi đúng lựa chọn |
+| Trao đổi tham khảo trước dựng mẫu | J19 | Chốt; art direction còn mở |
 
 ## Evolution
 
 Sau mỗi chặng: đối chiếu mục tiêu với hành vi đã kiểm chứng, cập nhật yêu cầu/điểm còn chờ, ghi quyết định mới và điều chỉnh mô tả nếu thực tế thay đổi. Chỉ chuyển Active sang Validated khi có bằng chứng phù hợp. Sau mỗi mốc phát hành: rà lại giá trị cốt lõi, mục tiêu cơ hội, phạm vi và tư liệu; không biến mục tạm hoãn thành hoàn tất.
 
 ---
-*Last updated: 2026-10-19 after validated follow-up answers and I20 approval to initialize project context.*
+*Last updated: 2026-10-19 after J approvals, project research and initialization decisions. Phase execution has not started.*

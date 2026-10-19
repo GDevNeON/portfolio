@@ -27,7 +27,7 @@
   "closingNotes": "Tôi cũng đã cài đặt các kĩ năng dành cho Agents như taste-skill, impeccable; Bắt buộc phải sử dụng chúng trong quá trình làm UI/UX. Taste-skill để cho mẫu thiết kế xuất chúng, impeccable để verify và critique.",
   "skillAvailability": {
     "taste": "C:/Users/neong/.agents/skills/design-taste-frontend/SKILL.md",
-    "impeccable": "not-found-in-checked-skill-roots; resolve before required critique"
+    "impeccable": "C:/Users/neong/.agents/skills/impeccable/SKILL.md (4.6.0; found and read at final recheck)"
   },
   "resolved": {
     "F12": "I01 excludes hobbies",

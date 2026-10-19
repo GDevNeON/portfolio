@@ -113,7 +113,7 @@
 - Clip là tư liệu chưa có theo I18, không phải feature đã hoàn thành hoặc tự bỏ khỏi phạm vi. Bản xem thử dùng ảnh; owner chốt phần còn chờ trước public.
 - PDF: EmailJS Free không hỗ trợ attachment theo snapshot nguồn nghiên cứu. Chặng 4 phải chốt account/template/limit hoặc phương án trong ngân sách; không tự mua hay thu hẹp CONTACT-03.
 - Head metadata cần output/host được kiểm chứng; frontend useEffect không đủ bằng chứng mọi bot xem đúng.
-- Taste-skill được định vị; Impeccable chưa có đường dẫn đọc được trong các root đã kiểm tra. Xử lý trước lượt critique tương ứng.
+- Taste-skill và Impeccable 4.6.0 đã được định vị và đọc. Dùng các skill trong công việc UI được giao; chưa có nghiệm thu UI trong init.
 
 ## Traceability
 

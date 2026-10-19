@@ -1,0 +1,1054 @@
+{
+  "schemaVersion": 1,
+  "status": "proposed-pending-J17-J18",
+  "date": "2026-10-19",
+  "groups": [
+    [
+      "DES",
+      "Hệ thiết kế",
+      [
+        [
+          "DES-01",
+          "Người xem nhận ra cùng một hệ Glassmorphism / Liquid Glass trên trang chủ, liên hệ và thành phần dùng chung, với hình khối mềm và chất kính tiết chế.",
+          1,
+          "Yêu cầu trực tiếp; B04/B10/B20/H01"
+        ],
+        [
+          "DES-02",
+          "Người xem chọn sáng hoặc tối và nhận được nội dung, tương tác và thứ bậc thị giác tương đương.",
+          1,
+          "B06/H13"
+        ],
+        [
+          "DES-03",
+          "Tên Bùi Bảo Long và chữ chính luôn đọc rõ trên nền màu rực có kiểm soát; thông tin không bị phản chiếu hoặc lớp kính che khuất.",
+          1,
+          "B01/B07/B08/B16/B17"
+        ],
+        [
+          "DES-04",
+          "Người xem phân biệt nội dung cần đọc với điều hướng và điểm tương tác; chất kính không làm mọi phần tranh sự chú ý ngang nhau.",
+          1,
+          "B03/B04/B17; hướng nghiên cứu đề xuất"
+        ],
+        [
+          "DES-05",
+          "Hệ thiết kế có cách trình bày thống nhất cho nút, biểu mẫu, thẻ dự án, focus, chờ, lỗi và thành công; trang bổ sung giữ cùng dấu ấn.",
+          1,
+          "B20/H01/H17"
+        ]
+      ]
+    ],
+    [
+      "HOME",
+      "Trang chủ và đường đọc",
+      [
+        [
+          "HOME-01",
+          "Mở trang thấy ngay danh tính, Software Developer, Prompt Engineering và giá trị xây ứng dụng; không phải chờ màn trình diễn mới đọc được.",
+          1,
+          "C01/C02/F02/F03"
+        ],
+        [
+          "HOME-02",
+          "Đọc trang chủ theo mạch giới thiệu ngắn → kỹ năng → dự án → phần về tôi đầy đủ → kết nối.",
+          2,
+          "C03/C04/C06/C07/C10/C11/C16"
+        ],
+        [
+          "HOME-03",
+          "Người xem hiểu kỹ năng qua việc làm được và bằng chứng dự án, không qua điểm phần trăm hoặc tự xếp hạng.",
+          2,
+          "F04/F05/F06"
+        ],
+        [
+          "HOME-04",
+          "Người phù hợp thấy trạng thái chủ động tìm cơ hội và hình thức hợp tác linh hoạt; điều kiện nhận việc không bị công khai ngoài lựa chọn đã chốt.",
+          2,
+          "A15/A16/A17/G06/I04"
+        ],
+        [
+          "HOME-05",
+          "Người xem mở điều hướng gọn để đi tới dự án/vai trò/CV và luôn tìm được liên hệ khi cần.",
+          2,
+          "C05/C08/C09/C14"
+        ]
+      ]
+    ],
+    [
+      "PROF",
+      "Nội dung cá nhân có căn cứ",
+      [
+        [
+          "PROF-01",
+          "Phần về tôi kể điều muốn xây trong tương lai cùng nguyên tắc làm việc ngắn; không có phần sở thích trong lần này.",
+          2,
+          "F01/F10/I01"
+        ],
+        [
+          "PROF-02",
+          "Các số 3+ năm, 20+ dự án và lời khẳng định chưa được xác nhận không xuất hiện như sự thật mới.",
+          2,
+          "F07/I14/I16/I17"
+        ],
+        [
+          "PROF-03",
+          "Dòng thời gian chỉ dùng mốc do chủ portfolio cung cấp hoặc duyệt; mốc chưa có được ghi chờ trong bản xem thử, không tự bịa khi công khai.",
+          2,
+          "F08/I14"
+        ],
+        [
+          "PROF-04",
+          "Ảnh chân dung mới do chủ portfolio gửi thay ảnh cũ sau khi được chọn; bản xem thử phân biệt rõ tư liệu tạm.",
+          2,
+          "F13/I12"
+        ],
+        [
+          "PROF-05",
+          "Người xem mở CV từ phần về tôi và dùng lại các kênh Facebook/GitHub/LinkedIn hiện tại.",
+          2,
+          "C14/F18/G12/H07"
+        ],
+        [
+          "PROF-06",
+          "Thông tin công khai ghi đúng Thành phố Hồ Chí Minh; chuyện làm từ xa và điều kiện hợp tác để trao đổi riêng.",
+          2,
+          "I04/I05"
+        ],
+        [
+          "PROF-07",
+          "Lời giới thiệu và chữ ký ngắn có bản VI/EN được chủ portfolio duyệt; nhắc AI như công cụ hỗ trợ, học vấn/chứng chỉ ở CV.",
+          2,
+          "F09/F14/F15/F16/F17/I13/I19"
+        ]
+      ]
+    ],
+    [
+      "WORK",
+      "Dự án và câu chuyện",
+      [
+        [
+          "WORK-01",
+          "Người xem thấy đủ Vixie, website đặt xe, game 2D theo bộ đã chọn; Vixie là dự án dẫn đầu.",
+          3,
+          "D01/D02/D20"
+        ],
+        [
+          "WORK-02",
+          "Mỗi dự án có trang riêng với tóm tắt sản phẩm dễ hiểu và lối đọc sâu; người mở liên kết trực tiếp tới đúng dự án.",
+          3,
+          "C12/C19/D04/D11"
+        ],
+        [
+          "WORK-03",
+          "Mỗi dự án nói rõ vai trò cá nhân và phần của nhóm từ thông tin được xác nhận; phần chưa có không bị thay bằng khẳng định tự suy ra.",
+          3,
+          "D05/D16/I15/I16/I17"
+        ],
+        [
+          "WORK-04",
+          "Người xem biết dự án đang phát triển hay đã dùng được, thấy bằng chứng thật; không có số liệu hoặc nội dung chưa được phép chia sẻ.",
+          3,
+          "D06/D07/D08/D15"
+        ],
+        [
+          "WORK-05",
+          "Ảnh dự án hiện có được sắp lại để nhìn rõ sản phẩm và tính năng; tư liệu được mô tả phù hợp để hiểu khi hình không hiện.",
+          3,
+          "D09/E09/H14"
+        ],
+        [
+          "WORK-06",
+          "Quay từ trang dự án về danh sách giữ đúng vị trí vừa xem.",
+          3,
+          "C13"
+        ],
+        [
+          "WORK-07",
+          "Từ trang dự án, người xem mở được liên kết sản phẩm/mã nguồn đã có và tìm thấy lối liên hệ.",
+          3,
+          "C09/D11/H07"
+        ],
+        [
+          "WORK-08",
+          "Vixie kể ý tưởng và trải nghiệm; website đặt xe kể phối hợp; game kể hành trình học; mỗi câu chuyện nêu giới hạn nguồn lực và giải pháp cuối dựa trên dữ kiện có thật.",
+          3,
+          "D13/D14/D17/D18/D19"
+        ],
+        [
+          "WORK-09",
+          "Bản xem thử dùng ảnh thật khi chưa có sản phẩm để ghi; clip minh họa vẫn được ghi chờ, chỉ đưa lên khi có tư liệu thật được duyệt.",
+          3,
+          "D10/I18"
+        ]
+      ]
+    ],
+    [
+      "LANG",
+      "Ngôn ngữ và chia sẻ",
+      [
+        [
+          "LANG-01",
+          "Người xem chọn tiếng Việt hoặc tiếng Anh và đọc được danh tính, giá trị cốt lõi cùng điều hướng.",
+          1,
+          "C17/G19"
+        ],
+        [
+          "LANG-02",
+          "Đổi ngôn ngữ giữ trang, dự án hoặc phần nội dung đang đọc thay vì đưa về đầu vô cớ.",
+          1,
+          "C18"
+        ],
+        [
+          "LANG-03",
+          "Nội dung toàn bộ trang, trạng thái phụ và thông báo liên hệ có tiếng Việt/Anh nhất quán trước khi ra mắt.",
+          7,
+          "C17/G19/H01"
+        ],
+        [
+          "LANG-04",
+          "Liên kết chia sẻ mỗi dự án có tên, tóm tắt, hình giới thiệu phù hợp với ngôn ngữ và đúng nội dung dự án.",
+          3,
+          "C19"
+        ]
+      ]
+    ],
+    [
+      "CONTACT",
+      "Bắt đầu trao đổi",
+      [
+        [
+          "CONTACT-01",
+          "Người xem dùng trang liên hệ riêng, chọn trao đổi tuyển dụng hoặc sản phẩm để nhận gợi ý phù hợp.",
+          4,
+          "C15/G01/G03/G04"
+        ],
+        [
+          "CONTACT-02",
+          "Người gửi nhập email và lời nhắn về mục tiêu; khi thiếu hoặc sai, được chỉ rõ chỗ cần sửa và lý do, không mất nội dung.",
+          4,
+          "G02/G10"
+        ],
+        [
+          "CONTACT-03",
+          "Người gửi chọn PDF từ máy và gửi kèm tới người nhận thực tế; không phải gõ đường dẫn tệp.",
+          4,
+          "G14/I09/I10; nguyên tắc upload trực tiếp"
+        ],
+        [
+          "CONTACT-04",
+          "Người gửi có thể dùng liên kết tài liệu thay cho tệp, không bị bắt đính kèm nếu đã chọn đường gửi liên kết.",
+          4,
+          "I10"
+        ],
+        [
+          "CONTACT-05",
+          "Lỗi tệp giữ lời nhắn và chỉ rõ tệp cần chọn lại; không báo thành công khi tệp chưa được nhận.",
+          4,
+          "I11/G08"
+        ],
+        [
+          "CONTACT-06",
+          "Lỗi gửi chung có lối mở email với nội dung đã viết để người gửi tiếp tục trao đổi.",
+          4,
+          "G09"
+        ],
+        [
+          "CONTACT-07",
+          "Gửi thành công xác nhận lời nhắn đã được nhận; không hứa mốc phản hồi cụ thể chưa cam kết.",
+          4,
+          "G07/G08"
+        ],
+        [
+          "CONTACT-08",
+          "Email hiện rõ để sao chép; thông tin người gửi được giải thích ngắn là dùng để trả lời trao đổi.",
+          4,
+          "G11/G18"
+        ],
+        [
+          "CONTACT-09",
+          "Biểu mẫu thể hiện rõ đang gửi, ngăn gửi lặp và giữ quy tắc hạn chế gửi hiện có trừ khi có quyết định thay đổi được ghi lại.",
+          4,
+          "Nâng cấp luồng hiện có; src/pages/Contact.tsx"
+        ]
+      ]
+    ],
+    [
+      "MOTION",
+      "Chuyển động có mục đích",
+      [
+        [
+          "MOTION-01",
+          "Tiêu đề có cá tính và biến đổi rồi đọc rõ; đoạn mô tả dài đứng yên, không bị vòng lặp trang trí che lấp.",
+          5,
+          "E05/E06/E07/E08/E20"
+        ],
+        [
+          "MOTION-02",
+          "Kéo trang hé lộ câu chuyện theo nhịp nội dung, điểm nhấn lớn ở Vixie; cảnh được giữ lại chỉ khi làm rõ câu chuyện và vẫn có đường đi tiếp.",
+          5,
+          "E02/E03/E11/E12"
+        ],
+        [
+          "MOTION-03",
+          "Di chuột, focus và chạm cho phản hồi tương tác có chiều sâu; hình dự án dẫn mắt vào tính năng, hình trừu tượng tạo không khí phía sau.",
+          5,
+          "E09/E10/E13/E14"
+        ],
+        [
+          "MOTION-04",
+          "Chuyển giữa trang có một nhịp ngắn, không chặn thao tác; quay lại không buộc xem lại màn mở đầu.",
+          5,
+          "E15/E16"
+        ],
+        [
+          "MOTION-05",
+          "Người nhạy chuyển động tìm thấy lựa chọn giảm motion và vẫn đọc, điều hướng, xem dự án, liên hệ đầy đủ.",
+          5,
+          "E17/H14"
+        ],
+        [
+          "MOTION-06",
+          "Trên điện thoại, chuyển động gọn mà còn nhận ra cá tính, không làm việc cuộn hoặc chọn hành động trở nên khó hơn.",
+          5,
+          "E18/H03/H08/H09"
+        ]
+      ]
+    ],
+    [
+      "AUDIO",
+      "Nhạc nền có quyền chủ động",
+      [
+        [
+          "AUDIO-01",
+          "Nhạc cố định BoogieDown chỉ bắt đầu sau khi người xem bật; có điều khiển bật/tắt dễ hiểu và lặp khi đang bật.",
+          6,
+          "E19/I06"
+        ],
+        [
+          "AUDIO-02",
+          "Khi đi giữa các trang trong cùng lần xem, nhạc tiếp tục đúng trạng thái thay vì tạo nhiều bản phát hoặc bắt đầu lại vì đổi trang.",
+          6,
+          "E19 toàn site"
+        ],
+        [
+          "AUDIO-03",
+          "Lựa chọn nghe được giữ trong phiên xem; lần mở mới bắt đầu yên lặng và cần người xem chủ động bật.",
+          6,
+          "I07"
+        ],
+        [
+          "AUDIO-04",
+          "Khi minh họa có tiếng phát, nhạc nền đang bật được hạ nhỏ; kết thúc phục hồi mức trước đó, không tự bật nhạc người xem đã tắt.",
+          6,
+          "I08"
+        ],
+        [
+          "AUDIO-05",
+          "Nếu nhạc không tải hoặc không phát được, trang vẫn dùng đầy đủ và không cố bật đi bật lại ngoài ý người xem.",
+          6,
+          "H14/E19"
+        ]
+      ]
+    ],
+    [
+      "QUALITY",
+      "Dùng được và đủ bằng chứng ra mắt",
+      [
+        [
+          "QUALITY-01",
+          "Toàn bộ trang dùng thuận tiện trên điện thoại và máy tính, không mất nội dung chính vì tràn hoặc chồng lớp.",
+          7,
+          "H03/H08"
+        ],
+        [
+          "QUALITY-02",
+          "Người dùng bàn phím đọc và kích hoạt mọi hành động chính, thấy focus và mở/đóng menu thuận tiện.",
+          7,
+          "H11/H01"
+        ],
+        [
+          "QUALITY-03",
+          "Phóng to chữ vẫn đọc đủ nội dung và tìm được hành động quan trọng.",
+          7,
+          "H12"
+        ],
+        [
+          "QUALITY-04",
+          "Thiếu hình ảnh, hiệu ứng hoặc motion vẫn đọc được thông tin và dùng CV, dự án, liên hệ.",
+          7,
+          "H14"
+        ],
+        [
+          "QUALITY-05",
+          "Máy yếu hoặc mạng chậm nhận chữ và hành động chính trước; hình ảnh có dấu hiệu chờ ngắn, dễ hiểu.",
+          7,
+          "H09/H10"
+        ],
+        [
+          "QUALITY-06",
+          "Mở đường dẫn không còn đúng nhận lối về trang chủ và liên hệ thay vì mắc kẹt.",
+          7,
+          "C20/H01"
+        ],
+        [
+          "QUALITY-07",
+          "CV, dự án, mạng cá nhân, gửi lời nhắn/PDF hoặc liên kết tài liệu được kiểm tra đúng đích và hành vi thực tế trước công khai.",
+          7,
+          "H07/H19/H20/G14"
+        ],
+        [
+          "QUALITY-08",
+          "Chủ portfolio xem đủ các trang, ngôn ngữ, sáng/tối và trạng thái quan trọng; dữ kiện/ảnh/vai trò/clip còn chờ phải được giải quyết hoặc chốt rõ trước công khai, không tự ghi hoàn tất.",
+          7,
+          "H01/H13/H19/H20/I12/I14/I16/I17/I18"
+        ]
+      ]
+    ]
+  ],
+  "flat": [
+    {
+      "id": "DES-01",
+      "text": "Người xem nhận ra cùng một hệ Glassmorphism / Liquid Glass trên trang chủ, liên hệ và thành phần dùng chung, với hình khối mềm và chất kính tiết chế.",
+      "phase": 1,
+      "evidence": "Yêu cầu trực tiếp; B04/B10/B20/H01",
+      "category": "Hệ thiết kế"
+    },
+    {
+      "id": "DES-02",
+      "text": "Người xem chọn sáng hoặc tối và nhận được nội dung, tương tác và thứ bậc thị giác tương đương.",
+      "phase": 1,
+      "evidence": "B06/H13",
+      "category": "Hệ thiết kế"
+    },
+    {
+      "id": "DES-03",
+      "text": "Tên Bùi Bảo Long và chữ chính luôn đọc rõ trên nền màu rực có kiểm soát; thông tin không bị phản chiếu hoặc lớp kính che khuất.",
+      "phase": 1,
+      "evidence": "B01/B07/B08/B16/B17",
+      "category": "Hệ thiết kế"
+    },
+    {
+      "id": "DES-04",
+      "text": "Người xem phân biệt nội dung cần đọc với điều hướng và điểm tương tác; chất kính không làm mọi phần tranh sự chú ý ngang nhau.",
+      "phase": 1,
+      "evidence": "B03/B04/B17; hướng nghiên cứu đề xuất",
+      "category": "Hệ thiết kế"
+    },
+    {
+      "id": "DES-05",
+      "text": "Hệ thiết kế có cách trình bày thống nhất cho nút, biểu mẫu, thẻ dự án, focus, chờ, lỗi và thành công; trang bổ sung giữ cùng dấu ấn.",
+      "phase": 1,
+      "evidence": "B20/H01/H17",
+      "category": "Hệ thiết kế"
+    },
+    {
+      "id": "HOME-01",
+      "text": "Mở trang thấy ngay danh tính, Software Developer, Prompt Engineering và giá trị xây ứng dụng; không phải chờ màn trình diễn mới đọc được.",
+      "phase": 1,
+      "evidence": "C01/C02/F02/F03",
+      "category": "Trang chủ và đường đọc"
+    },
+    {
+      "id": "HOME-02",
+      "text": "Đọc trang chủ theo mạch giới thiệu ngắn → kỹ năng → dự án → phần về tôi đầy đủ → kết nối.",
+      "phase": 2,
+      "evidence": "C03/C04/C06/C07/C10/C11/C16",
+      "category": "Trang chủ và đường đọc"
+    },
+    {
+      "id": "HOME-03",
+      "text": "Người xem hiểu kỹ năng qua việc làm được và bằng chứng dự án, không qua điểm phần trăm hoặc tự xếp hạng.",
+      "phase": 2,
+      "evidence": "F04/F05/F06",
+      "category": "Trang chủ và đường đọc"
+    },
+    {
+      "id": "HOME-04",
+      "text": "Người phù hợp thấy trạng thái chủ động tìm cơ hội và hình thức hợp tác linh hoạt; điều kiện nhận việc không bị công khai ngoài lựa chọn đã chốt.",
+      "phase": 2,
+      "evidence": "A15/A16/A17/G06/I04",
+      "category": "Trang chủ và đường đọc"
+    },
+    {
+      "id": "HOME-05",
+      "text": "Người xem mở điều hướng gọn để đi tới dự án/vai trò/CV và luôn tìm được liên hệ khi cần.",
+      "phase": 2,
+      "evidence": "C05/C08/C09/C14",
+      "category": "Trang chủ và đường đọc"
+    },
+    {
+      "id": "PROF-01",
+      "text": "Phần về tôi kể điều muốn xây trong tương lai cùng nguyên tắc làm việc ngắn; không có phần sở thích trong lần này.",
+      "phase": 2,
+      "evidence": "F01/F10/I01",
+      "category": "Nội dung cá nhân có căn cứ"
+    },
+    {
+      "id": "PROF-02",
+      "text": "Các số 3+ năm, 20+ dự án và lời khẳng định chưa được xác nhận không xuất hiện như sự thật mới.",
+      "phase": 2,
+      "evidence": "F07/I14/I16/I17",
+      "category": "Nội dung cá nhân có căn cứ"
+    },
+    {
+      "id": "PROF-03",
+      "text": "Dòng thời gian chỉ dùng mốc do chủ portfolio cung cấp hoặc duyệt; mốc chưa có được ghi chờ trong bản xem thử, không tự bịa khi công khai.",
+      "phase": 2,
+      "evidence": "F08/I14",
+      "category": "Nội dung cá nhân có căn cứ"
+    },
+    {
+      "id": "PROF-04",
+      "text": "Ảnh chân dung mới do chủ portfolio gửi thay ảnh cũ sau khi được chọn; bản xem thử phân biệt rõ tư liệu tạm.",
+      "phase": 2,
+      "evidence": "F13/I12",
+      "category": "Nội dung cá nhân có căn cứ"
+    },
+    {
+      "id": "PROF-05",
+      "text": "Người xem mở CV từ phần về tôi và dùng lại các kênh Facebook/GitHub/LinkedIn hiện tại.",
+      "phase": 2,
+      "evidence": "C14/F18/G12/H07",
+      "category": "Nội dung cá nhân có căn cứ"
+    },
+    {
+      "id": "PROF-06",
+      "text": "Thông tin công khai ghi đúng Thành phố Hồ Chí Minh; chuyện làm từ xa và điều kiện hợp tác để trao đổi riêng.",
+      "phase": 2,
+      "evidence": "I04/I05",
+      "category": "Nội dung cá nhân có căn cứ"
+    },
+    {
+      "id": "PROF-07",
+      "text": "Lời giới thiệu và chữ ký ngắn có bản VI/EN được chủ portfolio duyệt; nhắc AI như công cụ hỗ trợ, học vấn/chứng chỉ ở CV.",
+      "phase": 2,
+      "evidence": "F09/F14/F15/F16/F17/I13/I19",
+      "category": "Nội dung cá nhân có căn cứ"
+    },
+    {
+      "id": "WORK-01",
+      "text": "Người xem thấy đủ Vixie, website đặt xe, game 2D theo bộ đã chọn; Vixie là dự án dẫn đầu.",
+      "phase": 3,
+      "evidence": "D01/D02/D20",
+      "category": "Dự án và câu chuyện"
+    },
+    {
+      "id": "WORK-02",
+      "text": "Mỗi dự án có trang riêng với tóm tắt sản phẩm dễ hiểu và lối đọc sâu; người mở liên kết trực tiếp tới đúng dự án.",
+      "phase": 3,
+      "evidence": "C12/C19/D04/D11",
+      "category": "Dự án và câu chuyện"
+    },
+    {
+      "id": "WORK-03",
+      "text": "Mỗi dự án nói rõ vai trò cá nhân và phần của nhóm từ thông tin được xác nhận; phần chưa có không bị thay bằng khẳng định tự suy ra.",
+      "phase": 3,
+      "evidence": "D05/D16/I15/I16/I17",
+      "category": "Dự án và câu chuyện"
+    },
+    {
+      "id": "WORK-04",
+      "text": "Người xem biết dự án đang phát triển hay đã dùng được, thấy bằng chứng thật; không có số liệu hoặc nội dung chưa được phép chia sẻ.",
+      "phase": 3,
+      "evidence": "D06/D07/D08/D15",
+      "category": "Dự án và câu chuyện"
+    },
+    {
+      "id": "WORK-05",
+      "text": "Ảnh dự án hiện có được sắp lại để nhìn rõ sản phẩm và tính năng; tư liệu được mô tả phù hợp để hiểu khi hình không hiện.",
+      "phase": 3,
+      "evidence": "D09/E09/H14",
+      "category": "Dự án và câu chuyện"
+    },
+    {
+      "id": "WORK-06",
+      "text": "Quay từ trang dự án về danh sách giữ đúng vị trí vừa xem.",
+      "phase": 3,
+      "evidence": "C13",
+      "category": "Dự án và câu chuyện"
+    },
+    {
+      "id": "WORK-07",
+      "text": "Từ trang dự án, người xem mở được liên kết sản phẩm/mã nguồn đã có và tìm thấy lối liên hệ.",
+      "phase": 3,
+      "evidence": "C09/D11/H07",
+      "category": "Dự án và câu chuyện"
+    },
+    {
+      "id": "WORK-08",
+      "text": "Vixie kể ý tưởng và trải nghiệm; website đặt xe kể phối hợp; game kể hành trình học; mỗi câu chuyện nêu giới hạn nguồn lực và giải pháp cuối dựa trên dữ kiện có thật.",
+      "phase": 3,
+      "evidence": "D13/D14/D17/D18/D19",
+      "category": "Dự án và câu chuyện"
+    },
+    {
+      "id": "WORK-09",
+      "text": "Bản xem thử dùng ảnh thật khi chưa có sản phẩm để ghi; clip minh họa vẫn được ghi chờ, chỉ đưa lên khi có tư liệu thật được duyệt.",
+      "phase": 3,
+      "evidence": "D10/I18",
+      "category": "Dự án và câu chuyện"
+    },
+    {
+      "id": "LANG-01",
+      "text": "Người xem chọn tiếng Việt hoặc tiếng Anh và đọc được danh tính, giá trị cốt lõi cùng điều hướng.",
+      "phase": 1,
+      "evidence": "C17/G19",
+      "category": "Ngôn ngữ và chia sẻ"
+    },
+    {
+      "id": "LANG-02",
+      "text": "Đổi ngôn ngữ giữ trang, dự án hoặc phần nội dung đang đọc thay vì đưa về đầu vô cớ.",
+      "phase": 1,
+      "evidence": "C18",
+      "category": "Ngôn ngữ và chia sẻ"
+    },
+    {
+      "id": "LANG-03",
+      "text": "Nội dung toàn bộ trang, trạng thái phụ và thông báo liên hệ có tiếng Việt/Anh nhất quán trước khi ra mắt.",
+      "phase": 7,
+      "evidence": "C17/G19/H01",
+      "category": "Ngôn ngữ và chia sẻ"
+    },
+    {
+      "id": "LANG-04",
+      "text": "Liên kết chia sẻ mỗi dự án có tên, tóm tắt, hình giới thiệu phù hợp với ngôn ngữ và đúng nội dung dự án.",
+      "phase": 3,
+      "evidence": "C19",
+      "category": "Ngôn ngữ và chia sẻ"
+    },
+    {
+      "id": "CONTACT-01",
+      "text": "Người xem dùng trang liên hệ riêng, chọn trao đổi tuyển dụng hoặc sản phẩm để nhận gợi ý phù hợp.",
+      "phase": 4,
+      "evidence": "C15/G01/G03/G04",
+      "category": "Bắt đầu trao đổi"
+    },
+    {
+      "id": "CONTACT-02",
+      "text": "Người gửi nhập email và lời nhắn về mục tiêu; khi thiếu hoặc sai, được chỉ rõ chỗ cần sửa và lý do, không mất nội dung.",
+      "phase": 4,
+      "evidence": "G02/G10",
+      "category": "Bắt đầu trao đổi"
+    },
+    {
+      "id": "CONTACT-03",
+      "text": "Người gửi chọn PDF từ máy và gửi kèm tới người nhận thực tế; không phải gõ đường dẫn tệp.",
+      "phase": 4,
+      "evidence": "G14/I09/I10; nguyên tắc upload trực tiếp",
+      "category": "Bắt đầu trao đổi"
+    },
+    {
+      "id": "CONTACT-04",
+      "text": "Người gửi có thể dùng liên kết tài liệu thay cho tệp, không bị bắt đính kèm nếu đã chọn đường gửi liên kết.",
+      "phase": 4,
+      "evidence": "I10",
+      "category": "Bắt đầu trao đổi"
+    },
+    {
+      "id": "CONTACT-05",
+      "text": "Lỗi tệp giữ lời nhắn và chỉ rõ tệp cần chọn lại; không báo thành công khi tệp chưa được nhận.",
+      "phase": 4,
+      "evidence": "I11/G08",
+      "category": "Bắt đầu trao đổi"
+    },
+    {
+      "id": "CONTACT-06",
+      "text": "Lỗi gửi chung có lối mở email với nội dung đã viết để người gửi tiếp tục trao đổi.",
+      "phase": 4,
+      "evidence": "G09",
+      "category": "Bắt đầu trao đổi"
+    },
+    {
+      "id": "CONTACT-07",
+      "text": "Gửi thành công xác nhận lời nhắn đã được nhận; không hứa mốc phản hồi cụ thể chưa cam kết.",
+      "phase": 4,
+      "evidence": "G07/G08",
+      "category": "Bắt đầu trao đổi"
+    },
+    {
+      "id": "CONTACT-08",
+      "text": "Email hiện rõ để sao chép; thông tin người gửi được giải thích ngắn là dùng để trả lời trao đổi.",
+      "phase": 4,
+      "evidence": "G11/G18",
+      "category": "Bắt đầu trao đổi"
+    },
+    {
+      "id": "CONTACT-09",
+      "text": "Biểu mẫu thể hiện rõ đang gửi, ngăn gửi lặp và giữ quy tắc hạn chế gửi hiện có trừ khi có quyết định thay đổi được ghi lại.",
+      "phase": 4,
+      "evidence": "Nâng cấp luồng hiện có; src/pages/Contact.tsx",
+      "category": "Bắt đầu trao đổi"
+    },
+    {
+      "id": "MOTION-01",
+      "text": "Tiêu đề có cá tính và biến đổi rồi đọc rõ; đoạn mô tả dài đứng yên, không bị vòng lặp trang trí che lấp.",
+      "phase": 5,
+      "evidence": "E05/E06/E07/E08/E20",
+      "category": "Chuyển động có mục đích"
+    },
+    {
+      "id": "MOTION-02",
+      "text": "Kéo trang hé lộ câu chuyện theo nhịp nội dung, điểm nhấn lớn ở Vixie; cảnh được giữ lại chỉ khi làm rõ câu chuyện và vẫn có đường đi tiếp.",
+      "phase": 5,
+      "evidence": "E02/E03/E11/E12",
+      "category": "Chuyển động có mục đích"
+    },
+    {
+      "id": "MOTION-03",
+      "text": "Di chuột, focus và chạm cho phản hồi tương tác có chiều sâu; hình dự án dẫn mắt vào tính năng, hình trừu tượng tạo không khí phía sau.",
+      "phase": 5,
+      "evidence": "E09/E10/E13/E14",
+      "category": "Chuyển động có mục đích"
+    },
+    {
+      "id": "MOTION-04",
+      "text": "Chuyển giữa trang có một nhịp ngắn, không chặn thao tác; quay lại không buộc xem lại màn mở đầu.",
+      "phase": 5,
+      "evidence": "E15/E16",
+      "category": "Chuyển động có mục đích"
+    },
+    {
+      "id": "MOTION-05",
+      "text": "Người nhạy chuyển động tìm thấy lựa chọn giảm motion và vẫn đọc, điều hướng, xem dự án, liên hệ đầy đủ.",
+      "phase": 5,
+      "evidence": "E17/H14",
+      "category": "Chuyển động có mục đích"
+    },
+    {
+      "id": "MOTION-06",
+      "text": "Trên điện thoại, chuyển động gọn mà còn nhận ra cá tính, không làm việc cuộn hoặc chọn hành động trở nên khó hơn.",
+      "phase": 5,
+      "evidence": "E18/H03/H08/H09",
+      "category": "Chuyển động có mục đích"
+    },
+    {
+      "id": "AUDIO-01",
+      "text": "Nhạc cố định BoogieDown chỉ bắt đầu sau khi người xem bật; có điều khiển bật/tắt dễ hiểu và lặp khi đang bật.",
+      "phase": 6,
+      "evidence": "E19/I06",
+      "category": "Nhạc nền có quyền chủ động"
+    },
+    {
+      "id": "AUDIO-02",
+      "text": "Khi đi giữa các trang trong cùng lần xem, nhạc tiếp tục đúng trạng thái thay vì tạo nhiều bản phát hoặc bắt đầu lại vì đổi trang.",
+      "phase": 6,
+      "evidence": "E19 toàn site",
+      "category": "Nhạc nền có quyền chủ động"
+    },
+    {
+      "id": "AUDIO-03",
+      "text": "Lựa chọn nghe được giữ trong phiên xem; lần mở mới bắt đầu yên lặng và cần người xem chủ động bật.",
+      "phase": 6,
+      "evidence": "I07",
+      "category": "Nhạc nền có quyền chủ động"
+    },
+    {
+      "id": "AUDIO-04",
+      "text": "Khi minh họa có tiếng phát, nhạc nền đang bật được hạ nhỏ; kết thúc phục hồi mức trước đó, không tự bật nhạc người xem đã tắt.",
+      "phase": 6,
+      "evidence": "I08",
+      "category": "Nhạc nền có quyền chủ động"
+    },
+    {
+      "id": "AUDIO-05",
+      "text": "Nếu nhạc không tải hoặc không phát được, trang vẫn dùng đầy đủ và không cố bật đi bật lại ngoài ý người xem.",
+      "phase": 6,
+      "evidence": "H14/E19",
+      "category": "Nhạc nền có quyền chủ động"
+    },
+    {
+      "id": "QUALITY-01",
+      "text": "Toàn bộ trang dùng thuận tiện trên điện thoại và máy tính, không mất nội dung chính vì tràn hoặc chồng lớp.",
+      "phase": 7,
+      "evidence": "H03/H08",
+      "category": "Dùng được và đủ bằng chứng ra mắt"
+    },
+    {
+      "id": "QUALITY-02",
+      "text": "Người dùng bàn phím đọc và kích hoạt mọi hành động chính, thấy focus và mở/đóng menu thuận tiện.",
+      "phase": 7,
+      "evidence": "H11/H01",
+      "category": "Dùng được và đủ bằng chứng ra mắt"
+    },
+    {
+      "id": "QUALITY-03",
+      "text": "Phóng to chữ vẫn đọc đủ nội dung và tìm được hành động quan trọng.",
+      "phase": 7,
+      "evidence": "H12",
+      "category": "Dùng được và đủ bằng chứng ra mắt"
+    },
+    {
+      "id": "QUALITY-04",
+      "text": "Thiếu hình ảnh, hiệu ứng hoặc motion vẫn đọc được thông tin và dùng CV, dự án, liên hệ.",
+      "phase": 7,
+      "evidence": "H14",
+      "category": "Dùng được và đủ bằng chứng ra mắt"
+    },
+    {
+      "id": "QUALITY-05",
+      "text": "Máy yếu hoặc mạng chậm nhận chữ và hành động chính trước; hình ảnh có dấu hiệu chờ ngắn, dễ hiểu.",
+      "phase": 7,
+      "evidence": "H09/H10",
+      "category": "Dùng được và đủ bằng chứng ra mắt"
+    },
+    {
+      "id": "QUALITY-06",
+      "text": "Mở đường dẫn không còn đúng nhận lối về trang chủ và liên hệ thay vì mắc kẹt.",
+      "phase": 7,
+      "evidence": "C20/H01",
+      "category": "Dùng được và đủ bằng chứng ra mắt"
+    },
+    {
+      "id": "QUALITY-07",
+      "text": "CV, dự án, mạng cá nhân, gửi lời nhắn/PDF hoặc liên kết tài liệu được kiểm tra đúng đích và hành vi thực tế trước công khai.",
+      "phase": 7,
+      "evidence": "H07/H19/H20/G14",
+      "category": "Dùng được và đủ bằng chứng ra mắt"
+    },
+    {
+      "id": "QUALITY-08",
+      "text": "Chủ portfolio xem đủ các trang, ngôn ngữ, sáng/tối và trạng thái quan trọng; dữ kiện/ảnh/vai trò/clip còn chờ phải được giải quyết hoặc chốt rõ trước công khai, không tự ghi hoàn tất.",
+      "phase": 7,
+      "evidence": "H01/H13/H19/H20/I12/I14/I16/I17/I18",
+      "category": "Dùng được và đủ bằng chứng ra mắt"
+    }
+  ],
+  "phases": [
+    [
+      1,
+      "Diện mạo và lối vào dùng được",
+      "Người xem mở trang, hiểu ngay Bùi Bảo Long làm gì và dùng được shell kính với VI/EN, sáng/tối.",
+      [
+        "Thông tin chính hiện ngay trong một diện mạo nhất quán, chữ rõ ở cả sáng và tối.",
+        "Chọn ngôn ngữ giữ nội dung đang đọc; điều hướng và các trang hiện có vẫn mở được.",
+        "Các thành phần thường gặp có cùng cách thể hiện, có hình thức chờ/lỗi/focus dễ nhận biết."
+      ]
+    ],
+    [
+      2,
+      "Câu chuyện trang chủ và con người",
+      "Người xem hiểu thế mạnh, dự án dẫn đường và con người qua nội dung đúng sự thật.",
+      [
+        "Trang chủ đi đúng mạch đã chốt, dự án và liên hệ dễ tìm.",
+        "Phần về tôi bỏ số 3+/20+ và sở thích; CV, kênh cá nhân, Thành phố Hồ Chí Minh thể hiện đúng.",
+        "Lời giới thiệu/chữ ký được xem để duyệt; ảnh và mốc thật còn chờ được ghi rõ, không tự thêm."
+      ]
+    ],
+    [
+      3,
+      "Ba trang dự án đọc sâu",
+      "Người xem đi sâu vào Vixie, website đặt xe, game và quay về đúng chỗ.",
+      [
+        "Ba dự án có đường dẫn trực tiếp, Vixie dẫn đầu và có tóm tắt đúng nội dung.",
+        "Vai trò, trạng thái và minh họa chỉ dùng dữ kiện/tư liệu có căn cứ; nội dung còn chờ nhận ra rõ trong bản xem thử.",
+        "Quay lại giữ vị trí danh sách; liên kết nguồn và lối liên hệ dùng được."
+      ]
+    ],
+    [
+      4,
+      "Liên hệ và tài liệu thực sự gửi được",
+      "Người phù hợp gửi mục tiêu hợp tác cùng PDF hoặc liên kết và biết kết quả rõ ràng.",
+      [
+        "Loại trao đổi thay đổi gợi ý phù hợp; nhắc email/lời nhắn thiếu ngay tại chỗ.",
+        "PDF được chọn từ máy hoặc thay bằng liên kết; có bằng chứng người nhận nhận đúng tài liệu.",
+        "Lỗi tệp giữ lời nhắn và chỉ tệp cần chọn lại; lỗi gửi có lối email mang theo nội dung.",
+        "Trạng thái đang gửi/thành công/thất bại rõ, không gửi lặp hoặc hứa mốc hồi đáp chưa chốt."
+      ]
+    ],
+    [
+      5,
+      "Cinematic, chữ và chuyển động",
+      "Người xem cảm nhận câu chuyện sống động, vẫn đọc và thao tác thoải mái.",
+      [
+        "Vixie có điểm nhấn chính, tiêu đề biến đổi rồi rõ chữ, đoạn dài đứng yên.",
+        "Cuộn và phản hồi tương tác có mục đích, chuyển trang ngắn, quay lại không xem mở đầu lần nữa.",
+        "Bật giảm chuyển động vẫn dùng đủ mọi nội dung/hành động; điện thoại giữ cá tính mà gọn."
+      ]
+    ],
+    [
+      6,
+      "Nhạc nền xuyên site",
+      "Người xem chủ động nghe BoogieDown, không mất quyền điều khiển khi đi qua các trang.",
+      [
+        "Lần mở mới im lặng; bật chủ động mới nghe, nhạc lặp khi đang bật.",
+        "Đổi trang giữ trạng thái, không tạo hai bản nhạc; nhớ lựa chọn trong phiên.",
+        "Minh họa có tiếng làm hạ nhạc nền và phục hồi đúng mức; không tự bật lại nhạc đã tắt.",
+        "Lỗi âm thanh không làm mất khả năng dùng portfolio."
+      ]
+    ],
+    [
+      7,
+      "Kiểm chứng toàn site và chốt ra mắt",
+      "Chủ portfolio có bản đủ dùng và bằng chứng để quyết định công khai.",
+      [
+        "Toàn bộ trang/trạng thái được xem ở hai ngôn ngữ, sáng/tối, điện thoại/máy tính.",
+        "Dùng bàn phím, phóng chữ, giảm motion, mạng chậm hoặc thiếu hiệu ứng vẫn hoàn thành hành động chính.",
+        "Đích CV/dự án/kênh cá nhân và lời nhắn/tài liệu được kiểm chứng phù hợp, không dùng mock làm bằng chứng giao thư.",
+        "Dữ kiện và tư liệu chờ được chủ portfolio xử lý/chốt rõ; có quyết định xem và công khai của chủ portfolio."
+      ]
+    ]
+  ],
+  "questions": [
+    [
+      "Sau khi đã chốt một chặng, bạn muốn quá trình làm tiếp diễn thế nào?",
+      [
+        "Tự làm tiếp trong phạm vi đã thống nhất, chỉ dừng khi cần quyết định mới",
+        "Đưa kết quả từng chặng để tôi xem rồi mới tiếp tục",
+        "Tôi sẽ gọi từng chặng khi muốn bắt đầu"
+      ]
+    ],
+    [
+      "Bạn muốn chia việc thành những chặng lớn nhỏ ra sao?",
+      [
+        "Khoảng 3–5 chặng lớn, xem kết quả theo cụm",
+        "Khoảng 5–8 chặng vừa; đề xuất bên trên hiện là 7 chặng",
+        "Khoảng 8–12 chặng nhỏ, dễ theo dõi từng phần"
+      ]
+    ],
+    [
+      "Bạn muốn các hồ sơ đã chốt được lưu cùng lịch sử dự án để xem lại và khôi phục không?",
+      [
+        "Có, lưu hồ sơ đã chốt cùng lịch sử dự án",
+        "Chỉ giữ hồ sơ trên máy làm việc từ đây về sau",
+        "Tôi cần trao đổi thêm về phần nào nên được lưu"
+      ]
+    ],
+    [
+      "Trước khi chốt phạm vi và lộ trình, có cần một lượt tìm hiểu thêm cho toàn bộ hướng nâng cấp không?",
+      [
+        "Có, đối chiếu nguồn chính thức rồi điều chỉnh đề xuất nếu cần",
+        "Chỉ làm rõ phần chưa chắc; không cần lượt nghiên cứu tổng thể riêng",
+        "Không cần lượt nghiên cứu thêm trước khi chốt đề xuất hiện tại"
+      ]
+    ],
+    [
+      "Trước mỗi chặng sau này, bạn muốn tìm hiểu thêm tới mức nào?",
+      [
+        "Tìm hiểu các điểm chưa chắc trước khi lên cách làm",
+        "Chỉ tìm hiểu khi vướng một quyết định cụ thể",
+        "Đi thẳng từ nội dung đã thống nhất"
+      ]
+    ],
+    [
+      "Trước khi bắt tay làm một chặng, bạn có muốn kiểm tra cách làm dự kiến đã bao đủ mục tiêu chưa?",
+      [
+        "Có, đối chiếu và sửa chỗ thiếu trước khi làm",
+        "Chỉ kiểm tra lại khi chặng có thay đổi lớn",
+        "Không cần một lượt kiểm tra cách làm riêng"
+      ]
+    ],
+    [
+      "Sau mỗi chặng, bạn muốn xác nhận kết quả theo cách nào?",
+      [
+        "Kiểm tra theo mục tiêu và giữ bằng chứng phù hợp",
+        "Chỉ kiểm tra những phần vừa thay đổi rõ rệt",
+        "Để lượt đối chiếu tổng thể ở cuối"
+      ]
+    ],
+    [
+      "Nếu dữ kiện hoặc nội dung website thay đổi trong lúc làm, hồ sơ nên được xử lý thế nào?",
+      [
+        "Đối chiếu lại điều đã chốt để tránh làm theo thông tin cũ",
+        "Chỉ cập nhật khi thay đổi ảnh hưởng mục tiêu",
+        "Tôi sẽ chỉ rõ những thay đổi cần cập nhật"
+      ]
+    ],
+    [
+      "Trong bản bàn giao mỗi chặng, có cần ghi người xem làm được gì và dựa vào đâu để chấp nhận không?",
+      [
+        "Có, ghi ngắn gọn để dễ xem",
+        "Chỉ nêu kết quả chính",
+        "Không cần mục riêng này"
+      ]
+    ],
+    [
+      "Trong bản bàn giao, có cần ghi những điều đang phụ thuộc và phần còn chờ không?",
+      [
+        "Có, ghi rõ để biết bước tiếp theo",
+        "Chỉ ghi khi đang chặn kết quả",
+        "Không cần mục riêng này"
+      ]
+    ],
+    [
+      "Trong bản bàn giao, có cần ghi bằng chứng đã đạt và điều kiện để đủ sẵn sàng công khai không?",
+      [
+        "Có, kèm các điều kiện còn thiếu",
+        "Chỉ ghi tình trạng đã kiểm tra",
+        "Không cần mục riêng này"
+      ]
+    ],
+    [
+      "Trong bản bàn giao, có cần ghi rõ phần nào bạn đã xem và phần nào còn cần bạn chốt không?",
+      [
+        "Có, tách rõ để dễ quyết định",
+        "Chỉ nhắc khi cần tôi phản hồi",
+        "Không cần mục riêng này"
+      ]
+    ],
+    [
+      "Bạn muốn từng chặng đem lại kết quả theo cách nào?",
+      [
+        "Mỗi chặng có một phần người xem dùng được từ đầu tới cuối",
+        "Hoàn thiện từng phần nền chung rồi ghép thành các trang sau",
+        "Giữ cách chia đề xuất, điều chỉnh nếu có phụ thuộc thực tế"
+      ]
+    ],
+    [
+      "Câu mở đầu nào gần với điều bạn muốn hứa nhất?",
+      [
+        "Biến ý tưởng thành ứng dụng có thể dùng, có cá tính, có mục đích.",
+        "Xây ứng dụng hoàn chỉnh, bắt đầu từ điều người dùng cần.",
+        "Từ ý tưởng đến trải nghiệm ứng dụng rõ ràng và có dấu ấn."
+      ]
+    ],
+    [
+      "Dòng giới thiệu ngắn nào cho Vixie phù hợp với nội dung đã biết?",
+      [
+        "Vixie — Hình nền sống, cùng một người bạn AI.",
+        "Vixie — Đưa nhân vật AI vào trải nghiệm hình nền hằng ngày.",
+        "Vixie — Từ ý tưởng hình nền động đến trải nghiệm đồng hành."
+      ]
+    ],
+    [
+      "Câu ký tên cuối trang nào hợp với bạn?",
+      [
+        "Bùi Bảo Long — Ý tưởng thành trải nghiệm.",
+        "Bùi Bảo Long — Xây điều có ý nghĩa.",
+        "Bùi Bảo Long — Còn nhiều điều để xây."
+      ]
+    ],
+    [
+      "58 yêu cầu trong bản đề xuất đã phản ánh đúng phạm vi lần nâng cấp này chưa?",
+      [
+        "Đúng phạm vi; chốt sau khi áp dụng các điều chỉnh tôi vừa ghi",
+        "Cần sửa vài yêu cầu; tôi ghi mã và nội dung cần sửa",
+        "Chưa chốt phạm vi; cần trao đổi thêm"
+      ]
+    ],
+    [
+      "Lộ trình 7 chặng và kết quả từng chặng có phù hợp để đi tiếp không?",
+      [
+        "Phù hợp; chốt sau khi áp dụng lựa chọn về số chặng và các điều chỉnh tôi ghi",
+        "Cần đổi thứ tự hoặc ranh giới chặng; tôi ghi cụ thể",
+        "Chưa chốt lộ trình; cần trao đổi thêm"
+      ]
+    ],
+    [
+      "Khi tới bước chọn diện mạo cụ thể, bạn muốn xem trước theo cách nào?",
+      [
+        "Xem 2–3 hướng có cùng nội dung để chọn cảm giác",
+        "Xem một hướng được đề xuất kỹ rồi chỉnh cùng nhau",
+        "Trao đổi thêm về tham khảo trước khi dựng bản xem thử"
+      ]
+    ],
+    [
+      "Có giới hạn bắt buộc nào bản đề xuất chưa ghi đúng hoặc chưa nhắc tới?",
+      [
+        "Không bổ sung; giữ những điều đã thống nhất",
+        "Có, tôi viết giới hạn cần thêm bên dưới",
+        "Có điểm cần trao đổi trước khi chốt hồ sơ"
+      ]
+    ]
+  ]
+}

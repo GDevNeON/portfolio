@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "scope": "project initialization artifacts; no application runtime claim",
+  "passed": true,
+  "sourceAnswers": 200,
+  "sourceSHA256": "c8f8ea459fac4b093eeeb62e4534da691eb65d2374e13a2ee8ff689b15526b07",
+  "requirements": 58,
+  "uniqueMappedRequirements": 58,
+  "unmappedRequirements": 0,
+  "phases": 7,
+  "nativeGsdPhaseParses": 7,
+  "nativeGsdGoalsModesCriteriaPresent": true,
+  "stateExecutionPercent": 0,
+  "autoAdvance": false,
+  "allowSubagents": false,
+  "jPreferencesPreserved": true,
+  "researchFilesSubstantive": 5,
+  "questionnaire": {
+    "newQuestions": 0,
+    "historyEntries": 200,
+    "rawArchivePreserved": true,
+    "embeddedJsonMatchesSource": true,
+    "duplicateIds": 0,
+    "css": false,
+    "executableJavaScript": false,
+    "format": "static completion and answer history with archived JSON download link"
+  },
+  "skills": {
+    "tasteLocated": true,
+    "impeccableLocated": true,
+    "impeccableVersion": "4.6.0",
+    "uiCritiqueRun": false
+  },
+  "limitations": [
+    "The attempted executable-HTML JavaScript validation was rejected by automatic approval review with blocked by policy; final validation used read-only static/data checks.",
+    "The final history artifact contains no executable script; no browser/runtime or UI critique result is claimed.",
+    "No phase implementation, email/PDF delivery test, asset playback, deployment or new npm test run was performed."
+  ]
+}
