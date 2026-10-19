@@ -1,0 +1,1449 @@
+{
+  "schemaVersion": 1,
+  "questionnaireId": "neon-portfolio-discovery-2026-10-17-v1",
+  "savedAt": "2026-10-18T18:55:42.106Z",
+  "project": "neon-portfolio",
+  "answers": [
+    {
+      "id": "A01",
+      "area": "A",
+      "question": "A01. Sau khi nâng cấp, cơ hội nào bạn muốn nhận nhiều nhất?",
+      "choiceValue": "3",
+      "choiceText": "Lời mời cùng làm sản phẩm",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A02",
+      "area": "A",
+      "question": "A02. Ai cần được thuyết phục trước tiên khi mở trang?",
+      "choiceValue": "3",
+      "choiceText": "Khách hàng tìm người làm sản phẩm",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A03",
+      "area": "A",
+      "question": "A03. Bạn muốn người xem nhớ bạn làm tốt việc gì nhất?",
+      "choiceValue": "1",
+      "choiceText": "Xây sản phẩm hoàn chỉnh",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A04",
+      "area": "A",
+      "question": "A04. Bạn muốn cơ hội sắp tới nghiêng về công việc nào?",
+      "choiceValue": "1",
+      "choiceText": "Phát triển ứng dụng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A05",
+      "area": "A",
+      "question": "A05. Bạn đang hướng tới môi trường làm việc nào?",
+      "choiceValue": "3",
+      "choiceText": "Làm độc lập theo dự án",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A06",
+      "area": "A",
+      "question": "A06. Nhóm người xem chính ở đâu?",
+      "choiceValue": "3",
+      "choiceText": "Cả hai tương đương",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A07",
+      "area": "A",
+      "question": "A07. Nếu họ chỉ dành 30 giây, họ phải biết điều gì về bạn?",
+      "choiceValue": "2",
+      "choiceText": "Dự án tiêu biểu",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A08",
+      "area": "A",
+      "question": "A08. Nếu họ đọc thêm vài phút, điều gì cần khiến họ tin bạn hơn?",
+      "choiceValue": "3",
+      "choiceText": "Trải nghiệm và trách nhiệm thực tế",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A09",
+      "area": "A",
+      "question": "A09. Sau khi xem trang, hành động nào có giá trị nhất với bạn?",
+      "choiceValue": "3",
+      "choiceText": "Xem sâu dự án",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A10",
+      "area": "A",
+      "question": "A10. Bạn thường gửi portfolio trong tình huống nào?",
+      "choiceValue": "3",
+      "choiceText": "Chia sẻ công khai trên mạng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A11",
+      "area": "A",
+      "question": "A11. Điều gì ở portfolio hiện tại khiến bạn muốn làm lại nhất?",
+      "choiceValue": "3",
+      "choiceText": "Trải nghiệm xem chưa cuốn hút",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A12",
+      "area": "A",
+      "question": "A12. Bạn muốn người xem nhận xét bạn bằng câu nào?",
+      "choiceValue": "3",
+      "choiceText": "Người này có ý tưởng và làm được",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A13",
+      "area": "A",
+      "question": "A13. Điều gì giúp bạn khác những người có kỹ năng tương tự?",
+      "choiceValue": "3",
+      "choiceText": "Cách quan tâm đến người dùng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A14",
+      "area": "A",
+      "question": "A14. Loại lời mời nào bạn muốn hạn chế?",
+      "choiceValue": "2",
+      "choiceText": "Dự án thiếu mục tiêu rõ ràng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A15",
+      "area": "A",
+      "question": "A15. Bạn muốn thể hiện mức độ sẵn sàng nhận việc ra sao?",
+      "choiceValue": "1",
+      "choiceText": "Đang chủ động tìm cơ hội",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A16",
+      "area": "A",
+      "question": "A16. Hình thức hợp tác nào cần xuất hiện rõ trên trang?",
+      "choiceValue": "3",
+      "choiceText": "Có thể trao đổi nhiều hình thức",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A17",
+      "area": "A",
+      "question": "A17. Bạn có muốn công khai nơi ở và khả năng làm từ xa?",
+      "choiceValue": "3",
+      "choiceText": "Trao đổi riêng khi liên hệ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A18",
+      "area": "A",
+      "question": "A18. Bạn đã nhận góp ý nào đáng chú ý về portfolio cũ?",
+      "choiceValue": "2",
+      "choiceText": "Dự án chưa đủ thuyết phục",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A19",
+      "area": "A",
+      "question": "A19. Nếu buộc chọn một lợi ích để làm tốt nhất, bạn chọn gì?",
+      "choiceValue": "2",
+      "choiceText": "Nhớ dấu ấn cá nhân lâu",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "A20",
+      "area": "A",
+      "question": "A20. Sau khi ra mắt, thay đổi thực tế nào khiến bạn thấy công sức đáng giá?",
+      "choiceValue": "3",
+      "choiceText": "Tự tin gửi portfolio cho bất kỳ ai",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B01",
+      "area": "B",
+      "question": "B01. Tên nào nên là dấu nhận diện chính?",
+      "choiceValue": "1",
+      "choiceText": "Bùi Bảo Long",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B02",
+      "area": "B",
+      "question": "B02. Bạn muốn trang tạo cảm giác nào trước tiên?",
+      "choiceValue": "2",
+      "choiceText": "Táo bạo, giàu năng lượng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B03",
+      "area": "B",
+      "question": "B03. Chất kính bạn hình dung gần cảm giác nào hơn?",
+      "choiceValue": "",
+      "choiceText": "",
+      "note": "Tùy agent nghiên cứu",
+      "status": "answered"
+    },
+    {
+      "id": "B04",
+      "area": "B",
+      "question": "B04. Bạn muốn chất kính xuất hiện với mức độ nào?",
+      "choiceValue": "2",
+      "choiceText": "Xuyên suốt nhưng tiết chế",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B05",
+      "area": "B",
+      "question": "B05. Không khí chung của trang nên gần bối cảnh nào?",
+      "choiceValue": "3",
+      "choiceText": "Một thế giới cá nhân có câu chuyện",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B06",
+      "area": "B",
+      "question": "B06. Bạn muốn nền trang đem lại cảm giác gì?",
+      "choiceValue": "3",
+      "choiceText": "Thay đổi theo lựa chọn của người xem",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B07",
+      "area": "B",
+      "question": "B07. Màu sắc nào khiến bạn thấy đúng là mình?",
+      "choiceValue": "2",
+      "choiceText": "Rực, giàu tương phản",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B08",
+      "area": "B",
+      "question": "B08. Màu nào hoặc kiểu phối màu nào bạn chắc chắn không thích?",
+      "choiceValue": "2",
+      "choiceText": "Không thích màu quá chói",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B09",
+      "area": "B",
+      "question": "B09. So với diện mạo hiện tại, điều gì bạn muốn còn nhận ra?",
+      "choiceValue": "3",
+      "choiceText": "Có thể thay toàn bộ cách thể hiện",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B10",
+      "area": "B",
+      "question": "B10. Bạn thích cảm giác hình khối như thế nào?",
+      "choiceValue": "1",
+      "choiceText": "Mềm, trôi và bo nhẹ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B11",
+      "area": "B",
+      "question": "B11. Mức độ trang trọng nào phù hợp với bạn?",
+      "choiceValue": "1",
+      "choiceText": "Chuyên nghiệp và chừng mực",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B12",
+      "area": "B",
+      "question": "B12. Sở thích anime, game nên ảnh hưởng diện mạo đến đâu?",
+      "choiceValue": "3",
+      "choiceText": "Không dùng làm dấu nhận diện chính",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B13",
+      "area": "B",
+      "question": "B13. Bạn muốn ảnh chân dung xuất hiện như thế nào?",
+      "choiceValue": "1",
+      "choiceText": "Gần gũi, rõ gương mặt",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B14",
+      "area": "B",
+      "question": "B14. Dấu hiệu nào bạn muốn người xem nhận ra dù chưa đọc tên?",
+      "choiceValue": "3",
+      "choiceText": "Cách sắp chữ và kể chuyện",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B15",
+      "area": "B",
+      "question": "B15. Nếu có một hình ảnh xuyên suốt, bạn muốn nó gợi điều gì?",
+      "choiceValue": "3",
+      "choiceText": "Thế giới sản phẩm tôi xây",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B16",
+      "area": "B",
+      "question": "B16. Bạn muốn phần chữ đem lại cảm giác nào?",
+      "choiceValue": "3",
+      "choiceText": "Thanh lịch, ít phô trương",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B17",
+      "area": "B",
+      "question": "B17. Khi kính và nền làm chữ khó đọc, bạn muốn giữ điều gì?",
+      "choiceValue": "3",
+      "choiceText": "Tùy phần nhưng nội dung chính luôn rõ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B18",
+      "area": "B",
+      "question": "B18. Bạn có trang, phim hay tác phẩm nào gần cảm giác đang tìm?",
+      "choiceValue": "1",
+      "choiceText": "Có ví dụ thích, tôi sẽ gửi tên hoặc liên kết",
+      "note": "lusion.co và các website tương tự",
+      "status": "answered"
+    },
+    {
+      "id": "B19",
+      "area": "B",
+      "question": "B19. Điều gì sẽ khiến diện mạo mới trông sai với con người bạn?",
+      "choiceValue": "1",
+      "choiceText": "Quá giống trang quảng cáo",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "B20",
+      "area": "B",
+      "question": "B20. Cùng một phong cách nên được giữ nhất quán ở những đâu?",
+      "choiceValue": "1",
+      "choiceText": "Toàn bộ portfolio",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C01",
+      "area": "C",
+      "question": "C01. Màn hình đầu tiên nên giúp người xem hiểu điều gì?",
+      "choiceValue": "3",
+      "choiceText": "Lời hứa về giá trị tôi mang lại",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C02",
+      "area": "C",
+      "question": "C02. Bạn muốn mở đầu trực tiếp đến mức nào?",
+      "choiceValue": "1",
+      "choiceText": "Thấy thông tin ngay",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C03",
+      "area": "C",
+      "question": "C03. Bạn muốn lời giới thiệu đầu trang nói theo cách nào?",
+      "choiceValue": "3",
+      "choiceText": "Một câu chuyện ngắn dẫn vào công việc",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C04",
+      "area": "C",
+      "question": "C04. Thứ tự nào giống cách bạn muốn tự giới thiệu?",
+      "choiceValue": "1",
+      "choiceText": "Bản thân, dự án, liên hệ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C05",
+      "area": "C",
+      "question": "C05. Người tuyển dụng cần lối đi nhanh tới đâu?",
+      "choiceValue": "2",
+      "choiceText": "Dự án và vai trò của tôi",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C06",
+      "area": "C",
+      "question": "C06. Người muốn tìm hiểu kỹ nên được dẫn đi thế nào?",
+      "choiceValue": "1",
+      "choiceText": "Theo một câu chuyện từ đầu đến cuối",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C07",
+      "area": "C",
+      "question": "C07. Bạn thích trang chủ được chia nhịp ra sao?",
+      "choiceValue": "3",
+      "choiceText": "Một câu chuyện liền mạch",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C08",
+      "area": "C",
+      "question": "C08. Các mục chọn đường đi nên hiện với mức độ nào?",
+      "choiceValue": "3",
+      "choiceText": "Gọn lại khi đọc, mở ra khi chọn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C09",
+      "area": "C",
+      "question": "C09. Khi đang xem dự án, người xem nên tìm cách liên hệ ở đâu?",
+      "choiceValue": "3",
+      "choiceText": "Một lối liên hệ luôn dễ tìm",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C10",
+      "area": "C",
+      "question": "C10. Phần kỹ năng nên nằm ở vị trí nào trong câu chuyện?",
+      "choiceValue": "1",
+      "choiceText": "Trước dự án để định hướng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C11",
+      "area": "C",
+      "question": "C11. Bạn muốn người xem đọc phần giới thiệu bản thân vào lúc nào?",
+      "choiceValue": "2",
+      "choiceText": "Sau khi thấy năng lực qua dự án",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C12",
+      "area": "C",
+      "question": "C12. Nội dung dự án nên mở theo cách nào?",
+      "choiceValue": "1",
+      "choiceText": "Đọc sâu ở một trang riêng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C13",
+      "area": "C",
+      "question": "C13. Khi quay lại từ một dự án, trải nghiệm nào bạn mong muốn?",
+      "choiceValue": "1",
+      "choiceText": "Trở về đúng vị trí vừa xem",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C14",
+      "area": "C",
+      "question": "C14. Hồ sơ xin việc nên dễ tiếp cận từ đâu?",
+      "choiceValue": "2",
+      "choiceText": "Trong phần về tôi",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C15",
+      "area": "C",
+      "question": "C15. Bạn muốn giữ trang liên hệ riêng như hiện tại ra sao?",
+      "choiceValue": "1",
+      "choiceText": "Giữ trang riêng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C16",
+      "area": "C",
+      "question": "C16. Khi đến cuối trang, người xem nên được mời làm gì?",
+      "choiceValue": "3",
+      "choiceText": "Kết nối qua kênh cá nhân",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C17",
+      "area": "C",
+      "question": "C17. Portfolio cần phục vụ ngôn ngữ nào ngay trong lần nâng cấp này?",
+      "choiceValue": "3",
+      "choiceText": "Cả tiếng Việt và tiếng Anh",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C18",
+      "area": "C",
+      "question": "C18. Nếu có hai ngôn ngữ, trải nghiệm đổi ngôn ngữ nên ra sao?",
+      "choiceValue": "1",
+      "choiceText": "Giữ đúng nội dung đang đọc",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C19",
+      "area": "C",
+      "question": "C19. Khi chia sẻ một đường dẫn dự án, người nhận cần thấy gì ngay?",
+      "choiceValue": "3",
+      "choiceText": "Tóm tắt ngắn và lối xem sâu",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "C20",
+      "area": "C",
+      "question": "C20. Nếu mở một liên kết cũ không còn dùng được, trang nên giúp gì?",
+      "choiceValue": "3",
+      "choiceText": "Về trang chủ và có lối liên hệ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D01",
+      "area": "D",
+      "question": "D01. Dự án nào nên dẫn đầu portfolio lần này?",
+      "choiceValue": "1",
+      "choiceText": "Vixie",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D02",
+      "area": "D",
+      "question": "D02. Bộ ba dự án hiện tại nên được xử lý ra sao?",
+      "choiceValue": "1",
+      "choiceText": "Giữ cả ba và kể lại tốt hơn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D03",
+      "area": "D",
+      "question": "D03. Lý do quan trọng nhất để đưa một dự án lên trang là gì?",
+      "choiceValue": "2",
+      "choiceText": "Thể hiện năng lực cao nhất",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D04",
+      "area": "D",
+      "question": "D04. Người xem cần hiểu gì trước tiên về mỗi dự án?",
+      "choiceValue": "2",
+      "choiceText": "Sản phẩm trông và hoạt động ra sao",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D05",
+      "area": "D",
+      "question": "D05. Vai trò của bạn nên được kể ở mức nào?",
+      "choiceValue": "1",
+      "choiceText": "Một câu tóm tắt rõ ràng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D06",
+      "area": "D",
+      "question": "D06. Kết quả nào bạn có thể chứng minh cho các dự án?",
+      "choiceValue": "3",
+      "choiceText": "Chủ yếu có sản phẩm chạy được",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D07",
+      "area": "D",
+      "question": "D07. Khi chưa có số liệu đáng tin, bạn muốn dùng bằng chứng nào?",
+      "choiceValue": "1",
+      "choiceText": "Sản phẩm thực tế",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D08",
+      "area": "D",
+      "question": "D08. Bạn muốn đưa mức độ hoàn thiện của dự án lên trang ra sao?",
+      "choiceValue": "1",
+      "choiceText": "Nêu rõ đang phát triển hay đã dùng được",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D09",
+      "area": "D",
+      "question": "D09. Ảnh hiện tại cần thay đổi điều gì?",
+      "choiceValue": "1",
+      "choiceText": "Giữ ảnh, sắp xếp lại",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D10",
+      "area": "D",
+      "question": "D10. Bạn muốn người xem trải nghiệm sản phẩm bằng cách nào?",
+      "choiceValue": "2",
+      "choiceText": "Xem đoạn minh họa ngắn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D11",
+      "area": "D",
+      "question": "D11. Khi bấm xem dự án, điểm đến ưu tiên là đâu?",
+      "choiceValue": "1",
+      "choiceText": "Câu chuyện chi tiết trên portfolio",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D12",
+      "area": "D",
+      "question": "D12. Nếu một dự án chưa có bản dùng thử công khai, nên giới thiệu thế nào?",
+      "choiceValue": "1",
+      "choiceText": "Cho xem ảnh và quá trình sử dụng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D13",
+      "area": "D",
+      "question": "D13. Khó khăn nào trong dự án đáng được kể?",
+      "choiceValue": "2",
+      "choiceText": "Giới hạn thời gian và nguồn lực",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D14",
+      "area": "D",
+      "question": "D14. Bạn muốn kể sai lầm và bài học đến mức nào?",
+      "choiceValue": "3",
+      "choiceText": "Tập trung vào giải pháp cuối cùng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D15",
+      "area": "D",
+      "question": "D15. Thông tin nào của dự án cần tránh công khai?",
+      "choiceValue": "2",
+      "choiceText": "Thông tin chưa được phép chia sẻ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D16",
+      "area": "D",
+      "question": "D16. Bạn muốn ghi nhận người cùng làm theo cách nào?",
+      "choiceValue": "1",
+      "choiceText": "Nêu nhóm và phần đóng góp",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D17",
+      "area": "D",
+      "question": "D17. Với Vixie, điều gì cần nổi bật nhất?",
+      "choiceValue": "1",
+      "choiceText": "Ý tưởng và trải nghiệm người dùng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D18",
+      "area": "D",
+      "question": "D18. Với website đặt xe, điều gì cần nổi bật nhất?",
+      "choiceValue": "3",
+      "choiceText": "Cách phối hợp để hoàn thành",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D19",
+      "area": "D",
+      "question": "D19. Với game 2D, điều gì khiến bạn muốn giữ lại?",
+      "choiceValue": "3",
+      "choiceText": "Chặng đường học hỏi của tôi",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "D20",
+      "area": "D",
+      "question": "D20. Người xem nên tìm dự án phù hợp bằng cách nào?",
+      "choiceValue": "1",
+      "choiceText": "Xem một danh sách ngắn đã chọn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E01",
+      "area": "E",
+      "question": "E01. Chuyển động nên giúp người xem cảm nhận điều gì?",
+      "choiceValue": "1",
+      "choiceText": "Tôi có gu và sự tinh tế",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E02",
+      "area": "E",
+      "question": "E02. Bạn muốn nhịp tổng thể của trang gần điều gì?",
+      "choiceValue": "3",
+      "choiceText": "Thay đổi nhịp theo nội dung",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E03",
+      "area": "E",
+      "question": "E03. Khoảnh khắc nào đáng có màn xuất hiện ấn tượng nhất?",
+      "choiceValue": "2",
+      "choiceText": "Lần đầu thấy dự án chính",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E04",
+      "area": "E",
+      "question": "E04. Sau phần mở đầu, mức chuyển động nên thế nào?",
+      "choiceValue": "2",
+      "choiceText": "Vẫn sống động ở các điểm chính",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E05",
+      "area": "E",
+      "question": "E05. Bạn muốn chữ chuyển động phục vụ điều gì?",
+      "choiceValue": "2",
+      "choiceText": "Thể hiện cá tính qua tiêu đề",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E06",
+      "area": "E",
+      "question": "E06. Những phần chữ nào cần đứng yên để đọc dễ?",
+      "choiceValue": "1",
+      "choiceText": "Mọi đoạn mô tả dài",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E07",
+      "area": "E",
+      "question": "E07. Khi tiêu đề xuất hiện, cảm giác nào đúng ý bạn?",
+      "choiceValue": "3",
+      "choiceText": "Biến đổi hình dáng rồi trở nên rõ ràng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E08",
+      "area": "E",
+      "question": "E08. Chữ có nên lặp chuyển động sau khi đã đọc được?",
+      "choiceValue": "3",
+      "choiceText": "Lặp khi người xem chủ động tương tác",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E09",
+      "area": "E",
+      "question": "E09. Bạn muốn hình ảnh dự án chuyển động để làm gì?",
+      "choiceValue": "2",
+      "choiceText": "Dẫn mắt tới tính năng quan trọng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E10",
+      "area": "E",
+      "question": "E10. Những hình ảnh trừu tượng nên có vai trò gì?",
+      "choiceValue": "1",
+      "choiceText": "Tạo không khí phía sau nội dung",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E11",
+      "area": "E",
+      "question": "E11. Khi kéo trang, bạn mong nội dung phản ứng ra sao?",
+      "choiceValue": "2",
+      "choiceText": "Hé lộ câu chuyện theo từng đoạn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E12",
+      "area": "E",
+      "question": "E12. Bạn có chấp nhận một cảnh ở lại lâu hơn khi kéo trang không?",
+      "choiceValue": "1",
+      "choiceText": "Có, nếu cảnh đó kể được điều quan trọng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E13",
+      "area": "E",
+      "question": "E13. Khi di chuột hoặc chạm vào một mục, phản hồi nên thế nào?",
+      "choiceValue": "2",
+      "choiceText": "Có sức hút và chiều sâu rõ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E14",
+      "area": "E",
+      "question": "E14. Bạn muốn chất kính thay đổi theo tương tác đến đâu?",
+      "choiceValue": "2",
+      "choiceText": "Có cảm giác mềm và dịch chuyển",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E15",
+      "area": "E",
+      "question": "E15. Cảnh chuyển giữa trang chủ và liên hệ nên đem lại cảm giác gì?",
+      "choiceValue": "2",
+      "choiceText": "Có một nhịp chuyển ngắn đáng nhớ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E16",
+      "area": "E",
+      "question": "E16. Nếu người xem quay lại trang, màn mở đầu nên xử lý ra sao?",
+      "choiceValue": "1",
+      "choiceText": "Cho vào nội dung ngay",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E17",
+      "area": "E",
+      "question": "E17. Nếu người xem nhạy với chuyển động, bạn muốn họ nhận trải nghiệm nào?",
+      "choiceValue": "3",
+      "choiceText": "Có lựa chọn riêng dễ thấy để giảm chuyển động",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E18",
+      "area": "E",
+      "question": "E18. Trên điện thoại, điều gì quan trọng nhất với các hiệu ứng?",
+      "choiceValue": "1",
+      "choiceText": "Vẫn nhận ra cá tính nhưng gọn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "E19",
+      "area": "E",
+      "question": "E19. Âm thanh có vai trò nào trong trải nghiệm bạn hình dung?",
+      "choiceValue": "2",
+      "choiceText": "Chỉ phát khi người xem tự bật",
+      "note": "Cho phát nhạc nền fix cứng do tôi chọn tại toàn site, lặp vô hạn",
+      "status": "answered"
+    },
+    {
+      "id": "E20",
+      "area": "E",
+      "question": "E20. Điều gì khiến chuyển động vượt mức bạn chấp nhận?",
+      "choiceValue": "3",
+      "choiceText": "Lặp nhiều đến mức che câu chuyện",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F01",
+      "area": "F",
+      "question": "F01. Bạn muốn kể về bản thân theo góc nào?",
+      "choiceValue": "3",
+      "choiceText": "Điều tôi muốn xây trong tương lai",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F02",
+      "area": "F",
+      "question": "F02. Danh xưng nghề nghiệp hiện tại có phản ánh đúng bạn không?",
+      "choiceValue": "1",
+      "choiceText": "Giữ Software Developer",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F03",
+      "area": "F",
+      "question": "F03. Dòng Prompt Engineering ở đầu trang hiện tại nên được xử lý thế nào?",
+      "choiceValue": "1",
+      "choiceText": "Giữ vì đây là thế mạnh chính",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F04",
+      "area": "F",
+      "question": "F04. Ba năng lực nào bạn muốn được nhớ nhất?",
+      "choiceValue": "1",
+      "choiceText": "Xây ứng dụng, kết nối hệ thống, hoàn thiện sản phẩm",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F05",
+      "area": "F",
+      "question": "F05. Bạn muốn kỹ năng được thể hiện bằng gì?",
+      "choiceValue": "2",
+      "choiceText": "Bằng chứng trong dự án",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F06",
+      "area": "F",
+      "question": "F06. Bạn thích mô tả mức độ thành thạo theo cách nào?",
+      "choiceValue": "3",
+      "choiceText": "Không phân cấp, để dự án chứng minh",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F07",
+      "area": "F",
+      "question": "F07. Các con số 3+ năm và 20+ dự án hiện tại nên được xử lý ra sao?",
+      "choiceValue": "3",
+      "choiceText": "Bỏ số lượng, tập trung vào chất lượng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F08",
+      "area": "F",
+      "question": "F08. Kinh nghiệm làm việc nên xuất hiện ở mức nào?",
+      "choiceValue": "1",
+      "choiceText": "Một dòng thời gian ngắn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F09",
+      "area": "F",
+      "question": "F09. Học vấn và chứng chỉ cần được nhấn mạnh thế nào?",
+      "choiceValue": "3",
+      "choiceText": "Chỉ giữ trong hồ sơ xin việc",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F10",
+      "area": "F",
+      "question": "F10. Bạn muốn thể hiện cách làm việc với người khác bằng gì?",
+      "choiceValue": "2",
+      "choiceText": "Nguyên tắc làm việc ngắn gọn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F11",
+      "area": "F",
+      "question": "F11. Bạn đã có lời nhận xét nào được phép công khai chưa?",
+      "choiceValue": "3",
+      "choiceText": "Chưa có, không cần đưa vào lúc này",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F12",
+      "area": "F",
+      "question": "F12. Sở thích cá nhân nào đáng kể trên trang?",
+      "choiceValue": "undecided",
+      "choiceText": "Chưa chốt, cần trao đổi thêm",
+      "note": "",
+      "status": "needs-discussion"
+    },
+    {
+      "id": "F13",
+      "area": "F",
+      "question": "F13. Ảnh cá nhân hiện tại có phù hợp hướng mới không?",
+      "choiceValue": "3",
+      "choiceText": "Tôi muốn thay ảnh",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F14",
+      "area": "F",
+      "question": "F14. Bạn muốn giọng văn giới thiệu giống cách nói nào?",
+      "choiceValue": "1",
+      "choiceText": "Ngắn, tự tin và trực tiếp",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F15",
+      "area": "F",
+      "question": "F15. Bạn muốn xưng hô với người xem ra sao?",
+      "choiceValue": "3",
+      "choiceText": "Hạn chế xưng hô, viết thật gọn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F16",
+      "area": "F",
+      "question": "F16. Khi nhắc việc dùng AI trong quá trình làm sản phẩm, bạn muốn nói điều gì?",
+      "choiceValue": "2",
+      "choiceText": "Nêu như một công cụ hỗ trợ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F17",
+      "area": "F",
+      "question": "F17. Dòng ghi công cuối trang hiện tại nên kể đúng điều gì?",
+      "choiceValue": "3",
+      "choiceText": "Một câu ký tên đơn giản",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F18",
+      "area": "F",
+      "question": "F18. Hồ sơ xin việc hiện tại đã sẵn sàng chia sẻ chưa?",
+      "choiceValue": "1",
+      "choiceText": "Sẵn sàng, giữ đường dẫn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F19",
+      "area": "F",
+      "question": "F19. Bạn có muốn thêm nội dung chia sẻ chuyên môn lần này không?",
+      "choiceValue": "3",
+      "choiceText": "Chưa cần, tập trung portfolio",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "F20",
+      "area": "F",
+      "question": "F20. Nội dung nào bạn cần tự cung cấp trước khi có thể chốt trang?",
+      "choiceValue": "2",
+      "choiceText": "Ảnh, hồ sơ và lời giới thiệu",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G01",
+      "area": "G",
+      "question": "G01. Bạn muốn người xem liên hệ trước tiên qua đâu?",
+      "choiceValue": "2",
+      "choiceText": "Điền lời nhắn trên trang",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G02",
+      "area": "G",
+      "question": "G02. Một lời mời phù hợp cần nói rõ điều gì ngay từ đầu?",
+      "choiceValue": "2",
+      "choiceText": "Mục tiêu sản phẩm cần làm",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G03",
+      "area": "G",
+      "question": "G03. Người gửi nên cung cấp bao nhiêu thông tin?",
+      "choiceValue": "3",
+      "choiceText": "Cho chọn loại trao đổi rồi viết ngắn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G04",
+      "area": "G",
+      "question": "G04. Có cần phân biệt người tuyển dụng và người thuê làm dự án không?",
+      "choiceValue": "1",
+      "choiceText": "Có, để gợi ý nội dung phù hợp",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G05",
+      "area": "G",
+      "question": "G05. Lời mời liên hệ nên tạo cảm giác nào?",
+      "choiceValue": "1",
+      "choiceText": "Chuyên nghiệp, rõ mục đích",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G06",
+      "area": "G",
+      "question": "G06. Bạn muốn nêu điều kiện nhận việc ở đâu?",
+      "choiceValue": "3",
+      "choiceText": "Trao đổi riêng sau khi nhận lời mời",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G07",
+      "area": "G",
+      "question": "G07. Nếu có thể cam kết, thời gian phản hồi nên được nói ra sao?",
+      "choiceValue": "2",
+      "choiceText": "Nói sẽ phản hồi khi sớm nhất có thể",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G08",
+      "area": "G",
+      "question": "G08. Sau khi gửi thành công, người xem cần biết điều gì?",
+      "choiceValue": "1",
+      "choiceText": "Lời nhắn đã được nhận",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G09",
+      "area": "G",
+      "question": "G09. Nếu gửi không thành công, họ nên được giúp tiếp thế nào?",
+      "choiceValue": "2",
+      "choiceText": "Cho gửi thư trực tiếp với nội dung đã viết",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G10",
+      "area": "G",
+      "question": "G10. Nếu người xem chưa điền đủ, cách nhắc nào phù hợp?",
+      "choiceValue": "3",
+      "choiceText": "Vừa chỉ chỗ thiếu vừa giải thích cần gì",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G11",
+      "area": "G",
+      "question": "G11. Địa chỉ email nên được hiển thị ra sao?",
+      "choiceValue": "1",
+      "choiceText": "Hiện rõ và dễ sao chép",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G12",
+      "area": "G",
+      "question": "G12. Các kênh Facebook, GitHub và LinkedIn hiện tại nên giữ thế nào?",
+      "choiceValue": "1",
+      "choiceText": "Giữ cả ba",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G13",
+      "area": "G",
+      "question": "G13. Bạn có muốn người xem đặt lịch trao đổi trực tiếp không?",
+      "choiceValue": "3",
+      "choiceText": "Chưa cần, nhắn trước là đủ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G14",
+      "area": "G",
+      "question": "G14. Bạn có muốn cho gửi kèm hồ sơ mô tả công việc hoặc dự án không?",
+      "choiceValue": "1",
+      "choiceText": "Cần ngay trong đợt này",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G15",
+      "area": "G",
+      "question": "G15. Người chưa chắc hợp tác có thể mở lời theo cách nào?",
+      "choiceValue": "1",
+      "choiceText": "Gửi câu hỏi ngắn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G16",
+      "area": "G",
+      "question": "G16. Nếu hiện tại chưa nhận việc, phần liên hệ nên nói gì?",
+      "choiceValue": "1",
+      "choiceText": "Vẫn đón trao đổi dài hạn",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G17",
+      "area": "G",
+      "question": "G17. Bạn muốn công khai thông tin cá nhân tới đâu?",
+      "choiceValue": "1",
+      "choiceText": "Email công việc và thành phố",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G18",
+      "area": "G",
+      "question": "G18. Bạn muốn giải thích việc sử dụng thông tin người gửi như thế nào?",
+      "choiceValue": "1",
+      "choiceText": "Một câu ngắn: chỉ dùng để trả lời trao đổi",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G19",
+      "area": "G",
+      "question": "G19. Bạn có cần phục vụ người gửi bằng cả tiếng Việt và tiếng Anh không?",
+      "choiceValue": "1",
+      "choiceText": "Có, cả lời mời và thông báo",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "G20",
+      "area": "G",
+      "question": "G20. Sau cuộc trao đổi đầu tiên, bước nào bạn muốn người phù hợp tiến tới?",
+      "choiceValue": "2",
+      "choiceText": "Trao đổi nhu cầu và phạm vi dự án",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H01",
+      "area": "H",
+      "question": "H01. Lần nâng cấp này cần bao phủ tới đâu?",
+      "choiceValue": "1",
+      "choiceText": "Toàn bộ trang hiện có và các trạng thái phụ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H02",
+      "area": "H",
+      "question": "H02. Bạn có muốn bổ sung phần mới ngoài nội dung hiện tại không?",
+      "choiceValue": "1",
+      "choiceText": "Trang kể sâu từng dự án",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H03",
+      "area": "H",
+      "question": "H03. Ba kết quả nào bắt buộc có trước khi ra mắt?",
+      "choiceValue": "2",
+      "choiceText": "Câu chuyện cuốn hút, chuyển động đẹp, điện thoại dễ dùng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H04",
+      "area": "H",
+      "question": "H04. Điều gì có thể lùi sang lần sau nếu cần?",
+      "choiceValue": "2",
+      "choiceText": "Dự án bổ sung",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H05",
+      "area": "H",
+      "question": "H05. Bạn có mốc nào cần dùng portfolio mới không?",
+      "choiceValue": "3",
+      "choiceText": "Chưa có hạn cố định",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H06",
+      "area": "H",
+      "question": "H06. Khi thời gian không đủ, bạn muốn điều chỉnh gì trước?",
+      "choiceValue": "undecided",
+      "choiceText": "Chưa chốt, cần trao đổi thêm",
+      "note": "",
+      "status": "needs-discussion"
+    },
+    {
+      "id": "H07",
+      "area": "H",
+      "question": "H07. Phần nào của website hiện tại tuyệt đối phải tiếp tục dùng được?",
+      "choiceValue": "1",
+      "choiceText": "Hồ sơ và các đường dẫn dự án",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H08",
+      "area": "H",
+      "question": "H08. Người xem chủ yếu mở trang trong hoàn cảnh nào?",
+      "choiceValue": "3",
+      "choiceText": "Cả hai đều quan trọng",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H09",
+      "area": "H",
+      "question": "H09. Nếu điện thoại yếu hoặc mạng chậm, trải nghiệm nên ưu tiên gì?",
+      "choiceValue": "1",
+      "choiceText": "Hiện chữ và hành động chính trước",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H10",
+      "area": "H",
+      "question": "H10. Nếu phải chờ tải hình ảnh, người xem nên thấy gì?",
+      "choiceValue": "2",
+      "choiceText": "Một dấu hiệu chờ ngắn, dễ hiểu",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H11",
+      "area": "H",
+      "question": "H11. Bạn muốn người dùng chỉ dùng bàn phím làm được những việc nào?",
+      "choiceValue": "1",
+      "choiceText": "Đọc mọi phần và mở mọi hành động",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H12",
+      "area": "H",
+      "question": "H12. Khi người xem phóng to chữ, điều gì phải được giữ?",
+      "choiceValue": "1",
+      "choiceText": "Đọc đủ và không mất nội dung",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H13",
+      "area": "H",
+      "question": "H13. Lựa chọn sáng/tối hiện tại cần tiếp tục thế nào?",
+      "choiceValue": "1",
+      "choiceText": "Giữ cả hai với chất lượng tương đương",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H14",
+      "area": "H",
+      "question": "H14. Nếu một hình ảnh hoặc hiệu ứng không hiện được, trang cần làm gì?",
+      "choiceValue": "1",
+      "choiceText": "Vẫn đọc và dùng đầy đủ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H15",
+      "area": "H",
+      "question": "H15. Bạn có sẵn sàng mua thêm tư liệu phục vụ diện mạo mới không?",
+      "choiceValue": "1",
+      "choiceText": "Ưu tiên tư liệu sẵn có hoặc miễn phí",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H16",
+      "area": "H",
+      "question": "H16. Sau ra mắt, bạn dự kiến cập nhật nội dung thường xuyên đến đâu?",
+      "choiceValue": "1",
+      "choiceText": "Mỗi khi có dự án hoặc cơ hội mới",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H17",
+      "area": "H",
+      "question": "H17. Khi thêm dự án sau này, điều gì cần dễ giữ nhất?",
+      "choiceValue": "1",
+      "choiceText": "Cùng phong cách với phần cũ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H18",
+      "area": "H",
+      "question": "H18. Bạn muốn biết portfolio hiệu quả qua dấu hiệu nào?",
+      "choiceValue": "2",
+      "choiceText": "Người xem tới dự án và liên hệ",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H19",
+      "area": "H",
+      "question": "H19. Ai nên xem thử trước khi bạn công khai bản mới?",
+      "choiceValue": "3",
+      "choiceText": "Tôi tự xem và chốt",
+      "note": "",
+      "status": "answered"
+    },
+    {
+      "id": "H20",
+      "area": "H",
+      "question": "H20. Tình huống nào khiến bạn chưa chấp nhận ra mắt?",
+      "choiceValue": "1",
+      "choiceText": "Đẹp nhưng khó đọc hoặc khó dùng",
+      "note": "",
+      "status": "answered"
+    }
+  ],
+  "closingNotes": ""
+}
