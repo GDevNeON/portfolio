@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "description": "Project policy read through AGENTS.md; not a native GSD config schema.",
+  "execution": {
+    "mode": "inline",
+    "allow_subagents": false,
+    "phase_start": "explicit_user_request",
+    "research_policy": "on_demand",
+    "verification_policy": "general_review_at_final_phase",
+    "required_checks": "targeted_checks_and_visual_critique_still_apply",
+    "reference_discussion_before_mockups": true
+  },
+  "ui_quality": {
+    "taste_skill": "design-taste-frontend",
+    "critique_skill": "impeccable",
+    "impeccable_status": "unresolved_local_path",
+    "brand_precedence": "cinematic_glass_user_brief_over_skill_defaults"
+  },
+  "source": ".planning/discovery/answers-2026-10-19-final.json",
+  "questions": [
+    "J01",
+    "J04",
+    "J05",
+    "J06",
+    "J07",
+    "J08",
+    "J19"
+  ],
+  "scope": "Apply during explicitly requested work; never auto-start a phase."
+}
