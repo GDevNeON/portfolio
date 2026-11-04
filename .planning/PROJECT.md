@@ -152,6 +152,12 @@ Ghi chú trả lại cùng questionnaire yêu cầu taste-skill để tạo hư�
 | Tự gọi từng chặng, kiểm cách làm trước, tổng kiểm ở cuối | J01/J06/J07 | Chốt; cấu hình và workflow-policy ghi đúng lựa chọn |
 | Trao đổi tham khảo trước dựng mẫu | J19 | Chốt; art direction còn mở |
 
+## Design extension — 2026-11-04
+
+- Chủ portfolio giữ nguyên yêu cầu đã khóa và bổ sung trải nghiệm kể chuyện fantasy 3D từ đúng 7 ảnh trong `src/assets/resources/`. Giữ đúng đồ họa, không gian, không khí và thẩm mỹ của từng ảnh (yêu cầu 100%); không low-poly. Tạo chuyển động tự nhiên ở phần có thể chuyển động; camera đổi vị trí/góc theo cuộn.
+- “Từ vực sâu đến đỉnh cao” là chủ đề gợi ý. Thứ tự, điểm nối, khung đối chiếu, vùng chưa có tư liệu, vị trí nội dung thật và chặng tích hợp còn cần chốt. Không đổi 58 yêu cầu/7 chặng, không hủy hướng mở đầu C hoặc tự duyệt menu Sketch 002.
+- Bản đối chiếu ảnh và đề xuất kỹ thuật: [.planning/quick/261104-q6d-record-fantasy-journey-design-extension-/SUMMARY.md](quick/261104-q6d-record-fantasy-journey-design-extension-/SUMMARY.md). Vùng xám Q01–Q20 nằm trong [HTML chung](discovery/project-questions.html#fantasy-journey).
+
 ## Evolution
 
 Sau mỗi chặng: đối chiếu mục tiêu với hành vi đã kiểm chứng, cập nhật yêu cầu/điểm còn chờ, ghi quyết định mới và điều chỉnh mô tả nếu thực tế thay đổi. Chỉ chuyển Active sang Validated khi có bằng chứng phù hợp. Sau mỗi mốc phát hành: rà lại giá trị cốt lõi, mục tiêu cơ hội, phạm vi và tư liệu; không biến mục tạm hoãn thành hoàn tất.

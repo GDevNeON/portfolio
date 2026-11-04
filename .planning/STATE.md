@@ -44,7 +44,13 @@ Progress: [░░░░░░░░░░] 0%
 
 ### Pending Todos
 
-No additional backlog items captured. Content dependencies below are not completed tasks.
+- 2026-11-04: Đã ghi mở rộng fantasy 3D từ đúng 7 art; chờ trả lời vùng Q trong `.planning/discovery/project-questions.html`. Giữ hướng mở đầu C và checkpoint menu Sketch 002. Chưa bắt đầu mẫu fantasy, UI-SPEC, kế hoạch hay triển khai.
+
+### Quick Tasks Completed
+
+| ID | Date | Result |
+|---|---|---|
+| 261104-q6d | 2026-11-04 | [Đối chiếu 7 art, đề xuất kỹ thuật và thêm vùng Q](quick/261104-q6d-record-fantasy-journey-design-extension-/SUMMARY.md); quyết định vùng xám vẫn mở. |
 
 ### Blockers / Concerns
 
