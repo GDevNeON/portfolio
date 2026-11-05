@@ -1,7 +1,7 @@
 # Requirements: Neon Portfolio — Cinematic Personal World
 
 **Defined:** 2026-10-19
-**Approved baseline:** 58 yêu cầu theo J17 ngày 19/10/2026. **Mở rộng:** 16 yêu cầu từ Q01–Q20 và ghi chú trực tiếp ngày 05/11/2026; 74 yêu cầu / 5 phase, chưa triển khai.
+**Approved baseline:** 58 yêu cầu theo J17 ngày 19/10/2026. **Mở rộng:** 16 yêu cầu từ Q01–Q20 và ghi chú trực tiếp ngày 05/11/2026; 74 yêu cầu / 5 phase, chưa triển khai. S01–S20 ngày 05/11 chốt chi tiết FOOT-01/02, không thêm mã.
 **Core Value:** Người xem nhớ Bùi Bảo Long và tin khả năng xây sản phẩm qua các dự án được kể rõ, đẹp và dễ khám phá.
 
 ## Quy tắc áp dụng quyết định mới — 2026-11-05
@@ -129,8 +129,8 @@ Chi tiết nguồn, phần giao sáng tạo và ngoại lệ art: [hợp đồng
 
 ### Footer và số khách
 
-- [ ] **FOOT-01**: Footer cao một viewport, có tên bảy ảnh, tên BGM và social link cùng ghi công/nguồn xác minh được; màn nhỏ/phóng chữ vẫn đọc đủ, không cắt mất nội dung. (Nguồn: Q19; QUALITY-01/03).
-- [ ] **FOOT-02**: Footer có unique visitor counter, DAU và MAU từ dữ liệu thật; không giả số. Định nghĩa đo, mốc bắt đầu, quyền riêng tư và trạng thái thiếu dữ liệu cần chốt ở vùng S trước tích hợp; chỉ số ngoài ba mục chưa được xác định. (Nguồn: Q19; vùng S mới).
+- [ ] **FOOT-01**: Footer cao một viewport, có tên bảy ảnh/BGM và ghi công/nguồn xác minh được, liên hệ, social link, số liệu có giải thích; QR donate chờ owner gửi đúng đích sau, không tự tạo. Màn nhỏ/phóng chữ vẫn đọc đủ, không cắt mất nội dung. (Nguồn: Q19; S15/S16; QUALITY-01/03).
+- [ ] **FOOT-02**: Footer có unique từ ngày hoàn thành milestone, DAU theo ngày VN và MAU 30 ngày gồm ngày thống kê, tính riêng thiết bị mở bất kỳ trang nào. Loại owner/bot/spam và lượt thử; số đầy đủ, snapshot hằng ngày, lỗi dùng số gần nhất. Có giải thích, rate limit/IP chống lạm dụng; người từ chối nhận diện chỉ góp tổng lượt vô danh, không giả unique. S20 giao chọn Workers + D1 cho Phase 4; chi tiết/mốc chưa có và giới hạn trong hợp đồng S. (Nguồn: Q19; S01–S20).
 
 ## v2 Requirements
 
@@ -146,7 +146,7 @@ Chi tiết nguồn, phần giao sáng tạo và ngoại lệ art: [hợp đồng
 | Học vấn/chứng chỉ ở trang chính | F09 giữ ở CV |
 | Số 3+/20+, phân hạng kỹ năng, dữ kiện/vai trò tự thêm | F06/F07/I14/I16/I17 |
 | Tự phát nhạc / nhớ nghe giữa lần mở mới | E19/I07 chọn bật chủ động và nhớ trong phiên |
-| Mua dịch vụ, triển khai công khai, tự chọn analytics bên ngoài | Q19 duyệt chỉ số footer, chưa chọn cách đo/dịch vụ/chi phí; không tự deploy hoặc mua |
+| Mua/nâng gói hoặc triển khai công khai dịch vụ đo | S20 giao chọn hướng Workers + D1; không cấp quyền mua, tạo/cấu hình account hoặc tự deploy |
 
 ## Pending Content and Integration Dependencies
 
@@ -156,7 +156,7 @@ Chi tiết nguồn, phần giao sáng tạo và ngoại lệ art: [hợp đồng
 - Head metadata cần output/host được kiểm chứng; frontend useEffect không đủ bằng chứng mọi bot xem đúng.
 - Taste-skill và Impeccable 4.6.0 đã được định vị và đọc. Dùng các skill trong công việc UI được giao; chưa có nghiệm thu UI trong init.
 
-- Footer: vùng S chưa trả lời; ba chỉ số bắt buộc đã chốt, định nghĩa/nguồn dữ liệu chưa chốt. Không suy quyền dùng art từ ghi công.
+- Footer: S01–S20 đã nhận, [hợp đồng S](discovery/footer-statistics-context-2026-11-05.md) chốt nghiệp vụ và hướng Workers + D1 theo ủy quyền. Ngày hoàn thành milestone, account/host thực tế và QR donate còn phụ thuộc; không phải câu S chưa trả lời. Không suy quyền dùng art từ ghi công.
 
 ## Traceability
 

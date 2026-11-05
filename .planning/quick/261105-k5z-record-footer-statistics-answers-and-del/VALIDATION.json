@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05",
+  "status": "passed",
+  "evidence": "static-document-and-native-parser-only",
+  "answers": 20,
+  "requirementIdsUnchanged": 74,
+  "onlyFootRequirementTextChanged": true,
+  "fivePhaseMappingComplete": true,
+  "phase4NativeSuccessCriteria": 5,
+  "oldHtmlPreservedOutsideReceipt": true,
+  "newCssOrScripts": 0,
+  "nativeConfigAndPolicyUnchanged": true,
+  "priorQAnswerArchiveUnchanged": true,
+  "runtimeOrServiceEvidence": false
+}

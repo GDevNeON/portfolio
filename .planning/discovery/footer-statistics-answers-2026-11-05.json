@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "receivedDate": "2026-11-05",
+  "source": "direct-user-message-in-current-chat",
+  "questionnaire": ".planning/discovery/project-questions.html#footer-statistics",
+  "answers": [
+    { "id": "S01", "answer": "Tính từ ngày hoàn thành milestone này" },
+    { "id": "S02", "answer": "Bắt đầu từ ngày hoàn thành milestone này" },
+    { "id": "S03", "answer": "Chỉ cần mở trang đã tính là hoạt động" },
+    { "id": "S04", "answer": "Đổi theo giờ VN" },
+    { "id": "S05", "answer": "30 ngày gần nhất tính đến hôm nay" },
+    { "id": "S06", "answer": "Tính riêng thiết bị" },
+    { "id": "S07", "answer": "Có" },
+    { "id": "S08", "answer": "Loại hết" },
+    { "id": "S09", "answer": "Có" },
+    { "id": "S10", "answer": "Defer bản xem thử" },
+    { "id": "S11", "answer": "Hiện số đầy đủ" },
+    { "id": "S12", "answer": "Cập nhật theo ngày" },
+    { "id": "S13", "answer": "Số gần nhất" },
+    { "id": "S14", "answer": "Không quan tâm" },
+    { "id": "S15", "answer": "Thêm liên hệ, social link, QR donate (Tôi thêm sau)" },
+    { "id": "S16", "answer": "Có giải thích" },
+    { "id": "S17", "answer": "Cần Rate limit/IP Address" },
+    { "id": "S18", "answer": "Số hiện tại" },
+    { "id": "S19", "answer": "Cứ giữ tổng lượt xem" },
+    { "id": "S20", "answer": "Agent decide" }
+  ],
+  "delegation": { "question": "S20", "scope": "Choose measurement approach; not permission to purchase, deploy, or start a phase." },
+  "interpretations": {
+    "S10": "Preview-count inclusion is deferred/excluded from production totals; does not independently cancel other authorized preview workflows.",
+    "S14": "No additional incomplete-day badge is required; never fabricate missing measurements.",
+    "S15": "Footer contact/social/QR content, not additional click/conversion counters. QR material will be supplied later by the owner.",
+    "S17": "IP-based abuse prevention/rate limiting required; raw-IP history/publication is not requested.",
+    "S19": "Keep anonymous aggregate pageviews for visitors declining identification; do not infer a unique visitor identity for them."
+  },
+  "executionAuthorization": { "recordDecisions": true, "selectMeasurementApproach": true, "startPhase": false, "deploy": false, "purchase": false, "allowSubagents": false }
+}

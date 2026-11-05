@@ -12,7 +12,7 @@ Customers looking for someone to build an application and people seeking a produ
 
 ## Product Purpose
 
-Bùi Bảo Long's personal portfolio helps visitors remember Long and evaluate application-building work through clear project stories. Success means deeper project exploration and an accessible contact path; the owner now requires public unique visitors, DAU and MAU in the footer (Q19, 2026-11-05), but definitions, data source, service and numeric success thresholds remain unapproved.
+Bùi Bảo Long's personal portfolio helps visitors remember Long and evaluate application-building work through clear project stories. Success means deeper project exploration and an accessible contact path; the owner now requires public unique visitors, DAU and MAU in the footer (Q19, 2026-11-05), S01–S20 now define the metrics and delegate the measurement choice. Workers + D1 is selected as the Phase 4 direction; account setup/deployment and numeric success thresholds are not approved.
 
 ## Positioning
 
@@ -26,7 +26,7 @@ An existing React/TypeScript/Vite portfolio with home and contact routes. Visito
 
 Phase 1 covers the R02 entrance, shared glass controls, VI/EN, appearance and reduced motion. Phase 2 completes the continuous seven-scene world; Phase 3 integrates verified personal content and deep project pages; Phase 4 owns contact/PDF, audio and the one-viewport footer with real counters. Phase 5 performs the full integration review. Language changes must preserve the current content and any contact text. Explicit language/theme choices take precedence over device defaults.
 
-No deployment, purchase, new provider or global tool installation is authorized. Work remains inline and sequential. Prototype behavior is identified as simulated; screenshots and source checks cannot prove release, delivery or device performance.
+No deployment, purchase, provider account creation/configuration or global tool installation is authorized by this discovery task. S20 delegates selecting the measurement approach, now Workers + D1. Work remains inline and sequential. Prototype behavior is identified as simulated; screenshots and source checks cannot prove release, delivery or device performance.
 
 ## Brand Commitments
 
@@ -42,7 +42,7 @@ Keep the source aesthetic, rich detail and environment. Remove all character ele
 
 Typography belongs to the scenery: R01 title on the cliff summit, body engraved on its wall; other placement is delegated from the art. Normal visible scenes remain alive while idle. Reduced motion freezes every entity and uses lower detail while preserving content and controls. Returning from a project resumes the same scene. Original image files remain references, not files to overwrite; literal pixel equivalence cannot be claimed for the approved edits or new viewpoints.
 
-Footer is one viewport with art/BGM names, credits, social links and true unique visitors/DAU/MAU. Additional metrics and measurement rules remain open in questionnaire area S. A conditional R02 trial is the first scene trial if explicitly requested; this update does not start it or select a Sketch 002 menu.
+Footer is one viewport with art/BGM names, credits, contact/social links, explained unique visitors/DAU/MAU, and a donate QR once supplied by the owner. S01–S20 are answered: measurement starts at milestone completion; opening any route is activity; separate devices, Vietnam days, rolling 30 calendar days; exclude owner/bots/spam/preview. Display full daily snapshots, retain the last confirmed value on failure. Non-identifying aggregate pageviews remain for opt-out visitors without inflating unique counts; require IP-based rate limiting. Current totals only, with minimal technical state for deduplication. Workers + D1 is the delegated choice, not a configured service. No extra click/donation metrics were requested. A conditional R02 trial is the first scene trial if explicitly requested; this update does not start it or select a Sketch 002 menu.
 
 ## Evidence on Hand
 
@@ -62,4 +62,4 @@ Keyboard operation, visible focus, readable contrast, enlarged text, reduced mot
 
 ## Sources and Open Decisions
 
-This record reuses the owner's existing approved discovery and Phase 1 confirmation; it is not a new interview or a competing requirements list. Current fantasy sources: `.planning/discovery/fantasy-journey-answers-2026-11-05.json` and `.planning/discovery/fantasy-journey-context-2026-11-05.md`; these supersede conflicting entrance/source-art assumptions, without approving a final UI. Baseline sources: `.planning/PROJECT.md`, `.planning/REQUIREMENTS.md`, `.planning/ROADMAP.md`, `.planning/phases/NEON-01-di-n-m-o-v-l-i-v-o-d-ng-c/01-CONTEXT.md`, and `.planning/discovery/phase-1-confirmation-2026-10-22.json`. Palette, typography, motif, translations and layout remain proposals until reviewed. The user requested HTML sketch exploration before UI-SPEC and PLAN artifacts; no standing Impeccable build-path preference is inferred or stored.
+This record reuses the owner's existing approved discovery and Phase 1 confirmation; it is not a new interview or a competing requirements list. Current footer sources: `.planning/discovery/footer-statistics-answers-2026-11-05.json` and `.planning/discovery/footer-statistics-context-2026-11-05.md`. Current fantasy sources: `.planning/discovery/fantasy-journey-answers-2026-11-05.json` and `.planning/discovery/fantasy-journey-context-2026-11-05.md`; these supersede conflicting entrance/source-art assumptions, without approving a final UI. Baseline sources: `.planning/PROJECT.md`, `.planning/REQUIREMENTS.md`, `.planning/ROADMAP.md`, `.planning/phases/NEON-01-di-n-m-o-v-l-i-v-o-d-ng-c/01-CONTEXT.md`, and `.planning/discovery/phase-1-confirmation-2026-10-22.json`. Palette, typography, motif, translations and layout remain proposals until reviewed. The user requested HTML sketch exploration before UI-SPEC and PLAN artifacts; no standing Impeccable build-path preference is inferred or stored.

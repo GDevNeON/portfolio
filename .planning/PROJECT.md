@@ -1,6 +1,6 @@
 # Neon Portfolio — Cinematic Personal World
 
-**Phạm vi hiện hành — 05/11/2026:** 5 phase / 74 yêu cầu (58 baseline + 16 fantasy/footer). Q01–Q20 trực tiếp thay các điểm xung đột trong quyết định cũ; xem [hợp đồng fantasy](discovery/fantasy-journey-context-2026-11-05.md). Lịch sử 7 phase bên dưới là quyết định tại thời điểm cũ, không phải lộ trình đang thực thi.
+**Phạm vi hiện hành — 05/11/2026:** 5 phase / 74 yêu cầu (58 baseline + 16 fantasy/footer). Q01–Q20 và S01–S20 trực tiếp thay các điểm xung đột trong quyết định cũ; xem [hợp đồng fantasy](discovery/fantasy-journey-context-2026-11-05.md). Lịch sử 7 phase bên dưới là quyết định tại thời điểm cũ, không phải lộ trình đang thực thi.
 
 ## What This Is
 
@@ -13,8 +13,8 @@ Người xem nhớ dấu ấn Bùi Bảo Long và tin khả năng xây sản ph�
 ## Business Context
 
 - **Customer**: Khách hàng cần người xây ứng dụng và người muốn cùng làm sản phẩm; người tuyển dụng có đường đọc nhanh tới dự án và vai trò.
-- **Revenue model**: Portfolio hỗ trợ cơ hội hợp tác và làm độc lập theo dự án; điều kiện hợp tác trao đổi riêng, không có thanh toán trên website.
-- **Success metric**: Người xem đi sâu vào dự án và tiếp cận liên hệ; chủ portfolio tự tin chia sẻ công khai. Chưa chốt dịch vụ đo lường bên ngoài hay ngưỡng số lượng.
+- **Revenue model**: Portfolio hỗ trợ cơ hội hợp tác và làm độc lập theo dự án; điều kiện hợp tác trao đổi riêng, không có checkout trên website. S15 bổ sung QR donate do owner gửi sau, không tự tạo giao dịch hoặc người nhận.
+- **Success metric**: Người xem đi sâu vào dự án và tiếp cận liên hệ; chủ portfolio tự tin chia sẻ công khai. S01–S20 chốt số khách footer; S20 giao agent chọn Workers + D1 làm hướng đo, chưa cấu hình hoặc triển khai. Không có ngưỡng thành công bằng số lượng.
 - **Strategy notes**: Chuỗi câu trả lời được lưu nguyên byte tại `.planning/discovery/answers-2026-10-19.json`, `answers-2026-10-19-followup.json` và `answers-2026-10-19-final.json`; bộ cuối có đủ 200 câu và là nguồn mới nhất. Nguồn gốc quyết định nằm trong `workflow-decisions.json`.
 
 ## Requirements
@@ -168,13 +168,17 @@ Ghi chú trả lại cùng questionnaire yêu cầu taste-skill để tạo hư�
 - Chất art 100%, không low-poly; các ngoại lệ chủ portfolio đã cho phép là bỏ toàn bộ nhân vật, thay kiến trúc R04, sáng tạo phần khuất/vùng nối, ngày/đêm, low-detail khi giảm motion. Không thể gọi những góc/ánh sáng đã đổi là trùng pixel ảnh gốc.
 - Cảnh thường luôn sống kể cả lúc ngừng scroll. Giảm motion là ngoại lệ: mọi entity đứng yên, art low-detail, không mất nội dung/hành động. Light trời sáng, Dark trời tối cùng lớp chữ/điều hướng; giữ lựa chọn người xem.
 - Typography blend vào cảnh. **R01: title ngay chóp vách, body khắc lên vách**. Vị trí nội dung khác giao chọn theo art, giữ đường đọc/ngữ nghĩa và nội dung thật. Quay từ dự án về đúng cảnh vừa rời, không xem lại intro.
-- Footer **một viewport**, tên art/BGM, social, unique visitor counter, DAU, MAU. Chỉ số phải có dữ liệu thật; dấu “...” chưa định nghĩa thêm mục nào. [Vùng S](discovery/project-questions.html#footer-statistics) hỏi cách tính/hiển thị/quyền riêng tư; chưa chọn dịch vụ, mua hay triển khai. Ghi công không tự xác nhận quyền công khai art/nhạc.
+- Footer **một viewport**, tên art/BGM, credits, liên hệ/social, unique/DAU/MAU và giải thích; QR donate owner thêm sau. S đã trả lời, xem [hợp đồng footer](discovery/footer-statistics-context-2026-11-05.md): bắt đầu ngày hoàn thành milestone, tính thiết bị mở mọi route, ngày VN/30 ngày, loại owner/bot/spam/preview, số đầy đủ/snapshot hằng ngày/số gần nhất khi lỗi, tổng lượt vô danh khi từ chối nhận diện và rate limit/IP. S20 giao agent chọn Workers + D1; chưa tạo account, mua hay deploy. Ghi công không tự xác nhận quyền dùng art/nhạc.
 - **5 phase / 74 yêu cầu / thực thi 0/5** theo Q20. Giữ 58 mã baseline, thêm 16 mã; [ROADMAP](ROADMAP.md) thay lộ trình 7 chặng. Nếu thử cảnh thì chọn R02, chưa tự chạy thử. Entrance C là lựa chọn lịch sử còn giữ ở phần phù hợp, Q03 mới chi phối phần xung đột; menu Sketch 002 chưa chọn.
 - Không sửa app/ảnh/dependency ở lượt này, không tự bắt đầu phase hay khôi phục tài liệu phase bị xóa ngoài nhiệm vụ. Dữ kiện cá nhân, PDF/provider, metadata/host, play BGM và nguồn/quyền dùng art vẫn có cổng kiểm tương ứng.
+
+## Footer đã chốt — S01–S20, 2026-11-05
+
+[Đáp án trực tiếp](discovery/footer-statistics-answers-2026-11-05.json) giữ nguyên văn. Không còn câu S chưa trả lời; phương án theo S20 là lựa chọn được ủy quyền, chưa phải dịch vụ đang chạy. S10 áp dụng lượt xem thử, không tự hủy workflow thử R02; S14 không cần badge ngày đo thiếu; S15 thêm nội dung footer, không thêm chỉ số click/chuyển tiền. Mốc milestone chưa có, QR/đích donate chờ owner bổ sung. Giữ 5 phase / 74 mã / thực thi 0/5, không tự bắt đầu phase.
 
 ## Evolution
 
 Sau mỗi chặng: đối chiếu mục tiêu với hành vi đã kiểm chứng, cập nhật yêu cầu/điểm còn chờ, ghi quyết định mới và điều chỉnh mô tả nếu thực tế thay đổi. Chỉ chuyển Active sang Validated khi có bằng chứng phù hợp. Sau mỗi mốc phát hành: rà lại giá trị cốt lõi, mục tiêu cơ hội, phạm vi và tư liệu; không biến mục tạm hoãn thành hoàn tất.
 
 ---
-*Last updated: 2026-11-05 — câu trả lời Q và typography được ghi; 5 phase / 74 yêu cầu. Chưa bắt đầu thực thi lộ trình mới.*
+*Last updated: 2026-11-05 — câu trả lời Q/S và typography được ghi; 5 phase / 74 yêu cầu. Chưa bắt đầu thực thi lộ trình mới.*

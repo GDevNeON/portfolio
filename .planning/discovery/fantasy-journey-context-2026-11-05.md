@@ -48,11 +48,11 @@ Q18 là ngoại lệ tường minh cho Q13: giảm chuyển động thì **mọi
 
 ## Footer một viewport và dữ liệu thật
 
-Footer cao **1 viewport**, có tên bảy art, tên BGM, social link, unique visitor counter, DAU, MAU; dấu “...” chưa xác định danh sách chỉ số bổ sung. Credits cần tên tác giả/nguồn được xác minh, không suy giấy phép từ tên file. Ghi công footer không tự cấp quyền chuyển thể/công khai hoặc quyền xóa dấu tác giả gốc.
+Footer cao **1 viewport**, có tên bảy art, tên BGM, liên hệ/social, unique visitor counter, DAU, MAU và giải thích; S15 bổ sung QR donate do owner thêm sau. Không tự diễn giải “liên hệ/social/QR” thành chỉ số click hoặc giao dịch. Credits cần tên tác giả/nguồn được xác minh, không suy giấy phép từ tên file. Ghi công footer không tự cấp quyền chuyển thể/công khai hoặc quyền xóa dấu tác giả gốc.
 
 Giữ footer trong một khung viewport ở cỡ bình thường; nếu phóng chữ/màn nhỏ không đủ chỗ phải đọc được toàn bộ bằng vùng cuộn truy cập được hoặc cách thích ứng được xem duyệt, không cắt bớt credits/link. Không đổi yêu cầu 1 viewport thành một đoạn footer cao tùy ý mà không ghi nhận.
 
-Số khách là dữ liệu đo thực tế, không phải số quảng bá cá nhân. Chưa có định nghĩa khách duy nhất/hoạt động, ngày/tháng, mốc bắt đầu, nguồn dữ liệu và cách hiển thị khi mất số. Không dùng số random, lượt localStorage trên một máy, hoặc số mô phỏng như bộ đếm công khai thật. Chưa chọn dịch vụ, chi phí, cách nhận biết người xem hoặc hành vi thu thập. Vùng S trong HTML là nghiệp vụ mới này; chỉ chặn tích hợp số liệu tương ứng, không chặn ghi quyết định hay sắp lộ trình.
+Số khách là dữ liệu đo thực tế, không phải số quảng bá cá nhân. **S01–S20 đã trả lời**, xem [hợp đồng footer](footer-statistics-context-2026-11-05.md) và [đáp án nguyên văn](footer-statistics-answers-2026-11-05.json). Bắt đầu ngày hoàn thành milestone, tính riêng thiết bị mở mọi route, ngày VN/30 ngày; lọc owner/bot/spam/preview, số đầy đủ/snapshot ngày/số gần nhất khi lỗi; người từ chối nhận diện chỉ tăng tổng lượt vô danh; rate limit/IP chống lạm dụng. S20 giao agent chọn Workers + D1, chưa cấu hình account/mua/deploy. Không dùng số random, tổng localStorage một máy hoặc số mô phỏng làm số thật. Mốc milestone và tư liệu QR chưa có; không còn câu S nghiệp vụ đang chờ.
 
 ## Lộ trình, kỹ thuật và cổng thực hiện
 

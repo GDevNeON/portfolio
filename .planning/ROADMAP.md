@@ -69,9 +69,9 @@ Hành trình đã chốt: **R02 → R03 → R05 → R01 → R07 → R04 → R06*
 1. Liên hệ theo loại trao đổi, email/lời nhắn được kiểm tra tại chỗ; PDF hoặc liên kết tới đúng người nhận, lỗi giữ nội dung và có lối email mang lời nhắn.
 2. Đang gửi/thành công/thất bại và ngăn gửi lặp đúng; không nhận mock hay giao diện chọn tệp làm bằng chứng tệp đã tới.
 3. BoogieDown chỉ phát sau bật chủ động, lặp/giữ trong phiên xuyên route; ducking không đổi intent, phiên mới im lặng và lỗi nhạc không chặn portfolio.
-4. Footer cao một viewport có tên bảy ảnh/BGM, credits/nguồn và social; phóng chữ/màn nhỏ vẫn đọc được mọi mục.
-5. Unique visitors, DAU, MAU theo định nghĩa vùng S đã chốt và nguồn đo thật; trạng thái chưa có/mất số rõ, không dùng số giả. Chỉ số bổ sung chỉ thêm khi xác định được.
-**Readiness / research gate:** Chốt vùng S trước tích hợp đo; chưa chọn analytics/provider hoặc mua dịch vụ. Kiểm account/template/limit PDF và play thật BGM; xác minh nguồn/điều kiện dùng tư liệu trước public.
+4. Footer một viewport có tên bảy ảnh/BGM, credits/nguồn, liên hệ/social và giải thích chỉ số; QR donate chỉ xuất hiện đúng đích khi owner cung cấp, phần chờ không tự nhận đã bàn giao. Phóng chữ/màn nhỏ đọc đủ.
+5. S01–S20: unique từ ngày hoàn thành milestone; DAU ngày VN, MAU 30 ngày gồm ngày thống kê; tính riêng thiết bị mở bất kỳ trang nào, loại owner/bot/spam/preview. Snapshot hằng ngày/số đầy đủ, lỗi giữ số gần nhất; từ chối nhận diện chỉ góp aggregate. Có rate limit/IP chống lạm dụng và bằng chứng đo/dedupe thật.
+**Readiness / research gate:** S đã trả lời; S20 giao chọn Workers + D1. Trước tích hợp kiểm account/host/quota, owner exclusion, IP/rate limit và mốc milestone chưa xảy ra; không tự mua/deploy. QR chờ owner bổ sung sau. Giữ cổng PDF/template/limit, play thật BGM và nguồn tư liệu. Xem discovery/footer-statistics-context-2026-11-05.md.
 **Plans:** TBD — chỉ lập khi user gọi công việc tương ứng.
 
 ### Phase 5: Tổng kiểm và chủ portfolio chốt ra mắt
@@ -109,7 +109,7 @@ Mỗi mã có đúng một phase chịu trách nhiệm nghiệm thu trong REQUIR
 - J05 nghiên cứu khi có quyết định cụ thể; J06/J08 đối chiếu source và coverage trước thực hiện.
 - J19 tham khảo trước mẫu; Taste và Impeccable trong UI được giao, brief kính/fantasy được ưu tiên khi xung đột defaults.
 - J07 tổng kiểm ở **phase 5**; focused checks và critique đúng phạm vi vẫn cần ở từng phần. Không tự thêm general verifier sau mọi phase.
-- Phase 4 chốt vùng S và nguồn số thật trước tích hợp counters; PDF/provider/BGM/nguồn art còn cổng dữ kiện riêng. Không fake số, mua dịch vụ hay deploy.
+- Phase 4 áp dụng S01–S20 đã chốt, kiểm nguồn số thật/hạ tầng Workers + D1 trước tích hợp; mốc ghi nhận chỉ từ hoàn thành milestone. QR donate owner thêm sau. PDF/provider/BGM/nguồn art vẫn có cổng riêng. Không fake số, mua dịch vụ hay deploy.
 - Chưa có UI-SPEC, executable phase plan hoặc nghiệm thu hành trình mới. 0 phase thực thi hoàn tất.
 
 ## Progress

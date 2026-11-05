@@ -5,10 +5,10 @@ milestone_name: milestone
 current_phase: 1
 current_phase_name: Lối vào R02 và điều khiển dùng được
 status: planning
-stopped_at: Fantasy Q01-Q20 recorded; milestone restructured to five phases. Await explicit phase task; no R02 trial or implementation started.
-last_updated: "2026-11-05T07:01:45+00:00"
+stopped_at: Footer S01-S20 recorded; Workers and D1 selected under S20 delegation. Await explicit phase task; no application or service implementation.
+last_updated: "2026-11-05T07:36:10+00:00"
 last_activity: 2026-11-05
-last_activity_desc: Recorded direct fantasy decisions and typography; 74 requirements mapped to five phases. Footer measurement definitions remain open in area S.
+last_activity_desc: Recorded S01-S20 footer rules and delegated measurement choice; area S closed, QR awaits owner material. Five phases and 74 requirements unchanged.
 progress:
   total_phases: 5
   completed_phases: 0
@@ -24,14 +24,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-11-05)
 
 **Core value:** Người xem nhớ Bùi Bảo Long và tin khả năng xây sản phẩm qua dự án được kể rõ, đẹp và dễ khám phá.
-**Current focus:** Q01–Q20 đã trả lời; R02 → R03 → R05 → R01 → R07 → R04 → R06, không cắt cảnh. 5 phase / 74 yêu cầu. Chờ user gọi công việc phase; chưa thử R02, dựng mẫu fantasy, lập UI-SPEC/phase plan hoặc sửa app.
+**Current focus:** Q01–Q20 và S01–S20 đã trả lời; R02 → R03 → R05 → R01 → R07 → R04 → R06, không cắt cảnh. 5 phase / 74 yêu cầu. Chờ user gọi công việc phase; chưa thử R02, dựng mẫu fantasy, lập UI-SPEC/phase plan hoặc sửa app.
 
 ## Current Position
 
 Phase: 1 of 5 (Lối vào R02 và điều khiển dùng được)
 Plan: 0 of TBD in current phase
 Status: Scope captured — user manually invokes each phase. Historical sketch work does not satisfy the new phase.
-Last activity: 2026-11-05 — Chốt đáp án Q và typography, thay lộ trình 7 bằng 5 phase; thêm vùng S về cách hiểu số khách. Không có bằng chứng runtime/art acceptance mới.
+Last activity: 2026-11-05 — Ghi S01–S20, chốt cách hiểu số khách và chọn Workers + D1 theo S20. Cập nhật FOOT-01/02, giữ 5 phase / 74 mã. Không có runtime/service evidence mới.
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -55,7 +55,8 @@ Progress: [░░░░░░░░░░] 0%
 
 ### Pending Todos
 
-- Area S: 20 business questions in discovery/project-questions.html#footer-statistics for visitor counts. Unique visitors/DAU/MAU already required; definitions/source/privacy and additional metrics remain open. This gates counters, not the full roadmap update.
+- Area S closed: discovery/footer-statistics-context-2026-11-05.md records all 20 direct answers. Counts start only at milestone completion; Vietnam day/30-day MAU, daily full-number snapshots, same-device dedupe, owner/bot/preview exclusions, IP/rate limit and non-identifying aggregate for opt-out. S20 delegates Workers + D1 selection; no need to ask these rules again.
+- Owner will supply QR/target later. Exact milestone completion time and operational account/host are not yet available; resolve during authorized phase work without inventing values.
 - Palette, final typography/copy/English translations, shared shell and scene-specific visual solutions need review within the authorized UI workflow; delegated camera/hidden-area choices do not need another questionnaire just for permission to propose.
 
 ### Roadmap Evolution
@@ -67,18 +68,19 @@ Progress: [░░░░░░░░░░] 0%
 | ID | Date | Result |
 |---|---|---|
 | 261104-q6d | 2026-11-04 | [Đối chiếu 7 art và vùng Q](quick/261104-q6d-record-fantasy-journey-design-extension-/SUMMARY.md); Q đã được trả lời ngày 05/11, không còn là vùng chờ. |
-| 261105-jab | 2026-11-05 | [Ghi Q01–Q20, ngoại lệ art/typography và lộ trình 5 phase](quick/261105-jab-confirm-fantasy-answers-and-restructure-/SUMMARY.md); vùng S còn mở, chưa triển khai. |
+| 261105-jab | 2026-11-05 | [Ghi Q01–Q20, ngoại lệ art/typography và lộ trình 5 phase](quick/261105-jab-confirm-fantasy-answers-and-restructure-/SUMMARY.md); S đã được trả lời trong task kế tiếp, chưa triển khai. |
+| 261105-k5z | 2026-11-05 | [Ghi S01–S20 và chọn hướng đo theo ủy quyền](quick/261105-k5z-record-footer-statistics-answers-and-del/SUMMARY.md); giữ 5 phase/74 mã, QR owner thêm sau. |
 
 ### Blockers / Concerns
 
 - New fantasy UI not built or visually inspected. Historical sketch 001/002 evidence belongs only to those sketches; it does not certify the new world or application.
 - Phase 3: portrait, real timeline/roles and clips still pending; metadata output/host still needs evidence.
 - Phase 4: PDF provider/template/limits and real delivery not verified; actual BoogieDown playback not checked. No purchase authorized.
-- Phase 4: true counters need area S decisions and a real data source. Art/BGM titles, attribution and conditions of public use require confirmation; filenames do not prove rights.
+- Phase 4: area S is answered; Workers + D1 is selected, operational account/host/quota and actual measurement still require verification. Art/BGM titles, attribution and conditions of public use require confirmation; filenames do not prove rights.
 - Three Phase 1 historical documents are deleted in the pre-existing working tree. This task neither restores them nor stages their deletion. Consult Git/history deliberately if needed.
 
 ## Session Continuity
 
 Last session: 2026-11-05
-Stopped at: Q answers and five-phase roadmap captured; await explicit phase task. Footer area S open. No R02 trial, app changes or phase completion.
-Resume file: .planning/discovery/fantasy-journey-context-2026-11-05.md
+Stopped at: Q and S captured; five-phase roadmap unchanged, Workers + D1 selected by S20 delegation. QR pending owner material. Await explicit phase task; no app/service implementation or phase completion.
+Resume file: .planning/discovery/footer-statistics-context-2026-11-05.md
