@@ -1,10 +1,27 @@
 # Requirements: Neon Portfolio — Cinematic Personal World
 
 **Defined:** 2026-10-19
-**Approved:** J17=1 in answers-2026-10-19-final.json; no scope changes requested.
+**Approved baseline:** 58 yêu cầu theo J17 ngày 19/10/2026. **Mở rộng:** 16 yêu cầu từ Q01–Q20 và ghi chú trực tiếp ngày 05/11/2026; 74 yêu cầu / 5 phase, chưa triển khai.
 **Core Value:** Người xem nhớ Bùi Bảo Long và tin khả năng xây sản phẩm qua các dự án được kể rõ, đẹp và dễ khám phá.
 
-## v1 Requirements
+## Quy tắc áp dụng quyết định mới — 2026-11-05
+
+Giữ nguyên 58 mã và câu nguồn dưới đây để truy vết. Khi xung đột, quyết định trực tiếp mới nhất sau đây chi phối; không đọc baseline như một yêu cầu thứ hai trái ngược.
+
+| Yêu cầu cũ | Cách áp dụng mới, nguồn trực tiếp |
+|---|---|
+| HOME-01 | Q03 đặt tên/lời giới thiệu đơn giản bên trong R02 sau nền tối/lóe sáng, camera tiến theo scroll; thay khóa tên hiện ngay trên khung hình đầu. Nội dung/đường nhanh vẫn truy cập được theo QUALITY-04/05; không chặn bằng thời gian chờ bắt buộc. |
+| HOME-02 / HOME-05 | Mạch nội dung và đường nhanh giữ nguyên; Q15 giao chọn vị trí trong art, không tự chốt menu Sketch 002. |
+| WORK-06 / MOTION-04 | Q16 quay lại đúng cảnh và chỗ đọc/tiến độ vừa rời, không xem lại intro; giữ ý nghĩa quay về đúng vị trí cũ. |
+| MOTION-01 | Q15 và ghi chú R01 yêu cầu chữ blend cảnh: title trên chóp, body khắc vách. Nội dung dài vẫn có khoảng đọc ổn định dù nền sống. |
+| MOTION-02 | Q04 bảy cảnh quan trọng ngang nhau; Vixie vẫn dẫn đầu nội dung dự án, không ưu tiên một art thành cao trào duy nhất. |
+| DES-02 | Q17 sáng/tối đổi cả trời ngày/đêm và lớp chữ/điều hướng; không chỉ đổi overlay. |
+| MOTION-05 / MOTION-06 | Q18 giảm motion: tất cả entity đứng yên, art low-detail, vẫn đủ nội dung. Đây là ngoại lệ rõ cho Q13 luôn chuyển động ở chế độ thường. |
+| J02/J13/J18, tổng kiểm J07 | Q20 thay lộ trình 7 phase bằng 5 phase; J07 vẫn tổng kiểm cuối, nay là phase 5. Không tự gọi phase hoặc thử R02. |
+
+Chi tiết nguồn, phần giao sáng tạo và ngoại lệ art: [hợp đồng fantasy](discovery/fantasy-journey-context-2026-11-05.md), [đáp án nguyên văn](discovery/fantasy-journey-answers-2026-11-05.json).
+
+## v1 Requirements — 58 baseline
 
 ### Hệ thiết kế
 
@@ -91,6 +108,30 @@
 - [ ] **QUALITY-07**: CV, dự án, mạng cá nhân, gửi lời nhắn/PDF hoặc liên kết tài liệu được kiểm tra đúng đích và hành vi thực tế trước công khai. (Nguồn: H07/H19/H20/G14).
 - [ ] **QUALITY-08**: Chủ portfolio xem đủ các trang, ngôn ngữ, sáng/tối và trạng thái quan trọng; dữ kiện/ảnh/vai trò/clip còn chờ phải được giải quyết hoặc chốt rõ trước công khai, không tự ghi hoàn tất. (Nguồn: H01/H13/H19/H20/I12/I14/I16/I17/I18).
 
+## Mở rộng milestone hiện tại — 16 yêu cầu
+
+### Thế giới fantasy và camera
+
+- [ ] **WORLD-01**: Đúng bảy art R01–R07 làm nguồn cho thế giới 3D; giữ 100% chất tạo hình, môi trường và aesthetic, không vật thể low-poly. Ngoại lệ chỉnh art chỉ theo Q07/Q09/Q11/Q14/Q17/Q18, không hứa trùng pixel ở phần đã đổi hoặc chưa có góc nguồn. (Nguồn: Brief 04/11; Q07–Q18).
+- [ ] **WORLD-02**: Hành trình kể cách biến ý tưởng thành sản phẩm theo R02 → R03 → R05 → R01 → R07 → R04 → R06; cả bảy cảnh quan trọng ngang nhau. (Nguồn: Q01/Q02/Q04).
+- [ ] **WORLD-03**: Mở đầu nền tối rồi lóe sáng; scroll đưa camera đến vùng sáng ở R02 có tên/lời giới thiệu đơn giản, xuyên khe đá hẹp rồi mở ra thế giới. Không buộc xem lại mở đầu khi quay về; bản đọc vẫn truy cập được. (Nguồn: Q03/Q07; HOME-01/QUALITY-04).
+- [ ] **WORLD-04**: Đi xuyên một thế giới liên tục, tuyệt đối không cắt cảnh hoặc dùng hiệu ứng che việc nhảy cảnh. Giữ các cầu nối nước → thác, sương → thành, trụ sáng → mây; được sáng tạo vùng nối fantasy hợp lý, không thêm art/chương thứ tám. (Nguồn: Q05/Q06).
+- [ ] **WORLD-05**: R01 bắt đầu ở vị trí như ảnh rồi bay từ từ chếch lên hẻm núi; R02 tiến vào vùng sáng và qua vách đá hẹp. Camera đổi vị trí/góc theo scroll và cuộn ngược hợp lý. (Nguồn: Q03/Q07).
+- [ ] **WORLD-06**: R03, R05 và R07 được lướt qua trong hành trình; góc/quỹ đạo được giao chọn, giữ nét riêng của từng art. (Nguồn: Q07/Q08).
+- [ ] **WORLD-07**: R04 thay tòa tháp bằng dạng nhà trong R06, giữ chất môi trường/bố cục fantasy; camera được giao sáng tạo. (Nguồn: Q07:R04).
+- [ ] **WORLD-08**: R06 nhìn quanh, liệng qua các building rồi cuộn lên trời; kết thúc bằng khung cảnh mây hùng vĩ. (Nguồn: Q07:R06).
+- [ ] **WORLD-09**: Được sáng tạo góc nhìn, phần khuất/ngoài khung tranh dọc và cách crop/đối chiếu trong giới hạn chất art; không coi phần được giao sáng tạo là dữ kiện có sẵn trong tranh. (Nguồn: Q08–Q11).
+- [ ] **WORLD-10**: Chế độ thường có chuyển động môi trường ở mọi thời điểm cảnh đang hiện, kể cả khi ngừng scroll; mây/nước/thác/cây/ánh sáng chọn theo cảnh, không để hoạt cảnh che chữ. Giảm chuyển động theo WORLD-14 là ngoại lệ. (Nguồn: Q12/Q13/Q18).
+- [ ] **WORLD-11**: Loại bỏ tất cả yếu tố nhân vật có trong ảnh; không dùng lữ khách/avatar dẫn chuyện hoặc thêm nhân vật thay thế. (Nguồn: Q14).
+- [ ] **WORLD-12**: Typography hòa vào không gian theo art; R01 đặt title ngay chóp vách núi và nội dung như khắc trên vách. Những cảnh khác giao chọn vị trí; vẫn rõ, có nội dung tiếp cận được và chỗ đọc ổn định. (Nguồn: Q15; ghi chú typography trực tiếp).
+- [ ] **WORLD-13**: Light mode là trời sáng, Dark mode là trời tối, đồng thời đổi chữ/điều hướng; giữ chất art, chất lượng tương đương và lựa chọn theme của người xem. (Nguồn: Q17).
+- [ ] **WORLD-14**: Chọn giảm chuyển động làm tất cả entity đứng yên, bỏ camera bay/lóe động và chuyển art sang low-detail; giữ đủ bảy chương/nội dung/hành động, không đổi aesthetic thành low-poly. (Nguồn: Q18; MOTION-05/QUALITY-04).
+
+### Footer và số khách
+
+- [ ] **FOOT-01**: Footer cao một viewport, có tên bảy ảnh, tên BGM và social link cùng ghi công/nguồn xác minh được; màn nhỏ/phóng chữ vẫn đọc đủ, không cắt mất nội dung. (Nguồn: Q19; QUALITY-01/03).
+- [ ] **FOOT-02**: Footer có unique visitor counter, DAU và MAU từ dữ liệu thật; không giả số. Định nghĩa đo, mốc bắt đầu, quyền riêng tư và trạng thái thiếu dữ liệu cần chốt ở vùng S trước tích hợp; chỉ số ngoài ba mục chưa được xác định. (Nguồn: Q19; vùng S mới).
+
 ## v2 Requirements
 
 - Dự án bổ sung ngoài Vixie/đặt xe/game: chỉ xem xét khi chủ portfolio yêu cầu sau; H04 cho phép lùi.
@@ -105,15 +146,17 @@
 | Học vấn/chứng chỉ ở trang chính | F09 giữ ở CV |
 | Số 3+/20+, phân hạng kỹ năng, dữ kiện/vai trò tự thêm | F06/F07/I14/I16/I17 |
 | Tự phát nhạc / nhớ nghe giữa lần mở mới | E19/I07 chọn bật chủ động và nhớ trong phiên |
-| Mua dịch vụ, triển khai công khai, analytics bên ngoài không được chọn | Chưa có quyết định tương ứng |
+| Mua dịch vụ, triển khai công khai, tự chọn analytics bên ngoài | Q19 duyệt chỉ số footer, chưa chọn cách đo/dịch vụ/chi phí; không tự deploy hoặc mua |
 
 ## Pending Content and Integration Dependencies
 
 - Chân dung mới chờ chủ portfolio gửi; mốc/role thật còn chờ. Vixie headline J15 không thay bằng chứng role.
 - Clip là tư liệu chưa có theo I18, không phải feature đã hoàn thành hoặc tự bỏ khỏi phạm vi. Bản xem thử dùng ảnh; owner chốt phần còn chờ trước public.
-- PDF: EmailJS Free không hỗ trợ attachment theo snapshot nguồn nghiên cứu. Chặng 4 phải chốt account/template/limit hoặc phương án trong ngân sách; không tự mua hay thu hẹp CONTACT-03.
+- PDF: EmailJS Free không hỗ trợ attachment theo snapshot nguồn nghiên cứu. Phase 4 mới phải chốt account/template/limit hoặc phương án trong ngân sách; không tự mua hay thu hẹp CONTACT-03.
 - Head metadata cần output/host được kiểm chứng; frontend useEffect không đủ bằng chứng mọi bot xem đúng.
 - Taste-skill và Impeccable 4.6.0 đã được định vị và đọc. Dùng các skill trong công việc UI được giao; chưa có nghiệm thu UI trong init.
+
+- Footer: vùng S chưa trả lời; ba chỉ số bắt buộc đã chốt, định nghĩa/nguồn dữ liệu chưa chốt. Không suy quyền dùng art từ ghi công.
 
 ## Traceability
 
@@ -125,17 +168,17 @@
 | DES-04 | Phase 1 | Pending |
 | DES-05 | Phase 1 | Pending |
 | HOME-01 | Phase 1 | Pending |
-| HOME-02 | Phase 2 | Pending |
-| HOME-03 | Phase 2 | Pending |
-| HOME-04 | Phase 2 | Pending |
-| HOME-05 | Phase 2 | Pending |
-| PROF-01 | Phase 2 | Pending |
-| PROF-02 | Phase 2 | Pending |
-| PROF-03 | Phase 2 | Pending |
-| PROF-04 | Phase 2 | Pending |
-| PROF-05 | Phase 2 | Pending |
-| PROF-06 | Phase 2 | Pending |
-| PROF-07 | Phase 2 | Pending |
+| HOME-02 | Phase 3 | Pending |
+| HOME-03 | Phase 3 | Pending |
+| HOME-04 | Phase 3 | Pending |
+| HOME-05 | Phase 1 | Pending |
+| PROF-01 | Phase 3 | Pending |
+| PROF-02 | Phase 3 | Pending |
+| PROF-03 | Phase 3 | Pending |
+| PROF-04 | Phase 3 | Pending |
+| PROF-05 | Phase 3 | Pending |
+| PROF-06 | Phase 3 | Pending |
+| PROF-07 | Phase 3 | Pending |
 | WORK-01 | Phase 3 | Pending |
 | WORK-02 | Phase 3 | Pending |
 | WORK-03 | Phase 3 | Pending |
@@ -147,7 +190,7 @@
 | WORK-09 | Phase 3 | Pending |
 | LANG-01 | Phase 1 | Pending |
 | LANG-02 | Phase 1 | Pending |
-| LANG-03 | Phase 7 | Pending |
+| LANG-03 | Phase 5 | Pending |
 | LANG-04 | Phase 3 | Pending |
 | CONTACT-01 | Phase 4 | Pending |
 | CONTACT-02 | Phase 4 | Pending |
@@ -158,31 +201,46 @@
 | CONTACT-07 | Phase 4 | Pending |
 | CONTACT-08 | Phase 4 | Pending |
 | CONTACT-09 | Phase 4 | Pending |
-| MOTION-01 | Phase 5 | Pending |
-| MOTION-02 | Phase 5 | Pending |
-| MOTION-03 | Phase 5 | Pending |
-| MOTION-04 | Phase 5 | Pending |
-| MOTION-05 | Phase 5 | Pending |
-| MOTION-06 | Phase 5 | Pending |
-| AUDIO-01 | Phase 6 | Pending |
-| AUDIO-02 | Phase 6 | Pending |
-| AUDIO-03 | Phase 6 | Pending |
-| AUDIO-04 | Phase 6 | Pending |
-| AUDIO-05 | Phase 6 | Pending |
-| QUALITY-01 | Phase 7 | Pending |
-| QUALITY-02 | Phase 7 | Pending |
-| QUALITY-03 | Phase 7 | Pending |
-| QUALITY-04 | Phase 7 | Pending |
-| QUALITY-05 | Phase 7 | Pending |
-| QUALITY-06 | Phase 7 | Pending |
-| QUALITY-07 | Phase 7 | Pending |
-| QUALITY-08 | Phase 7 | Pending |
+| MOTION-01 | Phase 2 | Pending |
+| MOTION-02 | Phase 2 | Pending |
+| MOTION-03 | Phase 2 | Pending |
+| MOTION-04 | Phase 3 | Pending |
+| MOTION-05 | Phase 1 | Pending |
+| MOTION-06 | Phase 1 | Pending |
+| AUDIO-01 | Phase 4 | Pending |
+| AUDIO-02 | Phase 4 | Pending |
+| AUDIO-03 | Phase 4 | Pending |
+| AUDIO-04 | Phase 4 | Pending |
+| AUDIO-05 | Phase 4 | Pending |
+| QUALITY-01 | Phase 5 | Pending |
+| QUALITY-02 | Phase 5 | Pending |
+| QUALITY-03 | Phase 5 | Pending |
+| QUALITY-04 | Phase 5 | Pending |
+| QUALITY-05 | Phase 5 | Pending |
+| QUALITY-06 | Phase 5 | Pending |
+| QUALITY-07 | Phase 5 | Pending |
+| QUALITY-08 | Phase 5 | Pending |
+| WORLD-01 | Phase 2 | Pending |
+| WORLD-02 | Phase 2 | Pending |
+| WORLD-03 | Phase 1 | Pending |
+| WORLD-04 | Phase 2 | Pending |
+| WORLD-05 | Phase 2 | Pending |
+| WORLD-06 | Phase 2 | Pending |
+| WORLD-07 | Phase 2 | Pending |
+| WORLD-08 | Phase 2 | Pending |
+| WORLD-09 | Phase 2 | Pending |
+| WORLD-10 | Phase 2 | Pending |
+| WORLD-11 | Phase 2 | Pending |
+| WORLD-12 | Phase 2 | Pending |
+| WORLD-13 | Phase 2 | Pending |
+| WORLD-14 | Phase 1 | Pending |
+| FOOT-01 | Phase 4 | Pending |
+| FOOT-02 | Phase 4 | Pending |
 
 **Coverage:**
-- v1 requirements: 58 total
-- Mapped to phases: 58
-- Unmapped: 0
-- Implemented / verified: 0; initialization is not delivery evidence.
+- Baseline: 58 mã giữ nguyên; mở rộng: 16; tổng milestone: 74.
+- Mapped to phases: 74; unmapped: 0; duplicate assignments: 0.
+- Implemented / verified: 0; cập nhật phạm vi không phải bằng chứng bàn giao.
 
 ## User Stories
 
@@ -193,13 +251,13 @@
 
 ## Acceptance Criteria
 
-Tiêu chí theo chặng nằm trong ROADMAP.md; mọi yêu cầu v1 có một chặng chịu trách nhiệm. J07 chọn tổng đối chiếu ở chặng 7, không xóa focused checks của phần được giao. Không tự mở chặng tiếp theo.
+Tiêu chí theo chặng nằm trong ROADMAP.md; mọi yêu cầu milestone có một chặng chịu trách nhiệm. J07 chọn tổng đối chiếu ở chặng 5, không xóa focused checks của phần được giao. Không tự mở chặng tiếp theo.
 
 ## Definition of Done
 
 - Có bằng chứng phù hợp cho hành vi đã hứa, không thay giao thư/PDF thật bằng mock hoặc chỉ kiểm source.
-- Route, locale, theme và các trạng thái chính được đối chiếu tổng thể ở chặng 7.
+- Route, locale, theme và các trạng thái chính được đối chiếu tổng thể ở chặng 5.
 - Dữ kiện/tư liệu còn chờ đã có nguồn hoặc owner chốt rõ cách xử lý trước công khai; không bịa để lấp layout.
 - Chủ portfolio xem và quyết định public; initialization không phải quyền tự deploy.
 
-*Last updated: 2026-10-19 after J17 approval and official-source research; scope preserved.*
+*Last updated: 2026-11-05 — Q01–Q20 và typography được ghi; 5 phase / 74 yêu cầu, chưa triển khai.*

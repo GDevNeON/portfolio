@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-05",
+  "status": "passed",
+  "evidenceType": "static-document-and-native-parser-checks-only",
+  "answers": 20,
+  "baselineRequirementLinesPreserved": 58,
+  "newRequirements": 16,
+  "totalMappedOnce": 74,
+  "phases": [
+    {
+      "phase": 1,
+      "criteria": 4,
+      "mode": "mvp"
+    },
+    {
+      "phase": 2,
+      "criteria": 5,
+      "mode": "mvp"
+    },
+    {
+      "phase": 3,
+      "criteria": 4,
+      "mode": "mvp"
+    },
+    {
+      "phase": 4,
+      "criteria": 5,
+      "mode": "mvp"
+    },
+    {
+      "phase": 5,
+      "criteria": 4,
+      "mode": "mvp"
+    }
+  ],
+  "priorHtmlPreservedOutsideInsertion": true,
+  "newBusinessQuestions": 20,
+  "newSectionCssOrScripts": 0,
+  "sourceArtHashesUnchanged": 7,
+  "nativeConfigUnchanged": true,
+  "notRun": [
+    "application build/tests",
+    "fantasy prototype",
+    "browser/device inspection",
+    "art fidelity or pixel comparison",
+    "email/PDF delivery",
+    "audio playback",
+    "live visitor measurement"
+  ]
+}

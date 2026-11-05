@@ -1,5 +1,7 @@
 # Neon Portfolio — Cinematic Personal World
 
+**Phạm vi hiện hành — 05/11/2026:** 5 phase / 74 yêu cầu (58 baseline + 16 fantasy/footer). Q01–Q20 trực tiếp thay các điểm xung đột trong quyết định cũ; xem [hợp đồng fantasy](discovery/fantasy-journey-context-2026-11-05.md). Lịch sử 7 phase bên dưới là quyết định tại thời điểm cũ, không phải lộ trình đang thực thi.
+
 ## What This Is
 
 Nâng cấp toàn diện portfolio dev của Bùi Bảo Long thành một thế giới cá nhân có câu chuyện, giúp khách hàng và người muốn cùng xây sản phẩm thấy được khả năng biến ý tưởng thành ứng dụng hoàn chỉnh. Hệ thiết kế mới kết hợp Cinematic, Motion design, Motion typography, Motion graphic và Glassmorphism / Liquid Glass, với chất lượng tương đương ở tiếng Việt/Anh, sáng/tối và máy tính/điện thoại. Đây là nâng cấp website React hiện có, không phải tạo một sản phẩm khác từ đầu.
@@ -31,14 +33,14 @@ Các năng lực dưới đây được suy ra từ mã nguồn hiện tại, kh
 
 - [ ] Thiết lập hệ thiết kế mới, dùng chất kính xuyên suốt nhưng tiết chế; cá tính táo bạo, chuyên nghiệp, màu giàu tương phản nhưng không chói, hình khối mềm; chữ thanh lịch và nội dung chính luôn rõ.
 - [ ] Đổi toàn bộ cách thể hiện khi cần, đồng bộ toàn site, giữ dấu ấn tên thật Bùi Bảo Long và cách sắp chữ/kể chuyện; không dùng anime/game làm nhận diện chính.
-- [ ] Trang chủ cho thấy thông tin ngay: lời hứa giá trị và giới thiệu ngắn → kỹ năng → dự án → phần về tôi đầy đủ → kết nối. Điều hướng thu gọn khi đọc, mở khi chọn; liên hệ luôn dễ tìm.
+- [ ] Trang chủ bắt đầu tối → lóe sáng → camera tiến vào vùng sáng R02 chứa tên/giới thiệu ngắn theo Q03 mới. Mạch đọc giữ giới thiệu → kỹ năng → dự án → phần về tôi đầy đủ → kết nối; đường nhanh/nội dung tiếp cận được không phải chờ media. Điều hướng thu gọn khi đọc, mở khi chọn; liên hệ luôn dễ tìm.
 - [ ] Giữ cả Vixie, website đặt xe, game 2D; Vixie dẫn đầu. Mỗi dự án có trang đọc sâu, tóm tắt dễ chia sẻ, vai trò một câu, trạng thái thật và bằng chứng sản phẩm; quay về đúng vị trí vừa xem.
 - [ ] Vixie nhấn ý tưởng và trải nghiệm người dùng; website đặt xe nhấn phối hợp; game nhấn hành trình học hỏi. Giữ ảnh dự án hiện có và sắp lại; dùng ảnh trong bản xem thử khi chưa có sản phẩm/clip để ghi.
 - [ ] Giữ Software Developer và Prompt Engineering. Thể hiện năng lực xây ứng dụng, kết nối hệ thống, hoàn thiện sản phẩm qua bằng chứng; bỏ các số 3+/20+ và cách tự phân hạng kỹ năng.
 - [ ] Phần về tôi hướng tới điều muốn xây trong tương lai, nguyên tắc làm việc ngắn, dòng thời gian từ mốc thật, ảnh chân dung mới; CV ở phần về tôi và giữ đường dẫn hiện tại. AI được nói như công cụ hỗ trợ; cuối trang có câu ký tên ngắn.
 - [ ] Có tiếng Việt/Anh ngay trong đợt này, đổi ngôn ngữ giữ nội dung đang đọc; có sáng/tối với chất lượng tương đương.
 - [ ] Motion kể chuyện theo từng đoạn, điểm nhấn mạnh ở dự án chính, tiêu đề biến đổi rồi đọc rõ, đoạn dài đứng yên. Tương tác chủ động mới lặp hiệu ứng; có thể giữ một cảnh khi cuộn nếu cảnh đó kể điều quan trọng. Chuyển trang ngắn; lần quay lại vào nội dung ngay.
-- [ ] Có lựa chọn giảm chuyển động dễ thấy; trên điện thoại vẫn có cá tính nhưng gọn. Hiệu ứng không được lặp đến mức che câu chuyện; thiếu hiệu ứng vẫn đọc và dùng đầy đủ.
+- [ ] Có lựa chọn giảm chuyển động dễ thấy: tất cả entity đứng yên, art low-detail theo Q18; trên điện thoại vẫn đủ nội dung và điều khiển. Hiệu ứng không được lặp đến mức che câu chuyện; thiếu hiệu ứng vẫn đọc và dùng đầy đủ.
 - [ ] Nhạc nền cố định do chủ portfolio chọn, lặp vô hạn xuyên site, chỉ phát sau khi người xem tự bật. Nhớ lựa chọn trong phiên xem; lần mở mới bắt đầu yên lặng. Đổi trang không làm mất trạng thái đang nghe; khi minh họa có tiếng thì hạ nhạc nền và phục hồi đúng trạng thái trước đó.
 - [ ] Giữ trang liên hệ riêng; chọn loại trao đổi để gợi ý phù hợp cho tuyển dụng hoặc dự án, lời nhắn tập trung mục tiêu sản phẩm. Nhắc rõ chỗ thiếu và vì sao cần; gửi thành công xác nhận đã nhận, không hứa thời hạn hồi đáp cụ thể.
 - [ ] Nhận tài liệu PDF hoặc liên kết tài liệu trong lần nâng cấp này. Chọn tệp từ máy, không bắt nhập đường dẫn tệp thủ công; khi gửi tệp thất bại giữ lời nhắn và chỉ rõ tệp cần chọn lại. Lỗi gửi chung có lối email trực tiếp mang theo nội dung.
@@ -101,7 +103,7 @@ Các năng lực dưới đây được suy ra từ mã nguồn hiện tại, kh
 ## Workflow Decisions — approved J answers
 
 - J01: chủ portfolio tự gọi từng chặng; không tự bắt đầu phase 1 hoặc chuyển chặng vì hồ sơ đã xong.
-- J02/J13: 7 chặng vừa, mỗi chặng tạo một luồng người xem dùng được từ đầu tới cuối.
+- J02/J13: ban đầu 7 chặng vừa; Q20 trực tiếp ngày 05/11 thay số lượng bằng tối đa 5. ROADMAP hiện dùng 5 chặng, mỗi chặng vẫn tạo luồng người xem dùng được.
 - J03: hồ sơ đã chốt được lưu cùng lịch sử dự án.
 - J04: đã nghiên cứu project bằng nguồn chính thức, đủ STACK/FEATURES/ARCHITECTURE/PITFALLS/SUMMARY; giữ nguyên phạm vi/lộ trình, bổ sung phụ thuộc thực tế.
 - J05: chỉ nghiên cứu tiếp khi có quyết định cụ thể; không bắt buộc một lượt nghiên cứu riêng trước mọi chặng.
@@ -130,8 +132,8 @@ Ghi chú trả lại cùng questionnaire yêu cầu taste-skill để tạo hư�
 
 - Phase 3: `MetaTags.tsx` hiện cập nhật head bằng useEffect và có URL mẫu. Chốt đầu ra route/locale phù hợp cho chia sẻ và kiểm HTML/đích preview thực; chưa cần đổi framework trong init.
 - Phase 4: EmailJS Free không có attachment theo bảng giá đã kiểm tra. Xác minh gói/template/giới hạn hoặc chốt phương án phù hợp ngân sách trước triển khai PDF. Yêu cầu PDF vẫn giữ; không tự mua hoặc chỉ thay bằng liên kết.
-- Phase 5: cleanup motion theo vòng đời route/locale, fallback giảm motion; hiệu năng blur cần đo khi có UI.
-- Phase 6: kiểm định dạng/phát nhạc thật; giữ intent nghe tách khỏi ducking. Không suy ra phát được từ tên file.
+- Phase 2 mới: cleanup motion theo vòng đời route/locale, fallback giảm motion; hiệu năng blur cần đo khi có UI.
+- Phase 4 mới: kiểm định dạng/phát nhạc thật; giữ intent nghe tách khỏi ducking. Không suy ra phát được từ tên file.
 
 ## Key Decisions
 
@@ -148,19 +150,31 @@ Ghi chú trả lại cùng questionnaire yêu cầu taste-skill để tạo hư�
 | Nhạc bật chủ động, nhớ trong phiên, lặp toàn site, hạ khi minh họa có tiếng | E19, I06–I08 | Chốt; tìm thấy tệp nguồn, chưa tích hợp |
 | Chưa có clip: ảnh có sẵn cho bản xem thử | I18 | Chốt cho bản xem thử; tiêu chí công khai phải ghi rõ |
 | Giữ đầy đủ mục tiêu, thêm thời gian khi phát sinh | I03, H05 | Chốt |
-| Bắt đầu hồ sơ/lộ trình, giữ mục chưa có là chờ | I20, J17/J18 | Đã duyệt PROJECT, 58 yêu cầu và 7 chặng; chưa triển khai |
+| Bắt đầu hồ sơ/lộ trình, giữ mục chưa có là chờ | I20, J17/J18 | Đã duyệt baseline 58 yêu cầu/7 chặng ngày 19/10; Q20 ngày 05/11 thay bằng 5 chặng, chưa triển khai |
 | Tự gọi từng chặng, kiểm cách làm trước, tổng kiểm ở cuối | J01/J06/J07 | Chốt; cấu hình và workflow-policy ghi đúng lựa chọn |
 | Trao đổi tham khảo trước dựng mẫu | J19 | Chốt; art direction còn mở |
 
-## Design extension — 2026-11-04
+## Design extension — 2026-11-04 (lịch sử, đã được trả lời ngày 05/11)
 
 - Chủ portfolio giữ nguyên yêu cầu đã khóa và bổ sung trải nghiệm kể chuyện fantasy 3D từ đúng 7 ảnh trong `src/assets/resources/`. Giữ đúng đồ họa, không gian, không khí và thẩm mỹ của từng ảnh (yêu cầu 100%); không low-poly. Tạo chuyển động tự nhiên ở phần có thể chuyển động; camera đổi vị trí/góc theo cuộn.
 - “Từ vực sâu đến đỉnh cao” là chủ đề gợi ý. Thứ tự, điểm nối, khung đối chiếu, vùng chưa có tư liệu, vị trí nội dung thật và chặng tích hợp còn cần chốt. Không đổi 58 yêu cầu/7 chặng, không hủy hướng mở đầu C hoặc tự duyệt menu Sketch 002.
 - Bản đối chiếu ảnh và đề xuất kỹ thuật: [.planning/quick/261104-q6d-record-fantasy-journey-design-extension-/SUMMARY.md](quick/261104-q6d-record-fantasy-journey-design-extension-/SUMMARY.md). Vùng xám Q01–Q20 nằm trong [HTML chung](discovery/project-questions.html#fantasy-journey).
+
+## Quyết định fantasy — 2026-11-05 (hiện hành)
+
+- Nguồn trực tiếp: [Q01–Q20 và ghi chú typography](discovery/fantasy-journey-answers-2026-11-05.json). [Hợp đồng chi tiết](discovery/fantasy-journey-context-2026-11-05.md) tách điều bắt buộc, phần giao sáng tạo và phụ thuộc còn chờ.
+- Kể cách biến ý tưởng thành sản phẩm; **R02 → R03 → R05 → R01 → R07 → R04 → R06**, bảy cảnh ngang tầm, kết ở biển mây R06. Không cắt cảnh dưới mọi hình thức; được sáng tạo vùng nối fantasy hợp lý và phần khuất/ngoài khung, không thêm art nguồn thứ tám.
+- R02 tối/lóe sáng rồi tiến về tên/giới thiệu trong vùng sáng, xuyên khe đá mở ra thế giới. R01 từ góc nguồn bay chếch lên hẻm núi; R03/R05/R07 lướt qua; R04 thay tháp bằng nhà kiểu R06; R06 nhìn quanh, liệng qua building rồi lên trời. Góc/quỹ đạo còn lại được giao chọn.
+- Chất art 100%, không low-poly; các ngoại lệ chủ portfolio đã cho phép là bỏ toàn bộ nhân vật, thay kiến trúc R04, sáng tạo phần khuất/vùng nối, ngày/đêm, low-detail khi giảm motion. Không thể gọi những góc/ánh sáng đã đổi là trùng pixel ảnh gốc.
+- Cảnh thường luôn sống kể cả lúc ngừng scroll. Giảm motion là ngoại lệ: mọi entity đứng yên, art low-detail, không mất nội dung/hành động. Light trời sáng, Dark trời tối cùng lớp chữ/điều hướng; giữ lựa chọn người xem.
+- Typography blend vào cảnh. **R01: title ngay chóp vách, body khắc lên vách**. Vị trí nội dung khác giao chọn theo art, giữ đường đọc/ngữ nghĩa và nội dung thật. Quay từ dự án về đúng cảnh vừa rời, không xem lại intro.
+- Footer **một viewport**, tên art/BGM, social, unique visitor counter, DAU, MAU. Chỉ số phải có dữ liệu thật; dấu “...” chưa định nghĩa thêm mục nào. [Vùng S](discovery/project-questions.html#footer-statistics) hỏi cách tính/hiển thị/quyền riêng tư; chưa chọn dịch vụ, mua hay triển khai. Ghi công không tự xác nhận quyền công khai art/nhạc.
+- **5 phase / 74 yêu cầu / thực thi 0/5** theo Q20. Giữ 58 mã baseline, thêm 16 mã; [ROADMAP](ROADMAP.md) thay lộ trình 7 chặng. Nếu thử cảnh thì chọn R02, chưa tự chạy thử. Entrance C là lựa chọn lịch sử còn giữ ở phần phù hợp, Q03 mới chi phối phần xung đột; menu Sketch 002 chưa chọn.
+- Không sửa app/ảnh/dependency ở lượt này, không tự bắt đầu phase hay khôi phục tài liệu phase bị xóa ngoài nhiệm vụ. Dữ kiện cá nhân, PDF/provider, metadata/host, play BGM và nguồn/quyền dùng art vẫn có cổng kiểm tương ứng.
 
 ## Evolution
 
 Sau mỗi chặng: đối chiếu mục tiêu với hành vi đã kiểm chứng, cập nhật yêu cầu/điểm còn chờ, ghi quyết định mới và điều chỉnh mô tả nếu thực tế thay đổi. Chỉ chuyển Active sang Validated khi có bằng chứng phù hợp. Sau mỗi mốc phát hành: rà lại giá trị cốt lõi, mục tiêu cơ hội, phạm vi và tư liệu; không biến mục tạm hoãn thành hoàn tất.
 
 ---
-*Last updated: 2026-10-19 after J approvals, project research and initialization decisions. Phase execution has not started.*
+*Last updated: 2026-11-05 — câu trả lời Q và typography được ghi; 5 phase / 74 yêu cầu. Chưa bắt đầu thực thi lộ trình mới.*

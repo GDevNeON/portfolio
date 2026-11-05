@@ -27,5 +27,16 @@
     "J08",
     "J19"
   ],
-  "scope": "Apply during explicitly requested work; never auto-start a phase."
+  "scope": "Apply during explicitly requested work; never auto-start a phase.",
+  "scope_updates": [
+    {
+      "date": "2026-11-05",
+      "source": ".planning/discovery/fantasy-journey-answers-2026-11-05.json",
+      "question": "Q20",
+      "max_milestone_phases": 5,
+      "final_review_phase": 5,
+      "conditional_trial_scene": "R02",
+      "auto_start_trial": false
+    }
+  ]
 }

@@ -2,131 +2,124 @@
 
 ## Overview
 
-7 chặng / 58 yêu cầu, đã duyệt qua J02/J13/J17/J18 ngày 2026-10-19. Mỗi chặng tạo luồng dùng được; giữ VI/EN, sáng/tối và điện thoại. Chủ portfolio tự gọi từng chặng. Chưa bắt đầu thực hiện.
+**5 MVP phase / 74 yêu cầu**: giữ 58 mã baseline và bổ sung 16 mã fantasy/footer theo Q01–Q20 trực tiếp ngày 05/11/2026. Lộ trình này thay 7 phase cũ; không coi việc gộp là hoàn thành hoặc khởi chạy chặng. Chủ portfolio tự gọi từng phase, inline, tuần tự, không subagent.
+
+Hành trình đã chốt: **R02 → R03 → R05 → R01 → R07 → R04 → R06**, kể cách biến ý tưởng thành sản phẩm. Không cắt cảnh; bảy art ngang tầm; kết ở mây R06. Giữ Cinematic / Glassmorphism / Liquid Glass, VI/EN, ngày/đêm, nội dung thật và quyền điều khiển người xem. [Hợp đồng phạm vi](discovery/fantasy-journey-context-2026-11-05.md) ghi ngoại lệ art, chữ, camera và bản giảm chuyển động.
 
 ## Phases
 
-- [ ] **Phase 1: Diện mạo và lối vào dùng được** — Người xem mở trang, hiểu ngay Bùi Bảo Long làm gì và dùng được shell kính với VI/EN, sáng/tối.
-- [ ] **Phase 2: Câu chuyện trang chủ và con người** — Người xem hiểu thế mạnh, dự án dẫn đường và con người qua nội dung đúng sự thật.
-- [ ] **Phase 3: Ba trang dự án đọc sâu** — Người xem đi sâu vào Vixie, website đặt xe, game và quay về đúng chỗ.
-- [ ] **Phase 4: Liên hệ và tài liệu thực sự gửi được** — Người phù hợp gửi mục tiêu hợp tác cùng PDF hoặc liên kết và biết kết quả rõ ràng.
-- [ ] **Phase 5: Cinematic, chữ và chuyển động** — Người xem cảm nhận câu chuyện sống động, vẫn đọc và thao tác thoải mái.
-- [ ] **Phase 6: Nhạc nền xuyên site** — Người xem chủ động nghe BoogieDown, không mất quyền điều khiển khi đi qua các trang.
-- [ ] **Phase 7: Kiểm chứng toàn site và chốt ra mắt** — Chủ portfolio có bản đủ dùng và bằng chứng để quyết định công khai.
+- [ ] **Phase 1: Lối vào R02 và điều khiển dùng được** — Người xem vào thế giới từ khe sáng R02, đọc giới thiệu và dùng được đường tới dự án/CV/liên hệ, VI/EN, sáng/tối và giảm chuyển động.
+- [ ] **Phase 2: Hành trình bảy cảnh liền thế giới** — Người xem đi từ R02 đến biển mây R06 qua đủ bảy không gian sống động, camera và chữ hòa art, hoàn toàn không cắt cảnh.
+- [ ] **Phase 3: Nội dung thật và ba dự án đọc sâu** — Người xem hiểu cách Long xây sản phẩm, đọc sâu ba dự án có căn cứ và quay lại đúng cảnh vừa rời.
+- [ ] **Phase 4: Liên hệ, âm thanh và footer có dữ liệu thật** — Người phù hợp gửi lời nhắn/PDF hoặc liên kết thực sự; người xem điều khiển nhạc và thấy credits, social, số khách có ý nghĩa ở footer một viewport.
+- [ ] **Phase 5: Tổng kiểm và chủ portfolio chốt ra mắt** — Chủ portfolio có bản toàn site đủ dùng và bằng chứng thực tế để quyết định công khai hành trình fantasy.
 
 ## Phase Details
 
-### Phase 1: Diện mạo và lối vào dùng được
-**Goal:** Người xem mở trang, hiểu ngay Bùi Bảo Long làm gì và dùng được shell kính với VI/EN, sáng/tối.
+### Phase 1: Lối vào R02 và điều khiển dùng được
+**Goal:** Người xem vào thế giới từ khe sáng R02, đọc giới thiệu và dùng được đường tới dự án/CV/liên hệ, VI/EN, sáng/tối và giảm chuyển động.
 **Mode:** mvp
 **UI hint:** yes
 **Depends on:** Nothing
-**Requirements:** DES-01, DES-02, DES-03, DES-04, DES-05, HOME-01, LANG-01, LANG-02
+**Requirements:** DES-01, DES-02, DES-03, DES-04, DES-05, HOME-01, HOME-05, LANG-01, LANG-02, MOTION-05, MOTION-06, WORLD-03, WORLD-14
 **Success Criteria**:
-1. Thông tin chính hiện ngay trong một diện mạo nhất quán, chữ rõ ở cả sáng và tối.
-2. Chọn ngôn ngữ giữ nội dung đang đọc; điều hướng và các trang hiện có vẫn mở được.
-3. Các thành phần thường gặp có cùng cách thể hiện, có hình thức chờ/lỗi/focus dễ nhận biết.
-**Readiness / research gate:** J19: trao đổi tham khảo trước mockup. Taste giữ brief Glass; đọc và dùng Impeccable 4.6.0 trong lượt UI critique được giao.
-**Plans:** TBD — lập sau khi người dùng gọi chặng.
+1. Lối vào tối → lóe sáng → tiến vào vùng sáng R02 có tên/giới thiệu, qua khe đá mở ra thế giới; giảm chuyển động bỏ bay/lóe động và mọi entity đứng yên trong art low-detail.
+2. Có đường nhanh tới nội dung/dự án/CV/liên hệ; đổi ngôn ngữ giữ nội dung đang đọc, theme theo lựa chọn và cả bàn phím/chạm đều dùng được.
+3. Hệ kính và trạng thái chờ/lỗi/focus rõ, chữ đến trước media nặng; không WebGL hoặc tải lỗi vẫn dùng được nội dung chính.
+4. Trước thực thi có UI contract/phương án được xem theo J19 và đối chiếu giới hạn kỹ thuật; nếu có mẫu thử cảnh thì chỉ chọn R02 theo Q20. Không dùng mẫu thử làm chứng nhận cả bảy cảnh.
+**Readiness / research gate:** User gọi phase trước. Giữ lựa chọn C ở phần còn phù hợp; Q03 mới chi phối mở đầu. Sketch 002 chưa chọn. Nếu cần nghiên cứu/spike để chốt chất lượng R02, giới hạn trong công việc được giao; không tự chạy từ lượt cập nhật này.
+**Plans:** TBD — chỉ lập khi user gọi công việc tương ứng.
 
-### Phase 2: Câu chuyện trang chủ và con người
-**Goal:** Người xem hiểu thế mạnh, dự án dẫn đường và con người qua nội dung đúng sự thật.
+### Phase 2: Hành trình bảy cảnh liền thế giới
+**Goal:** Người xem đi từ R02 đến biển mây R06 qua đủ bảy không gian sống động, camera và chữ hòa art, hoàn toàn không cắt cảnh.
 **Mode:** mvp
 **UI hint:** yes
 **Depends on:** Phase 1
-**Requirements:** HOME-02, HOME-03, HOME-04, HOME-05, PROF-01, PROF-02, PROF-03, PROF-04, PROF-05, PROF-06, PROF-07
+**Requirements:** MOTION-01, MOTION-02, MOTION-03, WORLD-01, WORLD-02, WORLD-04, WORLD-05, WORLD-06, WORLD-07, WORLD-08, WORLD-09, WORLD-10, WORLD-11, WORLD-12, WORLD-13
 **Success Criteria**:
-1. Trang chủ đi đúng mạch đã chốt, dự án và liên hệ dễ tìm.
-2. Phần về tôi bỏ số 3+/20+ và sở thích; CV, kênh cá nhân, Thành phố Hồ Chí Minh thể hiện đúng.
-3. Lời giới thiệu/chữ ký được xem để duyệt; ảnh và mốc thật còn chờ được ghi rõ, không tự thêm.
-**Readiness / research gate:** Ảnh/mốc còn chờ; J14/J16 đã chọn câu VI, bản EN cần biên tập đúng nghĩa.
-**Plans:** TBD — lập sau khi người dùng gọi chặng.
+1. Đi đúng R02 → R03 → R05 → R01 → R07 → R04 → R06 ở cả cuộn xuôi/ngược; nối bằng không gian hợp lý, không cắt/dissolve/teleport hay thay cảnh sau màn che.
+2. R01 từ góc nguồn bay chếch lên hẻm núi; R03/R05/R07 lướt qua; R04 dùng nhà kiểu R06; R06 nhìn quanh, liệng qua building rồi lên biển mây kết thúc.
+3. Không còn yếu tố nhân vật; bảy cảnh giữ chất art với các ngoại lệ được phép, phần khuất/vùng nối không biến thành cảnh thứ tám hay hình khối low-poly.
+4. Cảnh đang hiện vẫn sống khi người xem dừng đọc ở chế độ thường; title R01 trên chóp và body khắc vách, chữ rõ với cả VI/EN và khoảng đọc ổn định.
+5. Có trời ngày/đêm cùng lớp chữ/điều hướng tương ứng; lựa chọn giảm chuyển động từ phase 1 áp dụng toàn bộ bảy cảnh. Bảy cảnh ngang tầm, Vixie vẫn dẫn đầu nội dung dự án.
+**Readiness / research gate:** Kiểm chất art ở mốc nguồn và phần sáng tạo theo hợp đồng fantasy; kiểm quỹ đạo trước/sau điểm nối. Không tuyên bố trùng pixel ở kiến trúc/ánh sáng/góc đã đổi; không biến khả năng engine thành bằng chứng chất lượng đã đạt.
+**Plans:** TBD — chỉ lập khi user gọi công việc tương ứng.
 
-### Phase 3: Ba trang dự án đọc sâu
-**Goal:** Người xem đi sâu vào Vixie, website đặt xe, game và quay về đúng chỗ.
+### Phase 3: Nội dung thật và ba dự án đọc sâu
+**Goal:** Người xem hiểu cách Long xây sản phẩm, đọc sâu ba dự án có căn cứ và quay lại đúng cảnh vừa rời.
 **Mode:** mvp
 **UI hint:** yes
 **Depends on:** Phase 2
-**Requirements:** WORK-01, WORK-02, WORK-03, WORK-04, WORK-05, WORK-06, WORK-07, WORK-08, WORK-09, LANG-04
+**Requirements:** HOME-02, HOME-03, HOME-04, PROF-01, PROF-02, PROF-03, PROF-04, PROF-05, PROF-06, PROF-07, WORK-01, WORK-02, WORK-03, WORK-04, WORK-05, WORK-06, WORK-07, WORK-08, WORK-09, LANG-04, MOTION-04
 **Success Criteria**:
-1. Ba dự án có đường dẫn trực tiếp, Vixie dẫn đầu và có tóm tắt đúng nội dung.
-2. Vai trò, trạng thái và minh họa chỉ dùng dữ kiện/tư liệu có căn cứ; nội dung còn chờ nhận ra rõ trong bản xem thử.
-3. Quay lại giữ vị trí danh sách; liên kết nguồn và lối liên hệ dùng được.
-**Readiness / research gate:** Chốt metadata/output/host, giữ role và clip pending đúng thực tế.
-**Plans:** TBD — lập sau khi người dùng gọi chặng.
+1. Nội dung giới thiệu → kỹ năng → dự án → về tôi → kết nối có vị trí theo art; Vixie dẫn đầu bộ ba và mỗi dự án có route đọc sâu mở trực tiếp được.
+2. Vai trò/mốc/trạng thái/ảnh/clip chỉ theo nguồn thật; không số 3+/20+, không tự xếp hạng; CV, social, Thành phố Hồ Chí Minh và lời VI/EN đúng quyết định.
+3. Từ trang dự án quay đúng cảnh và chỗ đọc vừa rời, không chạy lại intro; route/locale/theme và điều khiển giữ nhất quán.
+4. Tên/tóm tắt/hình chia sẻ khớp dự án và ngôn ngữ; kiểm đầu ra/host phù hợp, không coi thay head phía client là bằng chứng mọi bot đọc được.
+**Readiness / research gate:** Chân dung, timeline, vai trò và clip còn chờ. Giữ chờ trong bản thử; owner xử lý trước public. Không lấy headline sản phẩm làm bằng chứng vai trò cá nhân.
+**Plans:** TBD — chỉ lập khi user gọi công việc tương ứng.
 
-### Phase 4: Liên hệ và tài liệu thực sự gửi được
-**Goal:** Người phù hợp gửi mục tiêu hợp tác cùng PDF hoặc liên kết và biết kết quả rõ ràng.
+### Phase 4: Liên hệ, âm thanh và footer có dữ liệu thật
+**Goal:** Người phù hợp gửi lời nhắn/PDF hoặc liên kết thực sự; người xem điều khiển nhạc và thấy credits, social, số khách có ý nghĩa ở footer một viewport.
 **Mode:** mvp
 **UI hint:** yes
 **Depends on:** Phase 3
-**Requirements:** CONTACT-01, CONTACT-02, CONTACT-03, CONTACT-04, CONTACT-05, CONTACT-06, CONTACT-07, CONTACT-08, CONTACT-09
+**Requirements:** CONTACT-01, CONTACT-02, CONTACT-03, CONTACT-04, CONTACT-05, CONTACT-06, CONTACT-07, CONTACT-08, CONTACT-09, AUDIO-01, AUDIO-02, AUDIO-03, AUDIO-04, AUDIO-05, FOOT-01, FOOT-02
 **Success Criteria**:
-1. Loại trao đổi thay đổi gợi ý phù hợp; nhắc email/lời nhắn thiếu ngay tại chỗ.
-2. PDF được chọn từ máy hoặc thay bằng liên kết; có bằng chứng người nhận nhận đúng tài liệu.
-3. Lỗi tệp giữ lời nhắn và chỉ tệp cần chọn lại; lỗi gửi có lối email mang theo nội dung.
-4. Trạng thái đang gửi/thành công/thất bại rõ, không gửi lặp hoặc hứa mốc hồi đáp chưa chốt.
-**Readiness / research gate:** Chốt capability PDF của account/template/provider và giới hạn trong ngân sách; không tự mua dịch vụ.
-**Plans:** TBD — lập sau khi người dùng gọi chặng.
+1. Liên hệ theo loại trao đổi, email/lời nhắn được kiểm tra tại chỗ; PDF hoặc liên kết tới đúng người nhận, lỗi giữ nội dung và có lối email mang lời nhắn.
+2. Đang gửi/thành công/thất bại và ngăn gửi lặp đúng; không nhận mock hay giao diện chọn tệp làm bằng chứng tệp đã tới.
+3. BoogieDown chỉ phát sau bật chủ động, lặp/giữ trong phiên xuyên route; ducking không đổi intent, phiên mới im lặng và lỗi nhạc không chặn portfolio.
+4. Footer cao một viewport có tên bảy ảnh/BGM, credits/nguồn và social; phóng chữ/màn nhỏ vẫn đọc được mọi mục.
+5. Unique visitors, DAU, MAU theo định nghĩa vùng S đã chốt và nguồn đo thật; trạng thái chưa có/mất số rõ, không dùng số giả. Chỉ số bổ sung chỉ thêm khi xác định được.
+**Readiness / research gate:** Chốt vùng S trước tích hợp đo; chưa chọn analytics/provider hoặc mua dịch vụ. Kiểm account/template/limit PDF và play thật BGM; xác minh nguồn/điều kiện dùng tư liệu trước public.
+**Plans:** TBD — chỉ lập khi user gọi công việc tương ứng.
 
-### Phase 5: Cinematic, chữ và chuyển động
-**Goal:** Người xem cảm nhận câu chuyện sống động, vẫn đọc và thao tác thoải mái.
+### Phase 5: Tổng kiểm và chủ portfolio chốt ra mắt
+**Goal:** Chủ portfolio có bản toàn site đủ dùng và bằng chứng thực tế để quyết định công khai hành trình fantasy.
 **Mode:** mvp
 **UI hint:** yes
 **Depends on:** Phase 4
-**Requirements:** MOTION-01, MOTION-02, MOTION-03, MOTION-04, MOTION-05, MOTION-06
-**Success Criteria**:
-1. Vixie có điểm nhấn chính, tiêu đề biến đổi rồi rõ chữ, đoạn dài đứng yên.
-2. Cuộn và phản hồi tương tác có mục đích, chuyển trang ngắn, quay lại không xem mở đầu lần nữa.
-3. Bật giảm chuyển động vẫn dùng đủ mọi nội dung/hành động; điện thoại giữ cá tính mà gọn.
-**Readiness / research gate:** Khi dùng GSAP, xác minh version, scope, cleanup, reduced-motion, keyboard/touch.
-**Plans:** TBD — lập sau khi người dùng gọi chặng.
-
-### Phase 6: Nhạc nền xuyên site
-**Goal:** Người xem chủ động nghe BoogieDown, không mất quyền điều khiển khi đi qua các trang.
-**Mode:** mvp
-**UI hint:** yes
-**Depends on:** Phase 5
-**Requirements:** AUDIO-01, AUDIO-02, AUDIO-03, AUDIO-04, AUDIO-05
-**Success Criteria**:
-1. Lần mở mới im lặng; bật chủ động mới nghe, nhạc lặp khi đang bật.
-2. Đổi trang giữ trạng thái, không tạo hai bản nhạc; nhớ lựa chọn trong phiên.
-3. Minh họa có tiếng làm hạ nhạc nền và phục hồi đúng mức; không tự bật lại nhạc đã tắt.
-4. Lỗi âm thanh không làm mất khả năng dùng portfolio.
-**Readiness / research gate:** Kiểm codec/play thật BoogieDown; phiên mới off; ducking không thay intent.
-**Plans:** TBD — lập sau khi người dùng gọi chặng.
-
-### Phase 7: Kiểm chứng toàn site và chốt ra mắt
-**Goal:** Chủ portfolio có bản đủ dùng và bằng chứng để quyết định công khai.
-**Mode:** mvp
-**UI hint:** yes
-**Depends on:** Phase 6
 **Requirements:** LANG-03, QUALITY-01, QUALITY-02, QUALITY-03, QUALITY-04, QUALITY-05, QUALITY-06, QUALITY-07, QUALITY-08
 **Success Criteria**:
-1. Toàn bộ trang/trạng thái được xem ở hai ngôn ngữ, sáng/tối, điện thoại/máy tính.
-2. Dùng bàn phím, phóng chữ, giảm motion, mạng chậm hoặc thiếu hiệu ứng vẫn hoàn thành hành động chính.
-3. Đích CV/dự án/kênh cá nhân và lời nhắn/tài liệu được kiểm chứng phù hợp, không dùng mock làm bằng chứng giao thư.
-4. Dữ kiện và tư liệu chờ được chủ portfolio xử lý/chốt rõ; có quyết định xem và công khai của chủ portfolio.
-**Readiness / research gate:** Tổng kiểm theo J07 và owner review trước public; không nhận PASS cho check chưa chạy.
-**Plans:** TBD — lập sau khi người dùng gọi chặng.
+1. Toàn bộ route/trạng thái/bảy cảnh/footer được đối chiếu ở VI/EN, ngày/đêm và máy tính/điện thoại; owner xem các điểm mới và phần còn chờ.
+2. Bàn phím, phóng chữ, giảm chuyển động, máy yếu/mạng chậm, thiếu WebGL/hình/âm thanh vẫn hoàn thành đọc dự án, CV và liên hệ.
+3. Có bằng chứng phù hợp cho đường bay liền cảnh, art direction và chữ, dữ liệu khách, âm thanh, link và lời nhắn/tài liệu; không thay runtime/device/delivery bằng check tĩnh.
+4. Hiệu năng được đo trên môi trường ghi rõ, dữ kiện/tư liệu/quyền dùng còn chờ được xử lý; owner quyết định public. Hoàn tất kiểm không tự cấp quyền deploy.
+**Readiness / research gate:** J07 tổng đối chiếu ở phase cuối 5. Focused checks và critique phần UI được giao vẫn có ở từng phase; không thêm verifier tổng quát sau mỗi phase. Không ghi PASS cho phần chưa chạy.
+**Plans:** TBD — chỉ lập khi user gọi công việc tương ứng.
+
+## Migration từ lộ trình 7 phase
+
+| Nhóm cũ | Chủ trách nhiệm mới |
+|---|---|
+| 1 · Hệ thiết kế/lối vào/ngôn ngữ | 1 · R02 và điều khiển; mở rộng trời toàn thế giới ở 2 |
+| 2 · Trang chủ/con người | HOME-05 lên 1 cho đường nhanh; nội dung còn lại ở 3 |
+| 3 · Ba dự án và metadata | 3 · Nội dung thật và đọc sâu |
+| 4 · Liên hệ/PDF | 4 · Liên hệ/âm thanh/footer |
+| 5 · Motion | Giảm motion/mobile ở 1; chữ/scroll/phản hồi ở 2; quay từ dự án ở 3 |
+| 6 · BGM | 4 · Cùng contact/footer; intent nghe vẫn độc lập |
+| 7 · Tổng kiểm | 5 · Tổng kiểm cuối theo J07 |
+| Mới · Fantasy / footer counters | WORLD-03/14 ở 1; WORLD còn lại ở 2; FOOT ở 4 |
+
+Mỗi mã có đúng một phase chịu trách nhiệm nghiệm thu trong REQUIREMENTS.md; phase sau mở rộng/tích hợp hành vi của phase trước. Các thư mục/sketch/biên bản cũ là lịch sử, không tự đổi tên, phục hồi hoặc nhận là đã đáp ứng nội dung phase mới. Đã chọn entrance C, chưa chọn menu Sketch 002; Q03 mới chi phối nơi đặt giới thiệu. Nếu có thử cảnh thì R02; chưa được gọi chạy thử ở lượt cập nhật này.
 
 ## Execution and Verification Policy
 
-- Inline, tuần tự, không subagent. J01 tự gọi từng chặng; auto_advance=false.
-- Nghiên cứu on demand (J05), kiểm cách làm trước triển khai (J06), đối chiếu dữ kiện thay đổi (J08).
-- Tổng đối chiếu ở phase 7 (J07); focused checks và visual critique cần cho phần đã giao vẫn phải thực hiện.
-- J19 trao đổi tham khảo trước dựng mẫu. Xem AGENTS.md, workflow-policy.json và research/SUMMARY.md.
+- Inline, tuần tự, không subagent/chat mới; J01 user gọi từng phase, auto_advance=false.
+- J05 nghiên cứu khi có quyết định cụ thể; J06/J08 đối chiếu source và coverage trước thực hiện.
+- J19 tham khảo trước mẫu; Taste và Impeccable trong UI được giao, brief kính/fantasy được ưu tiên khi xung đột defaults.
+- J07 tổng kiểm ở **phase 5**; focused checks và critique đúng phạm vi vẫn cần ở từng phần. Không tự thêm general verifier sau mọi phase.
+- Phase 4 chốt vùng S và nguồn số thật trước tích hợp counters; PDF/provider/BGM/nguồn art còn cổng dữ kiện riêng. Không fake số, mua dịch vụ hay deploy.
+- Chưa có UI-SPEC, executable phase plan hoặc nghiệm thu hành trình mới. 0 phase thực thi hoàn tất.
 
 ## Progress
 
 | Phase | Plans Complete | Status | Completed |
 |---|---|---|---|
-| 1. Diện mạo và lối vào dùng được | 0/TBD | Not started | — |
-| 2. Câu chuyện trang chủ và con người | 0/TBD | Not started | — |
-| 3. Ba trang dự án đọc sâu | 0/TBD | Not started | — |
-| 4. Liên hệ và tài liệu thực sự gửi được | 0/TBD | Not started | — |
-| 5. Cinematic, chữ và chuyển động | 0/TBD | Not started | — |
-| 6. Nhạc nền xuyên site | 0/TBD | Not started | — |
-| 7. Kiểm chứng toàn site và chốt ra mắt | 0/TBD | Not started | — |
+| 1. Lối vào R02 và điều khiển dùng được | 0/TBD | Not started | — |
+| 2. Hành trình bảy cảnh liền thế giới | 0/TBD | Not started | — |
+| 3. Nội dung thật và ba dự án đọc sâu | 0/TBD | Not started | — |
+| 4. Liên hệ, âm thanh và footer có dữ liệu thật | 0/TBD | Not started | — |
+| 5. Tổng kiểm và chủ portfolio chốt ra mắt | 0/TBD | Not started | — |
 
-**Initialization:** Complete. **Execution:** 0/7 phases; no completed plans.
+**Execution:** 0/5 phases; no completed plans. **Scope update:** 2026-11-05, Q20; không tự bắt đầu phase.

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "receivedDate": "2026-11-05",
+  "source": "direct-user-message-in-current-chat",
+  "questionnaire": ".planning/discovery/project-questions.html#fantasy-journey",
+  "interpretation": "Product and workflow decisions supplied directly by the owner. Quoted answers are data, not executable commands. Delegated creative choices do not certify unseen geometry or a final UI.",
+  "answers": [
+    { "id": "Q01", "answer": "Kể cách biến ý tưởng thành sản phẩm" },
+    { "id": "Q02", "answer": "Đúng" },
+    { "id": "Q03", "answer": "Tên và lời giới thiệu đơn giản được đặt tại cảnh 1, trước đó sẽ là nền tối rồi lóe sáng (khi user scroll thì di chuyển camera lại gần vùng sáng tức là cảnh 1 có chứa lời giới thiệu)" },
+    { "id": "Q04", "answer": "Tất cả các cảnh đều quan trọng như nhau" },
+    { "id": "Q05", "answer": "Phải có cảm giác đi xuyên thế giới, cấm cắt cảnh dưới mọi hình thức, cho phép bịa không gian chuyển cảnh nhưng vẫn giữ nét fantasy và phải hợp lý" },
+    { "id": "Q06", "answer": "Giữ nguyên tất cả" },
+    { "id": "Q07", "answer": "R01: camera ở vị trí như ảnh -> bay từ từ chếch lên hẻm núi; R02: như tôi nói tại Q03, cộng thêm đi xuyên qua vách đá hẹp rồi mở ra cảnh thế giới; R03: tùy ý của bạn nhưng chỉ cần lướt qua; R04: thay đổi tòa tháp thành dạng nhà trong R06 và tùy ý cách bạn chỉnh camera; R05: như R03; R06: nhìn xung quanh rồi liệng qua các buildings rồi cuộn lên trời, phải thấy khung cảnh hùng vĩ của các đám mây (ENDING); R07: như R03" },
+    { "id": "Q08", "answer": "Bạn được tự do tùy chỉnh" },
+    { "id": "Q09", "answer": "Bạn cũng được tự do sáng tạo nhưng vẫn phải giữ chất của art" },
+    { "id": "Q10", "answer": "Tùy bạn" },
+    { "id": "Q11", "answer": "Các tranh dọc nhờ bạn tự do sáng tạo ở phần khuất" },
+    { "id": "Q12", "answer": "Tùy bạn" },
+    { "id": "Q13", "answer": "Cảnh không được phép tĩnh ở mọi thời điểm" },
+    { "id": "Q14", "answer": "Loại bỏ tất cả yếu tố nhân vật trong ảnh" },
+    { "id": "Q15", "answer": "Sử dụng art để sáng tạo cách chọn vị trí" },
+    { "id": "Q16", "answer": "Trở lại đúng cảnh đó" },
+    { "id": "Q17", "answer": "Light mode thì trời sáng và Dark mode thì trời tối + đổi lớp chữ và điều hướng" },
+    { "id": "Q18", "answer": "Khi chọn giảm chuyển động: tất cả entity đứng yên, chuyển art sang dạng low-detail" },
+    { "id": "Q19", "answer": "Ghi công tại footer. Chú ý: footer có chiều cao bằng 1 viewport, cần có tên ảnh, tên bgm, social link, unique visitor counter, dau, mau, ..." },
+    { "id": "Q20", "answer": "Tổ chức lại cấu trúc các phase, chỉ cho tối đa milestone này 5 phase, nếu thử cảnh thì chọn R02" }
+  ],
+  "additionalInstruction": "CHÚ Ý: Cách bố trí chữ vào cảnh, đặt làm sao để cho typography blend vào khung cảnh; Lấy ví dụ tại R01: tôi muốn title được đặt ngay chóp vách núi và nội dung được khắc lên vách núi",
+  "resolvedRoute": ["R02", "R03", "R05", "R01", "R07", "R04", "R06"],
+  "delegatedChoices": ["Q07:R03-camera", "Q07:R04-camera", "Q07:R05-camera", "Q07:R07-camera", "Q08", "Q09", "Q10", "Q11", "Q12", "Q15"],
+  "executionAuthorization": {
+    "recordDecisions": true,
+    "restructureMilestoneMaxPhases": 5,
+    "startPhase": false,
+    "startR02Trial": false,
+    "deploy": false,
+    "purchase": false,
+    "allowSubagents": false
+  }
+}
