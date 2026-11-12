@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Manrope:wght@400;500;600&display=swap');
+
+:root { font-family: 'Manrope', sans-serif; color: #fff8e9; background: #241a15; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, select, input { font: inherit; }
+button, a, select, input { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; color: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, canvas:focus-visible { outline: 2px solid #e7b972; outline-offset: 5px; }
+button:disabled { cursor: default; opacity: .45; }
+.experience { width: 100%; height: 100svh; position: relative; overflow: hidden; }
+.cave-viewport { position: absolute; inset: 0; touch-action: none; }
+.cave-viewport canvas { display: block; width: 100%; height: 100%; }
+.masthead { position: absolute; top: 34px; left: 42px; right: 42px; display: flex; align-items: center; gap: 30px; pointer-events: none; }
+.wordmark { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 35px; letter-spacing: -.04em; line-height: 1; color: #fff8e9; text-decoration: none; pointer-events: auto; text-shadow: 0 1px 16px #22180f; }
+.wordmark span { display: block; margin-top: 9px; font: 8px 'Manrope', sans-serif; letter-spacing: .3em; }
+.edition { font-size: 9px; letter-spacing: .22em; opacity: .8; border-left: 1px solid #fff6d84d; padding: 10px 0 10px 25px; text-shadow: 0 1px 10px #000; }
+.edition span { padding: 0 5px; }
+.top-actions { position: absolute; right: 38px; top: 39px; display: flex; gap: 22px; align-items: center; }
+.top-actions button { border: 0; border-bottom: 1px solid transparent; padding: 8px 0; background: none; font-size: 11px; text-shadow: 0 1px 12px #000; }
+.top-actions button:hover { border-color: currentColor; }
+.top-actions button span { padding-left: 6px; }
+.scene-caption { position: absolute; left: 44px; bottom: 108px; max-width: 580px; pointer-events: none; text-shadow: 0 2px 22px #1f140b, 0 1px 4px #1f140b80; transition: opacity .3s; }
+.eyebrow { font-size: 9px; font-weight: 600; letter-spacing: .22em; line-height: 1.8; }
+.eyebrow span { margin: 0 10px; }
+.scene-caption h1 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: clamp(34px,4.4vw,67px); letter-spacing: -.035em; line-height: 1.06; margin: 14px 0; }
+.scene-copy { font-size: 12px; line-height: 1.8; letter-spacing: .025em; max-width: 360px; opacity: .85; }
+.scroll-cue { position: absolute; right: 44px; bottom: 122px; text-align: center; text-shadow: 0 1px 12px #000; pointer-events: none; }
+.scroll-cue span { display: block; font-size: 25px; }
+.scroll-cue p { margin-top: 14px; font-size: 10px; letter-spacing: .08em; }
+.journey-nav { position: absolute; left: 44px; bottom: 28px; right: 44px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid #fff4df40; padding-top: 19px; }
+.journey-nav button { border: 0; padding: 7px 0; background: none; font-size: 11px; opacity: .6; text-shadow: 0 1px 10px #000; }
+.journey-nav button span { padding-right: 15px; font-size: 9px; letter-spacing: .06em; }
+.journey-nav button[aria-current] { opacity: 1; }
+.journey-nav button[aria-current] span { color: #ffe0a3; }
+.position-line { position: absolute; bottom: 0; height: 2px; width: 100%; background: #ffffff10; }
+.position-line div { height: 100%; background: #e6bc7a; transform-origin: left; }
+.experience--quiet .scene-caption, .experience--quiet .scroll-cue, .experience--quiet .journey-nav, .experience--quiet .masthead { opacity: 0; visibility: hidden; }
+.loading { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; background: #211a16; gap: 15px; }
+.loading-mark { font-size: 66px; color: #c6d7cd; }
+.loading p { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 30px; margin: 0; }
+.loading progress { width: 150px; height: 2px; accent-color: #caac7e; }
+.loading > span:last-child { font-size: 10px; letter-spacing: .15em; }
+.failure { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: min(90%,520px); background: #271f19f5; padding: 32px; line-height: 1.8; }
+.failure h1 { font-family: Georgia, serif; font-weight: 400; }
+.failure button, .failure a { display: inline-block; color: inherit; background: none; border: 1px solid #b4a387; padding: 9px 15px; margin: 7px 10px 0 0; font-size: 12px; text-decoration: none; }
+.review-tools { position: absolute; top: 96px; right: 32px; width: 340px; max-height: calc(100svh - 125px); overflow: auto; padding: 22px; background: #25231eed; border: 1px solid #e9ddbe40; box-shadow: 0 12px 50px #0004; color: #f5eddb; font-size: 12px; }
+.panel-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.panel-heading h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: 27px; margin: 0 0 12px; }
+.panel-heading button { background: none; border: 0; font-size: 27px; align-self: flex-start; }
+.tool-row { display: flex; justify-content: space-between; align-items: center; margin: 15px 0; }
+.tool-row button, .review-tools details button { background: none; border: 1px solid #c6b59488; padding: 7px 11px; }
+.check-row { display: flex; align-items: center; gap: 10px; margin: 15px 0; }
+.check-row input { accent-color: #bba67d; width: 16px; height: 16px; }
+.select-row { display: grid; gap: 8px; margin: 20px 0; }
+.select-row select { color: #f5eddb; background: #302d25; border: 1px solid #c6b59455; border-radius: 0; padding: 8px; width: 100%; }
+.range-row { display: block; margin: 20px 0; }
+.range-row output { float: right; }
+.range-row input { width: 100%; accent-color: #c9b48d; margin-top: 15px; }
+.tool-note, .keyboard-note { line-height: 1.8; font-size: 10px; opacity: .7; }
+.review-tools details { border-top: 1px solid #c6b59440; padding-top: 13px; margin-top: 17px; }
+.review-tools summary { cursor: pointer; }
+.review-tools dl > div { display: flex; justify-content: space-between; margin: 12px 0; }
+.review-tools details p { font-size: 10px; line-height: 1.8; opacity: .7; }
+.reference-dialog { width: min(940px,94vw); max-height: 90svh; background: #f0e9db; color: #332d24; border: 0; padding: 28px; }
+.reference-dialog::backdrop { background: #151512b8; }
+.reference-dialog > p { font-size: 12px; line-height: 1.8; }
+.reference-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 25px; }
+.reference-grid figure { margin: 12px 0; }
+.reference-grid img { max-width: 100%; height: auto; display: block; }
+.reference-grid figure:first-child img { max-height: 65svh; margin: auto; }
+.reference-grid figcaption, .reference-grid li, .reference-grid p { font-size: 12px; line-height: 1.8; margin-top: 12px; }
+.reference-grid h3 { font-family: Georgia,serif; font-weight: 400; margin-top: 30px; }
+.back-to-cave { display: block; margin: 20px auto 0; border: 1px solid #7b7059; padding: 11px 20px; background: none; }
+@media (max-width: 760px) {
+  .masthead { top: 24px; left: 22px; right: 22px; }
+  .wordmark { font-size: 27px; }
+  .edition { display: none; }
+  .top-actions { right: 20px; top: 25px; gap: 15px; }
+  .top-actions button { font-size: 9px; }
+  .top-actions { gap: 10px; }
+  .scene-caption { left: 24px; bottom: 150px; max-width: calc(100% - 48px); }
+  .scene-caption h1 { font-size: 42px; max-width: 290px; }
+  .scene-copy { max-width: 250px; font-size: 11px; }
+  .eyebrow { font-size: 8px; letter-spacing: .13em; }
+  .scroll-cue { bottom: 92px; right: 23px; text-align: right; }
+  .scroll-cue span { display: none; }
+  .scroll-cue p { font-size: 9px; }
+  .journey-nav { left: 22px; right: 22px; bottom: 26px; padding-top: 18px; }
+  .journey-nav button { font-size: 9px; }
+  .journey-nav button span { display: block; padding: 0 0 8px; text-align: left; }
+  .review-tools { right: 16px; left: 16px; top: 79px; width: auto; max-height: calc(100svh - 100px); }
+  .reference-dialog { padding: 20px; }
+  .reference-grid { grid-template-columns: 1fr; }
+}
+@media (max-height: 600px) and (min-width: 761px) {
+  .scene-caption { bottom: 84px; }
+  .scene-caption h1 { font-size: 40px; }
+  .scene-copy { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
