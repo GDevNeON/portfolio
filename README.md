@@ -73,4 +73,4 @@ The contact form has built-in rate limiting (3 submissions per 10 minutes per br
 
 ## License
 
-MIT
+PolyForm Noncommercial License 1.0.0
