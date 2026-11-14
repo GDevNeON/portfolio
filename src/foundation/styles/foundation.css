@@ -1,9 +1,19 @@
-.foundationRoot { color: #25221c; background: #f4ead8; font-family: Georgia, serif; font-size: 18px; line-height: 1.6; padding: 24px; overflow-wrap: anywhere; }
+.foundationRoot { --paper: #f4ead8; --ink: #25221c; --accent: #7a4c1f; --quiet: #e6d8bd; color: var(--ink); background: var(--paper); font-family: Georgia, serif; font-size: 18px; line-height: 1.6; padding: clamp(16px, 3vw, 32px); overflow-wrap: anywhere; }
 .foundationRoot * { box-sizing: border-box; }
 .foundationRoot header, .foundationRoot nav { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; }
-.foundationRoot a { color: #7a4c1f; }
-.foundationRoot button, .foundationRoot input { min-height: 48px; font: inherit; }
-.foundationRoot :focus-visible { outline: 3px solid #7a4c1f; outline-offset: 4px; }
+.foundationRoot a { color: var(--accent); display: inline-flex; align-items: center; min-width: 48px; min-height: 48px; text-underline-offset: .2em; }
+.foundationRoot button, .foundationRoot input { min-height: 48px; font: inherit; accent-color: var(--accent); }
+.foundationRoot button { background: var(--quiet); color: var(--ink); border: 0; padding: 8px 16px; cursor: pointer; }
+.foundationRoot button:hover, .foundationRoot button:active { background: var(--accent); color: var(--paper); }
+.foundationRoot :focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.foundationRoot ::selection { background: var(--accent); color: var(--paper); }
+.foundationRoot h1 { font-size: clamp(1.75rem, 3vw, 3.5rem); max-width: 100%; text-wrap: balance; line-height: 1.25; }
+.foundationRoot h2 { font-size: 1.75rem; text-wrap: balance; margin-block: 48px 16px; }
+.foundationRoot h3 { font-size: 1.25rem; }
+.foundationRoot .viewControls, .foundationRoot .viewControls label { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+.foundationRoot summary { padding-block: 12px; min-height: 48px; cursor: pointer; color: var(--accent); }
+.foundationRoot details p { margin-block: 8px 16px; }
+.foundationRoot section > p { max-width: 62ch; }
 .foundationRoot .runtimeHost { height: 48vh; min-height: 240px; }
 .foundationRoot .runtimeHost canvas { display: block; }
 .foundationRoot article { max-width: 62ch; margin-block: 48px; }

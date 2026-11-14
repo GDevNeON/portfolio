@@ -15,8 +15,8 @@ export function FoundationApp() {
     <div className="runtimeHost" ref={host} />
     <p role="status" data-phase={state.loadPhase}>{state.loadPhase === 'ready' ? 'Mẫu sẵn sàng' : state.loadPhase === 'preparing' ? 'Sắp sẵn sàng, vui lòng chờ thêm một chút' : state.loadPhase === 'error' ? 'Cảnh gặp sự cố khi mở' : `Đang tải thế giới — ${state.completedItems / state.totalItems * 100}%`}</p>
     {state.loadPhase === 'error' && <button onClick={() => runtime.mount(host.current!)}>Thử lại cảnh</button>}
-    <label>Góc nhìn <input aria-label="Góc nhìn" type="range" min="0" max="1" step="0.01" value={state.cameraProgress} onChange={e => runtime.setView(Number(e.target.value))} /></label>
+    <div className="viewControls"><label>Góc nhìn <input aria-label="Góc nhìn" type="range" min="0" max="1" step="0.01" value={state.cameraProgress} onChange={e => runtime.setView(Number(e.target.value))} /></label><button onClick={() => runtime.setView(0)}>Về góc ban đầu</button></div>
     <ContentSurface />
-    <section aria-label="Chín nguồn art"><h2>Hành trình · Nguồn đối chiếu</h2><ol>{sceneRegistry.map(scene => <li key={scene.sourceId}>{scene.sourceId} · {scene.filename} {scene.sourceId === 'A01' && '· Chuẩn đồ họa'}<p>Chưa có bản dựng để đối chiếu · Checklist đang chuẩn bị · Tác giả chưa xác nhận</p></li>)}</ol></section>
+    <section aria-label="Chín nguồn art"><h2>Chín nguồn art</h2><p>Chưa có bản dựng để đối chiếu. Mở từng mục để xem tên file gốc; checklist đang chuẩn bị.</p><ol>{sceneRegistry.map(scene => <li key={scene.sourceId}><details><summary>{scene.sourceId}{scene.sourceId === 'A01' ? ' · Chuẩn đồ họa' : ' · Xem nguồn'}</summary><p>{scene.filename}</p><p>Tên art chưa có · Tác giả chưa xác nhận · URL nguồn chưa có</p></details></li>)}</ol></section>
   </main>
 }
