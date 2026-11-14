@@ -4,6 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev:foundation": "vite --config vite.foundation.config.ts",
+    "build:foundation": "tsc -b && vite build --config vite.foundation.config.ts",
+    "test:foundation": "vitest run tests/foundation --pool=threads --maxWorkers=1",
+    "verify:foundation": "node scripts/foundation-verify.mjs",
     "dev": "vite",
     "dev:a02": "vite --config vite.a02.config.ts --open /a02.html",
     "build:a02": "tsc -b && vite build --config vite.a02.config.ts",

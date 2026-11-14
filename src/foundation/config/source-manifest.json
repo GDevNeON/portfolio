@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "styleStandard": "A01",
+  "sources": [
+    {
+      "sourceId": "A02",
+      "filename": "crystal-salt-cave.jpg",
+      "sha256": "f4ddf31e4df79b8d0853bf0d95ddc823323b135fe9abae1dbe9d56718fcdb327",
+      "bytes": 150508,
+      "width": 600,
+      "height": 1200,
+      "title": null,
+      "creditedArtist": null,
+      "sourceUrl": null,
+      "permission": null
+    },
+    {
+      "sourceId": "A03",
+      "filename": "by Anton Fadeev.jpg",
+      "sha256": "577488d5b0484a2bbefd906d84531591cba41e61114d3f3c1574b8046c7b1d9f",
+      "bytes": 264345,
+      "width": 1000,
+      "height": 1333,
+      "title": null,
+      "creditedArtist": null,
+      "sourceUrl": null,
+      "permission": null
+    },
+    {
+      "sourceId": "A04",
+      "filename": "7b19b5803e15801d4ba7eb6bcd3b122d.jpg",
+      "sha256": "f5cfda97df8156ba997077768fd7e4ea89a474ab205eb0b3834b761abda96e68",
+      "bytes": 192699,
+      "width": 1153,
+      "height": 2048,
+      "title": null,
+      "creditedArtist": null,
+      "sourceUrl": null,
+      "permission": null
+    },
+    {
+      "sourceId": "A05",
+      "filename": "8f0a87deb581ad38e298e2b21495296c.jpg",
+      "sha256": "0373ce91f1bd47d0465573a4771a46dcd5d9a34d2d0d62324fd9c7ec45eeb96f",
+      "bytes": 107560,
+      "width": 1199,
+      "height": 518,
+      "title": null,
+      "creditedArtist": null,
+      "sourceUrl": null,
+      "permission": null
+    },
+    {
+      "sourceId": "A08",
+      "filename": "umeshu-lovers-mirokai-wide-environment-a.jpg",
+      "sha256": "96ca8ea887d005f3a9cd4a524b3a4be3ecf977bc69f02ad1d5ed71e90e5e3a55",
+      "bytes": 625093,
+      "width": 1920,
+      "height": 831,
+      "title": null,
+      "creditedArtist": null,
+      "sourceUrl": null,
+      "permission": null
+    },
+    {
+      "sourceId": "A06",
+      "filename": "e65f183e096b8db681e3e7d7eeb47ed6.jpg",
+      "sha256": "8eebfdcc8e04fd8ae61b2d28263e5cda12a1b9b48d2881bed36d23bb9afb35d5",
+      "bytes": 84469,
+      "width": 1200,
+      "height": 675,
+      "title": null,
+      "creditedArtist": null,
+      "sourceUrl": null,
+      "permission": null
+    },
+    {
+      "sourceId": "A01",
+      "filename": "young-qin-10re.jpg",
+      "sha256": "90a674b1fe09c69cbb61380ec76120ab87a2ea0cb6f0b7b8115cd49904bcd29b",
+      "bytes": 357139,
+      "width": 1920,
+      "height": 476,
+      "title": null,
+      "creditedArtist": null,
+      "sourceUrl": null,
+      "permission": null
+    },
+    {
+      "sourceId": "A09",
+      "filename": "zhaozhe-deng-dzzx-001.jpg",
+      "sha256": "5b8d612c7ca5da2caab99d7cf634328b1879eb72836f0ef72373b77468c1645c",
+      "bytes": 567154,
+      "width": 1920,
+      "height": 943,
+      "title": null,
+      "creditedArtist": null,
+      "sourceUrl": null,
+      "permission": null
+    },
+    {
+      "sourceId": "A07",
+      "filename": "g-xy-eart-cg.jpg",
+      "sha256": "966a6e3bac731a84549a64c562a702716ba195632f5c05cb22a40b07e2101f47",
+      "bytes": 456238,
+      "width": 1920,
+      "height": 1063,
+      "title": null,
+      "creditedArtist": null,
+      "sourceUrl": null,
+      "permission": null
+    }
+  ]
+}
